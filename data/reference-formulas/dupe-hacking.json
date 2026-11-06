@@ -1,0 +1,457 @@
+{
+ "source": "Dupe Hacking",
+ "sourceUrl": "https://dupehacking.com/blog/fragrance-accord-formulas",
+ "about": [
+  "Eight free accords from Dupe Hacking's 'Fragrance accord formulas' article, read on 2026-10-16. Composed by perfumers in the fragrance.drama community, credited in each accord's style line.",
+  "Parts add up to 100. Where a line has a dilution, the parts refer to the solution (10 parts of vanillin at 10% hold 1 part vanillin).",
+  "The site's robots.txt allows AI use with citation; each accord links to the article and its own page. Dupe Hacking's other accords need an account or purchase, so they're not included."
+ ],
+ "formulas": [
+  {
+   "id": "dh-violet-dusting-powder-accord",
+   "title": "Violet Dusting Powder",
+   "kind": "accord",
+   "style": "an accord by Odette Fontaine (fragrance.drama community)",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://dupehacking.com/blog/fragrance-accord-formulas",
+   "article": "https://dupehacking.com/fragrances/violet-dusting-powder-accord",
+   "unit": "parts",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Vanillin",
+     "amount": 25.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 20.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Orris Butter",
+     "amount": 15.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 10.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 10.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Javanol",
+     "amount": 10.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Oakmoss Absolute",
+     "amount": 6.0,
+     "dilution": "5%"
+    },
+    {
+     "name": "Jasmatone",
+     "amount": 4.0,
+     "dilution": "5%"
+    }
+   ]
+  },
+  {
+   "id": "dh-bruleed-vanilla-accord",
+   "title": "Brûléed Vanilla",
+   "kind": "accord",
+   "style": "an accord by Odette Fontaine (fragrance.drama community)",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://dupehacking.com/blog/fragrance-accord-formulas",
+   "article": "https://dupehacking.com/fragrances/bruleed-vanilla-accord",
+   "unit": "parts",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Vanillin",
+     "amount": 25.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 20.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Ultravanil",
+     "amount": 15.0,
+     "dilution": "5%"
+    },
+    {
+     "name": "Tonka Bean Absolute",
+     "amount": 10.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 10.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 10.0,
+     "dilution": "10%"
+    },
+    {
+     "name": "Benzaldehyde",
+     "amount": 5.0,
+     "dilution": "5%"
+    },
+    {
+     "name": "Azarbre",
+     "amount": 4.0,
+     "dilution": "5%"
+    },
+    {
+     "name": "Birch tar rectified",
+     "amount": 1.0,
+     "dilution": "1%"
+    }
+   ]
+  },
+  {
+   "id": "dh-taif-rose-accord",
+   "title": "Taif Rose",
+   "kind": "accord",
+   "style": "an accord (fragrance.drama community)",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://dupehacking.com/blog/fragrance-accord-formulas",
+   "article": "https://dupehacking.com/fragrances/taif-rose-accord",
+   "unit": "parts",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Citronellol",
+     "amount": 20.0
+    },
+    {
+     "name": "Phenethyl Alcohol",
+     "amount": 20.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 20.0
+    },
+    {
+     "name": "Geranium Oil",
+     "amount": 15.0
+    },
+    {
+     "name": "Methyl Ionone",
+     "amount": 5.0
+    },
+    {
+     "name": "Orris Givco 204",
+     "amount": 5.0
+    },
+    {
+     "name": "Sandalwood EO",
+     "amount": 5.0
+    },
+    {
+     "name": "DPG",
+     "amount": 5.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 3.0
+    },
+    {
+     "name": "Vetiver EO",
+     "amount": 1.0
+    },
+    {
+     "name": "Clove EO",
+     "amount": 1.0
+    }
+   ]
+  },
+  {
+   "id": "dh-raw-honeysuckle-accord",
+   "title": "Raw Honeysuckle",
+   "kind": "accord",
+   "style": "an accord (fragrance.drama community)",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://dupehacking.com/blog/fragrance-accord-formulas",
+   "article": "https://dupehacking.com/fragrances/raw-honeysuckle-accord",
+   "unit": "parts",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Hedione",
+     "amount": 27.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 20.0
+    },
+    {
+     "name": "Jasmonal H",
+     "amount": 14.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 10.0
+    },
+    {
+     "name": "Phenethyl Alcohol",
+     "amount": 10.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 8.0
+    },
+    {
+     "name": "Methyl Anthranilate",
+     "amount": 6.0
+    },
+    {
+     "name": "Cis-3-Hexenol 10%",
+     "amount": 3.0
+    },
+    {
+     "name": "Eugenol",
+     "amount": 1.0
+    },
+    {
+     "name": "Indole 10%",
+     "amount": 1.0
+    }
+   ]
+  },
+  {
+   "id": "dh-ripe-fig-accord",
+   "title": "Ripe Fig",
+   "kind": "accord",
+   "style": "an accord by Abdulla AlOtaiba (fragrance.drama community)",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://dupehacking.com/blog/fragrance-accord-formulas",
+   "article": "https://dupehacking.com/fragrances/ripe-fig-accord",
+   "unit": "parts",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Delta Octalactone",
+     "amount": 52.33
+    },
+    {
+     "name": "Delta Nonalactone",
+     "amount": 16.1
+    },
+    {
+     "name": "Stemone",
+     "amount": 12.08
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 8.05
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 8.05
+    },
+    {
+     "name": "Tonka Bean Absolute",
+     "amount": 2.42
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 0.81
+    },
+    {
+     "name": "Maltol",
+     "amount": 0.16
+    }
+   ]
+  },
+  {
+   "id": "dh-honey-accord",
+   "title": "Honey",
+   "kind": "accord",
+   "style": "an accord by Marie Molchanova (fragrance.drama community)",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://dupehacking.com/blog/fragrance-accord-formulas",
+   "article": "https://dupehacking.com/fragrances/honey-accord",
+   "unit": "parts",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "TEC",
+     "amount": 56.5
+    },
+    {
+     "name": "Phenethyl Alcohol",
+     "amount": 30.0
+    },
+    {
+     "name": "Isoraldeine 70",
+     "amount": 4.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 3.0
+    },
+    {
+     "name": "Yara-Yara",
+     "amount": 1.8
+    },
+    {
+     "name": "Methyl Ionone Gamma Coeur",
+     "amount": 1.2
+    },
+    {
+     "name": "Lemon Oil",
+     "amount": 1.0
+    },
+    {
+     "name": "Damascenone",
+     "amount": 0.7,
+     "dilution": "1%"
+    },
+    {
+     "name": "Ethyl Maltol",
+     "amount": 0.4,
+     "dilution": "10%"
+    },
+    {
+     "name": "Phenylacetaldehyde",
+     "amount": 0.4,
+     "dilution": "10%"
+    },
+    {
+     "name": "Phenyl Propyl Alcohol",
+     "amount": 0.4
+    },
+    {
+     "name": "Filbertone",
+     "amount": 0.4,
+     "dilution": "0.1%"
+    },
+    {
+     "name": "Tabanon",
+     "amount": 0.2,
+     "dilution": "10%"
+    }
+   ]
+  },
+  {
+   "id": "dh-comfy-warm-days-accord",
+   "title": "Comfy Warm Days",
+   "kind": "accord",
+   "style": "an accord by James Nguyen (fragrance.drama community)",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://dupehacking.com/blog/fragrance-accord-formulas",
+   "article": "https://dupehacking.com/fragrances/comfy-warm-days-accord",
+   "unit": "parts",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Iso E Super",
+     "amount": 65.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 13.0
+    },
+    {
+     "name": "Habanolide",
+     "amount": 7.0
+    },
+    {
+     "name": "Sandalore",
+     "amount": 6.0
+    },
+    {
+     "name": "Ambrettex XNM",
+     "amount": 2.5
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 2.5
+    },
+    {
+     "name": "Velvione",
+     "amount": 2.0
+    },
+    {
+     "name": "Tonalide",
+     "amount": 1.5
+    },
+    {
+     "name": "Gamma Decalactone",
+     "amount": 0.3
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 0.2
+    }
+   ]
+  },
+  {
+   "id": "dh-night-smoke-accord",
+   "title": "Night Smoke",
+   "kind": "accord",
+   "style": "an accord (fragrance.drama community)",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://dupehacking.com/blog/fragrance-accord-formulas",
+   "article": "https://dupehacking.com/fragrances/night-smoke-accord",
+   "unit": "parts",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Myrrh Absolute",
+     "amount": 23.4
+    },
+    {
+     "name": "Tabanone 20%",
+     "amount": 20.5
+    },
+    {
+     "name": "Habanolide",
+     "amount": 17.5
+    },
+    {
+     "name": "Sylvamber",
+     "amount": 14.5
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 11.7
+    },
+    {
+     "name": "Helional",
+     "amount": 4.8
+    },
+    {
+     "name": "Patchouli Indonesia EO",
+     "amount": 4.0
+    },
+    {
+     "name": "Amber Xtreme 10% DPG",
+     "amount": 1.8
+    },
+    {
+     "name": "IBQ 10% DPG",
+     "amount": 1.8
+    }
+   ]
+  }
+ ]
+}

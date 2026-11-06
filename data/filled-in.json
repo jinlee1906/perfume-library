@@ -1,0 +1,1752 @@
+{
+  "about": [
+    "Values Claude filled in for things your spreadsheet doesn't have yet (created 2026-10-06).",
+    "Nothing here overrides your spreadsheet: a value is only used when your sheet's cell is empty.",
+    "CAS numbers were checked against PubChem (link in casSource) and pass the CAS check digit.",
+    "Category and odorFamily come from Claude's general knowledge and were not checked against a reference.",
+    "Synonyms are only included when PubChem lists them for that CAS number.",
+    "IFRA limits (\"ifra\") are Category 4 (fine fragrance), researched 2026-10-06 from your suppliers' IFRA certificates (Fraterworks, PerfumersWorld) and IFRA's official Standards Library. 'value' is only used where your sheet's cell is empty; otherwise 'check' records what your value was compared with.",
+    "Usage rates, prices, sizes and suppliers are never filled in here."
+  ],
+  "ingredients": {
+    "Pink Peppercorn \"Molle\" Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Spicy (peppery)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/SCHINUS_MOLLE_OIL_LMR_CSM_00191244_IFRA51QRA_22May2024_3546979_5b841e4f-0431-4491-82ad-ababc936a7dd.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 40%)."
+      }
+    },
+    "Birch Tar Oil, Rectified": {
+      "category": "Other natural",
+      "odorFamily": "Smoky (leathery)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Birch_Tar_Oil_Rectified_Payan_Bertrand_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 0.100%)."
+      }
+    },
+    "Benzoin Siam Resinoid 50% TEC": {
+      "category": "Resinoid",
+      "odorFamily": "Balsamic (vanilla)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Benzoin_Siam_Resinoid_50_TEC_Mane_IFRA.pdf",
+        "check": "Mane's IFRA 51 statement lists only traces of restricted materials (e.g. benzyl benzoate 0.5%, isoeugenol 0.015%), too little to limit use."
+      }
+    },
+    "Isobutyl Benzoate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (balsamic)",
+      "synonyms": [
+        "2-Methylpropyl benzoate"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Isobutyl_Benzoate_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Dihydroeugenol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Spicy (clove)",
+      "synonyms": [
+        "2-Methoxy-4-propylphenol"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Dihydroeugenol_Ventos_IFRA.pdf",
+        "check": "The certificate gives 0.74%; Jin's 0.73% matches IFRA's own standard and is slightly stricter."
+      }
+    },
+    "Isoeugenol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Spicy (clove, carnation)",
+      "synonyms": [
+        "2-Methoxy-4-propenylphenol"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Isoeugenol_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 0.11%)."
+      }
+    },
+    "Sublimolide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "note": "Sublimolide is Mane's high-cis form of Ambrettolide (per Fraterworks' product page), so sharing Ambrettolide's CAS number is expected."
+    },
+    "Habanolide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Habanolide_Firmenich_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 48%)."
+      }
+    },
+    "Exaltone Crystals 10% BB": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "synonyms": [
+        "Cyclopentadecanone"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Exaltone_Crystals_Firmenich_IFRA.pdf",
+        "check": "Firmenich's certificate says pure Exaltone is not restricted. Jin's bottle is 10% in benzyl benzoate (BB), which IFRA limits to 4.8% in Category 4, so Jin's 4.8% is correct or slightly strict."
+      }
+    },
+    "Magnificent Mandarin": {
+      "category": "Base",
+      "odorFamily": "Citrus (mandarin)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Magnificent_Mandarin_Fraterworks_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 2.00%)."
+      }
+    },
+    "Labdanum Absolute 50% TEC": {
+      "category": "Absolute",
+      "odorFamily": "Amber",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Labdanum_Absolute_Super_Premium_Floral_Concept_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 100%)."
+      }
+    },
+    "Patchouli Dark PA30": {
+      "category": "Essential oil",
+      "odorFamily": "Woody (earthy)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/IFRA51_PATCHOULY_OIL_EXTRA_E7038_9541c83e-2458-4366-a2f2-3fd6d755ef96.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Ethyl Acetate PURE": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (ethereal)",
+      "synonyms": [
+        "Acetic acid ethyl ester"
+      ]
+    },
+    "Pineapple Supreme": {
+      "category": "Base",
+      "odorFamily": "Fruity (pineapple)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Pineapple_Supreme_Fraterworks_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Orcanox": {
+      "category": "Aroma chemical",
+      "odorFamily": "Amber",
+      "synonyms": [
+        "Ambroxide",
+        "Ambroxan"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Orcanox_Mane_IFRA.pdf",
+        "check": "No IFRA standard for ambroxide. Mane's sheet suggests up to 40% as its own guidance, not an IFRA limit."
+      }
+    },
+    "Dihydromyrcenol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Citrus (fresh, lime)",
+      "synonyms": [
+        "Dihydromyrcenol",
+        "2,6-Dimethyl-7-octen-2-ol"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Dihydromyrcenol_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Helvetolide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk (fruity)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Helvetolide_Firmenich_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Veramoss": {
+      "category": "Aroma chemical",
+      "odorFamily": "Mossy",
+      "synonyms": [
+        "Evernyl",
+        "Methyl atrarate",
+        "Methyl 2,4-dihydroxy-3,6-dimethylbenzoate"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Veramoss_IFF_IFRA.pdf",
+        "check": "IFF's IFRA 51 statement lists only toluene at 0.005%, too little to limit use."
+      }
+    },
+    "Ethyl Maltol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Gourmand (caramel)",
+      "synonyms": [
+        "2-Ethyl-3-hydroxy-4H-pyran-4-one"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Ethyl_Maltol_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Guaiacol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Smoky",
+      "synonyms": [
+        "Guaiacol",
+        "2-Methoxyphenol"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Guaiacol_Vigon_IFRA.pdf",
+        "check": "Vigon's certificate: not restricted by IFRA, and the IFRA 51 Standards Library has no standard for guaiacol.",
+        "value": "None"
+      }
+    },
+    "Geraniol Extra": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (rose)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Geraniol_Extra_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 4.75%)."
+      }
+    },
+    "Cedarwood \"Superior\" Oil, VA": {
+      "category": "Essential oil",
+      "odorFamily": "Woody (cedar)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Cedarwood_Superior_Oil_Virginia_Payan_Bertrand_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 4.166%)."
+      }
+    },
+    "Sweet Orange \"Signature\" oil": {
+      "category": "Essential oil",
+      "odorFamily": "Citrus (orange)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Capua1880Srl-25499-IFRA_51-1RME07-E-ARNR-FRATER-en_7a28474c-200a-4237-a76e-b8e37ed26485.pdf",
+        "check": "Fraterworks' IFRA 51 certificate allows 100%, so no practical limit."
+      }
+    },
+    "Lemon \"Superior\" Oil FCF": {
+      "category": "Essential oil",
+      "odorFamily": "Citrus (lemon)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Lemon_Superior_Oil_FCF_Capua_1880_IFRA.pdf",
+        "check": "Corrected from 28% to 20%: Fraterworks' IFRA 51 certificate for this oil gives 20% in Category 4."
+      }
+    },
+    "Sandalore": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (sandalwood)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Sandalore_Ventos_IFRA.pdf",
+        "check": "The certificate gives 1.36%; Jin's 1.2% matches IFRA's own standard and is slightly stricter."
+      }
+    },
+    "Cis-3-Hexenol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Green (cut grass)",
+      "synonyms": [
+        "Leaf alcohol",
+        "(Z)-3-Hexen-1-ol",
+        "cis-3-Hexen-1-ol"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Cis-3-Hexenol_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Citronellol 98": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (rose)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Citronellol_98_Ventos_IFRA_41dc6117-9beb-49da-9c3d-70da15a1a49c.pdf",
+        "check": "The certificate gives 12.12%; Jin's 12% matches IFRA's own standard and is slightly stricter."
+      }
+    },
+    "Suederal LT 0710": {
+      "odorFamily": "Leathery (suede)"
+    },
+    "Vertofix Coeur": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (cedar)",
+      "synonyms": [
+        "Methyl cedryl ketone",
+        "Acetyl cedrene"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Vertofix_Coeur_IFF_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Coranol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (lily of the valley)",
+      "synonyms": [
+        "4-Cyclohexyl-2-methyl-2-butanol"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Coranol_Firmenich_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Gamma Undecalactone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (peach)",
+      "synonyms": [
+        "Aldehyde C-14",
+        "Peach aldehyde"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Gamma_Undecalactone_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Gamma Nonalactone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (coconut)",
+      "synonyms": [
+        "Aldehyde C-18",
+        "Coconut aldehyde"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Gamma_Nonalactone_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Galaxolide 50% IPM": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "synonyms": [
+        "HHCB"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Galaxolide_IFF_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Damascone Delta 10% DPG": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (rose, plum)",
+      "synonyms": [
+        "delta-Damascone"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Damascone_Delta_Firmenich_IFRA.pdf",
+        "check": "Firmenich's certificate for the pure material gives 0.0426%. Jin's bottle is a 10% dilution, so Jin's figure is 10x on the safe side: up to about 0.43% of the dilution is within the limit."
+      }
+    },
+    "Damascone Alpha 10% DPG": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (rose, apple)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Damascone_Alpha_Firmenich_IFRA.pdf",
+        "check": "Firmenich's certificate for the pure material gives 0.0429%. Jin's bottle is a 10% dilution, so Jin's figure is 10x on the safe side: up to about 0.43% of the dilution is within the limit."
+      }
+    },
+    "Cassis Base 345B": {
+      "category": "Base",
+      "odorFamily": "Fruity (blackcurrant)"
+    },
+    "Tobacarol": {
+      "odorFamily": "Tobacco"
+    },
+    "Phenyl Ethyl Alcohol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (rose)",
+      "synonyms": [
+        "2-Phenylethanol",
+        "Phenethyl alcohol"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Phenyl_Ethyl_Alcohol_Firmenich_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Nerol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (rose)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Nerol_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Damascone Beta 10%DPG": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (rose, plum)",
+      "synonyms": [
+        "beta-Damascone"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Damascone_Beta_Firmenich_IFRA.pdf",
+        "check": "Firmenich's certificate for the pure material gives 0.0414%. Jin's bottle is a 10% dilution, so Jin's figure is 10x on the safe side: up to about 0.41% of the dilution is within the limit."
+      }
+    },
+    "Ethylene Brassylate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "synonyms": [
+        "Musk T",
+        "Astratone"
+      ],
+      "cas": "105-95-3",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/61014",
+      "casCheck": "PubChem lists 105-95-3 as Ethylene brassylate.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3XU00180.pdf",
+        "check": "Not restricted: Fraterworks' certificate (row 42) and PerfumersWorld's certificate (row 98) both say so.",
+        "value": "None"
+      }
+    },
+    "Lavender Oil \"Avice Hill\"": {
+      "category": "Essential oil",
+      "odorFamily": "Herbal (lavender)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Lavender_Oil_Avice_Hill_Fraterworks_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Bergamot \"Superior\" Oil, FCF": {
+      "category": "Essential oil",
+      "odorFamily": "Citrus (bergamot)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Bergamot_Superior_Oil_FCF_Capua_1880_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 66.67%)."
+      }
+    },
+    "Linalool": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (fresh)",
+      "synonyms": [
+        "3,7-Dimethyl-1,6-octadien-3-ol"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Linalool_Ventos_IFRA.pdf",
+        "check": "Not restricted, but IFRA has a specification for linalool: it must be kept from oxidising (peroxide value below 20 mmol/L)."
+      }
+    },
+    "Hedione": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (jasmine)",
+      "synonyms": [
+        "Methyl dihydrojasmonate"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Hedione_IFRA_31caf682-8eca-4a91-a2a2-9b21cc6535df.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Rose Imperial": {
+      "odorFamily": "Floral (rose)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Rose_Imperiale_Fraterworks_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 95.42%)."
+      }
+    },
+    "ISO E SUPER": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (amber)",
+      "cas": "54464-57-2",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/108242",
+      "casCheck": "PubChem lists 54464-57-2 as 1-(1,2,3,4,5,6,7,8-Octahydro-2,3,8,8-tetramethyl-2-naphthalenyl)ethanone.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_068.pdf",
+        "check": "Matches IFRA's standard for OTNE (Iso E Super): 20% in Category 4."
+      }
+    },
+    "Coumarin": {
+      "category": "Aroma chemical",
+      "odorFamily": "Powdery (hay, tonka)",
+      "synonyms": [
+        "2H-Chromen-2-one",
+        "2H-1-Benzopyran-2-one"
+      ],
+      "cas": "91-64-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/323",
+      "casCheck": "PubChem lists 91-64-5 as coumarin.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_023.pdf",
+        "check": "Matches IFRA's standard for coumarin: 1.5% in Category 4."
+      }
+    },
+    "Vanillin \"Signature\"": {
+      "category": "Aroma chemical",
+      "odorFamily": "Gourmand (vanilla)",
+      "synonyms": [
+        "4-Hydroxy-3-methoxybenzaldehyde"
+      ],
+      "cas": "121-33-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/1183",
+      "casCheck": "PubChem lists 121-33-5 as vanillin.",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Vanillin_Signature_Vigon_IFRA.pdf",
+        "check": "Matches Vigon's IFRA certificate: not restricted."
+      }
+    },
+    "Ethyl Vanillin": {
+      "category": "Aroma chemical",
+      "odorFamily": "Gourmand (vanilla)",
+      "synonyms": [
+        "3-Ethoxy-4-hydroxybenzaldehyde"
+      ],
+      "cas": "121-32-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/8467",
+      "casCheck": "PubChem lists 121-32-4 as 3-Ethoxy-4-hydroxybenzaldehyde."
+    },
+    "Ambrofix": {
+      "category": "Aroma chemical",
+      "odorFamily": "Amber",
+      "synonyms": [
+        "Ambroxide",
+        "Ambroxan"
+      ],
+      "cas": "6790-58-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/10857465",
+      "casCheck": "PubChem lists 6790-58-5 as (-)-Ambroxide.",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Ambrofix_Ambroxan_Fuzhou_Farwell_IFRA.pdf",
+        "check": "The supplier's IFRA 51 certificate says no restriction in any category.",
+        "value": "None"
+      }
+    },
+    "Alpha Ionone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (violet)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Ionone_Alpha_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Cashmeran": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (musky)",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_028.pdf",
+        "check": "Matches IFRA's standard for DPMI (Cashmeran): 3.8% in Category 4."
+      }
+    },
+    "Ylang Ylang \"Superior\" Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Floral (ylang)",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_084.pdf",
+        "check": "Matches IFRA's standard for ylang ylang extracts: 0.73% in Category 4."
+      }
+    },
+    "Clary Sage Oil, France": {
+      "category": "Essential oil",
+      "odorFamily": "Herbal",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Clary_Sage_Oil_Payan_Bertrand_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Exaltolide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "synonyms": [
+        "Pentadecanolide",
+        "Cyclopentadecanolide"
+      ],
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Exaltolide_Firmenich_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product (Category 4: 2.4%)."
+      }
+    },
+    "Ambrettolide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Ambrettolide_IFRA_cfc3c12f-687d-4b38-a920-a49142d951d5.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Beta Ionone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (violet, woody)",
+      "ifra": {
+        "source": "https://cdn.shopify.com/s/files/1/0682/1448/9400/files/Ionone_Beta_Ventos_IFRA.pdf",
+        "check": "Matches Fraterworks' IFRA certificate for this product: not restricted in Category 4."
+      }
+    },
+    "Alcohol C-8 Octanol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Citrus (waxy)",
+      "synonyms": [
+        "1-Octanol",
+        "Octyl alcohol",
+        "Octan-1-ol"
+      ],
+      "cas": "111-87-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/957",
+      "casCheck": "PubChem lists 111-87-5 as 1-octanol.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3AD13388.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that."
+      }
+    },
+    "Aldehyde C-11 Undecanal": {
+      "category": "Aroma chemical",
+      "odorFamily": "Aldehydic",
+      "synonyms": [
+        "Undecanal",
+        "Undecylic aldehyde"
+      ],
+      "cas": "112-44-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/8186",
+      "casCheck": "PubChem lists 112-44-7 as UNDECANAL.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4AR00020.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that."
+      }
+    },
+    "Aldehyde C-12 MNA": {
+      "category": "Aroma chemical",
+      "odorFamily": "Aldehydic",
+      "synonyms": [
+        "2-Methylundecanal",
+        "Methyl nonyl acetaldehyde"
+      ],
+      "cas": "110-41-8",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/61031",
+      "casCheck": "PubChem lists 110-41-8 as 2-Methylundecanal.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4AG00022.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that."
+      }
+    },
+    "Aldehyde C-12 Lauric Dodecanal": {
+      "category": "Aroma chemical",
+      "odorFamily": "Aldehydic",
+      "synonyms": [
+        "Dodecanal",
+        "Lauric aldehyde",
+        "Lauraldehyde"
+      ],
+      "cas": "112-54-9",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/8194",
+      "casCheck": "PubChem lists 112-54-9 as DODECANAL.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4AA00021.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Allyl Amyl Glycolate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (pineapple, green)",
+      "cas": "67634-00-8",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/106729",
+      "casCheck": "PubChem lists 67634-00-8 as Allyl (3-methylbutoxy)acetate.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4FG00029.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Ambrocenide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (amber)",
+      "cas": "211299-54-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/66731260",
+      "casCheck": "PubChem lists 211299-54-6 as 4H-4a,9-Methanoazuleno[5,6-d]-1,3-dioxole, octahydro-2,2,5,8,8,9a-hexamethyl-, (4aR,5R,7aS,9R)-.",
+      "ifra": {
+        "source": "https://ifrafragrance.org/standards-library",
+        "check": "No IFRA standard exists for this material, and PerfumersWorld's catalog shows no limit.",
+        "value": "None"
+      }
+    },
+    "Amyl Salicylate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (herbal)",
+      "synonyms": [
+        "Pentyl salicylate"
+      ],
+      "cas": "2050-08-0",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/16299",
+      "casCheck": "PubChem lists 2050-08-0 as Amyl salicylate.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3OH00037.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Anisaldehyde": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (hawthorn, anise)",
+      "synonyms": [
+        "p-Anisaldehyde",
+        "4-Methoxybenzaldehyde"
+      ],
+      "cas": "123-11-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/31244",
+      "casCheck": "PubChem lists 123-11-5 as 4-Methoxybenzaldehyde.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_054.pdf",
+        "check": "IFRA Standard (Amendment 51) for p-anisaldehyde: 1.4% in Category 4. PerfumersWorld's older IFRA 50 certificate said 0.21%; IFRA 51 raised it.",
+        "value": "1.4% in finished product"
+      }
+    },
+    "Apritone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (apricot)",
+      "cas": "68133-79-9",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/6437428",
+      "casCheck": "PubChem lists 68133-79-9 as 2-(3,7-Dimethyl-2,6-octadienyl)cyclopentanone.",
+      "ifra": {
+        "source": "https://ifrafragrance.org/standards-library",
+        "check": "No IFRA standard exists for this material, and PerfumersWorld's catalog shows no limit.",
+        "value": "None"
+      }
+    },
+    "Aurantiol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (orange blossom)",
+      "cas": "89-43-0",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/98118",
+      "casCheck": "PubChem lists 89-43-0 as Aurantiol.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_2NC00409.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "B-ICEBERG F-TEC": {
+      "odorFamily": "Fresh (icy mint)",
+      "note": "Odor family from PerfumersWorld's product page (https://www.perfumersworld.com/view.php?pro_id=6BB18004), which describes it as minty, cool menthol with eucalyptus and an icy effect. It's one of their F-TEC bases (a blend), so it has no single CAS number.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_6BB18004.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Benzaldehyde": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (bitter almond)",
+      "synonyms": [
+        "Benzaldehyde"
+      ],
+      "cas": "100-52-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/240",
+      "casCheck": "PubChem lists 100-52-7 as benzaldehyde.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_007.pdf",
+        "check": "IFRA Standard (Amendment 49) for benzaldehyde: 0.25% in Category 4.",
+        "value": "0.25% in finished product"
+      }
+    },
+    "Benzyl Acetate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (jasmine, fruity)",
+      "cas": "140-11-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/8785",
+      "casCheck": "PubChem lists 140-11-4 as BENZYL ACETATE.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3JF00052.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Benzyl Salicylate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (soft, balsamic)",
+      "cas": "118-58-1",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/8363",
+      "casCheck": "PubChem lists 118-58-1 as BENZYL SALICYLATE.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_011.pdf",
+        "check": "IFRA Standard (Amendment 49) for benzyl salicylate: 7.3% in Category 4.",
+        "value": "7.3% in finished product"
+      }
+    },
+    "Beta Pinene": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (pine)",
+      "cas": "127-91-3",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/14896",
+      "casCheck": "PubChem lists 127-91-3 as BETA-PINENE.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3KC00386.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Birch Tar Oil Rectified 10%": {
+      "category": "Other natural",
+      "odorFamily": "Smoky (leathery)",
+      "cas": "8001-88-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8001-88-5&tab=substance",
+      "casCheck": "PubChem lists 8001-88-5 as Birch tar oil, rectified.",
+      "ifra": {
+        "source": "https://perfumersworld.com/view.php?pro_id=5TP11094",
+        "check": "PerfumersWorld's catalog gives 0.10% for this 10% dilution. (Their older certificate says 40%; the stricter figure is used.)",
+        "value": "0.10% in finished product"
+      }
+    },
+    "Black Tea Base": {
+      "category": "Base",
+      "odorFamily": "Tea",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_6HE09224.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Blackcurrant Fleuressence": {
+      "category": "Base",
+      "odorFamily": "Fruity (blackcurrant)",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_6FB09427.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Cade Oil Rectified": {
+      "category": "Other natural",
+      "odorFamily": "Smoky",
+      "cas": "90046-02-9",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=90046-02-9&tab=substance",
+      "casCheck": "PubChem lists 90046-02-9 as Juniper, Juniperus oxycedrus, ext..",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_7TW00076.pdf",
+        "check": "PerfumersWorld's IFRA certificate for this product: 0.83% in Category 4. IFRA also requires cade oil to be rectified.",
+        "value": "0.83% in finished product"
+      }
+    },
+    "Calone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Marine",
+      "synonyms": [
+        "Watermelon ketone"
+      ],
+      "cas": "28940-11-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/120101",
+      "casCheck": "PubChem lists 28940-11-6 as Watermelon ketone.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_1YG00077.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Cardamom Fleuressence": {
+      "category": "Base",
+      "odorFamily": "Spicy (cardamom)",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_6SC09679.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Chinese Cedarwood Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Woody (cedar)",
+      "cas": "85085-29-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=85085-29-6&tab=substance",
+      "casCheck": "PubChem lists 85085-29-6 as Cupressus funebris.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_7WP00844.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Cedramber": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (amber)",
+      "synonyms": [
+        "Methyl cedryl ether"
+      ],
+      "cas": "19870-74-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/88288",
+      "casCheck": "PubChem lists 19870-74-7 as Cedrane, 8-methoxy-.",
+      "note": "PubChem confirms the CAS number belongs to methyl cedryl ether, but it doesn't list this trade name, so I couldn't confirm this product is that chemical. Check the supplier's spec sheet.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3WW00097.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Castoreum Fleuressence": {
+      "category": "Base",
+      "odorFamily": "Animalic (leathery)",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_6UP11559.pdf",
+        "check": "PerfumersWorld's IFRA certificate for this base: 8.0% in Category 4.",
+        "value": "8.0% in finished product"
+      }
+    },
+    "Cinnamyl Aldehyde": {
+      "category": "Aroma chemical",
+      "odorFamily": "Spicy (cinnamon)",
+      "synonyms": [
+        "Cinnamaldehyde",
+        "Cinnamic aldehyde"
+      ],
+      "cas": "104-55-2",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/637511",
+      "casCheck": "PubChem lists 104-55-2 as cinnamaldehyde.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_018.pdf",
+        "check": "IFRA Standard (Amendment 49) for cinnamic aldehyde: 0.25% in Category 4.",
+        "value": "0.25% in finished product"
+      }
+    },
+    "Cis-Jasmone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (jasmine)",
+      "synonyms": [
+        "Jasmone"
+      ],
+      "cas": "488-10-8",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/1549018",
+      "casCheck": "PubChem lists 488-10-8 as cis-Jasmone.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4JN00257.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Citral": {
+      "category": "Aroma chemical",
+      "odorFamily": "Citrus (lemon)",
+      "cas": "5392-40-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/638011",
+      "casCheck": "PubChem lists 5392-40-5 as Citral.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_021.pdf",
+        "check": "IFRA Standard (Amendment 49) for citral: 0.60% in Category 4.",
+        "value": "0.60% in finished product"
+      }
+    },
+    "Civet Fleuressence": {
+      "category": "Base",
+      "odorFamily": "Animalic",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_6UU09106.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Clearwood": {
+      "odorFamily": "Woody (patchouli)",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3WB13402.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Cocoa Absolute": {
+      "category": "Absolute",
+      "odorFamily": "Gourmand (chocolate)",
+      "cas": "84649-99-0",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=84649-99-0&tab=substance",
+      "casCheck": "PubChem lists 84649-99-0 as Cacao extract.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_8VT00635.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Coffee Oil Roasted": {
+      "category": "Other natural",
+      "odorFamily": "Gourmand (coffee)",
+      "cas": "8001-67-0",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8001-67-0&tab=substance",
+      "casCheck": "PubChem lists 8001-67-0 as Coffee bean oil.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_7ET08078.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Coriander Essential Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Spicy (herbal)",
+      "cas": "8008-52-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8008-52-4&tab=substance",
+      "casCheck": "PubChem lists 8008-52-4 as Coriander oil.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_7SL00125.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Cyclamen Aldehyde": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (green)",
+      "cas": "103-95-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/517827",
+      "casCheck": "PubChem lists 103-95-7 as Cyclamen aldehyde.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_025.pdf",
+        "check": "IFRA Standard (Amendment 49) for cyclamen aldehyde: 0.95% in Category 4. There is also a purity specification.",
+        "value": "0.95% in finished product"
+      }
+    },
+    "Dimetol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Herbal (fresh)",
+      "synonyms": [
+        "2,6-Dimethyl-2-heptanol"
+      ],
+      "cas": "13254-34-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/83268",
+      "casCheck": "PubChem lists 13254-34-7 as 2,6-Dimethyl-2-heptanol.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3CK07504.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Ethyl Butyrate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (pineapple)",
+      "synonyms": [
+        "Ethyl butyrate",
+        "Ethyl butanoate"
+      ],
+      "cas": "105-54-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/7762",
+      "casCheck": "PubChem lists 105-54-4 as ETHYL BUTYRATE.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3FD00174.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Ethyl Lactate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (mild)",
+      "cas": "97-64-3",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/7344",
+      "casCheck": "PubChem lists 97-64-3 as ETHYL LACTATE.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3FD04102.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Exaltolide Pentadecanolide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "synonyms": [
+        "Pentadecanolide",
+        "Cyclopentadecanolide",
+        "Exaltolide"
+      ],
+      "cas": "106-02-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/235414",
+      "casCheck": "PubChem lists 106-02-5 as Oxacyclohexadecan-2-one.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_026.pdf",
+        "check": "IFRA Standard (Amendment 49) for cyclopentadecanolide: 2.4% in Category 4.",
+        "value": "2.4% in finished product"
+      }
+    },
+    "Farnesol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (linden)",
+      "cas": "4602-84-0",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/445070",
+      "casCheck": "PubChem lists 4602-84-0 as farnesol.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_036.pdf",
+        "check": "IFRA Standard (Amendment 49) for farnesol: 1.2% in Category 4. There is also a purity specification.",
+        "value": "1.2% in finished product"
+      }
+    },
+    "Fixative 505": {
+      "odorFamily": "Amber (ambergris)",
+      "note": "Odor family from PerfumersWorld's product page (https://www.perfumersworld.com/view.php?pro_id=4UY07514), which describes it as a dry, woody ambergris note. PerfumersWorld lists its CAS as \"Mixture\".",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4UY07514.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Floralozone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (ozonic)",
+      "cas": "67634-15-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/105513",
+      "casCheck": "PubChem lists 67634-15-5 as 3-(4-ethylphenyl)-2,2-dimethylpropanal.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4YM00191.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Geosmin 1% in DPG": {
+      "category": "Aroma chemical",
+      "odorFamily": "Earthy",
+      "cas": "19700-21-1",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/29746",
+      "casCheck": "PubChem lists 19700-21-1 as GEOSMIN.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_5YW13682.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Geranyl Acetate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (rose, fruity)",
+      "cas": "105-87-3",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/1549026",
+      "casCheck": "PubChem lists 105-87-3 as GERANYL ACETATE.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3RL00206.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Grapefruit Pink Essential Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Citrus (grapefruit)",
+      "cas": "8016-20-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8016-20-4&tab=substance",
+      "casCheck": "PubChem lists 8016-20-4 as Citrus paradisi.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_091.pdf",
+        "check": "IFRA limits expressed (cold-pressed) grapefruit oil to 4.0% in Category 4 because of phototoxicity. PerfumersWorld's older certificate says 18.49%; the stricter figure is used unless Jin's oil is distilled.",
+        "value": "4.0% in finished product"
+      }
+    },
+    "Guaiacwood Essential Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Woody (smoky)",
+      "synonyms": [
+        "Guaiac wood oil"
+      ],
+      "cas": "8016-23-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8016-23-7&tab=substance",
+      "casCheck": "PubChem lists 8016-23-7 as Guaiacwood oil.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_7RW00214.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Helional": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (green, ozonic)",
+      "cas": "1205-17-0",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/64805",
+      "casCheck": "PubChem lists 1205-17-0 as Helional.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_059.pdf",
+        "check": "IFRA Standard (Amendment 49) for helional (MMDHCA): 2.6% in Category 4.",
+        "value": "2.6% in finished product"
+      }
+    },
+    "Hydroxycitronellal": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (lily of the valley)",
+      "cas": "107-75-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/7888",
+      "casCheck": "PubChem lists 107-75-5 as Hydroxycitronellal.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_043.pdf",
+        "check": "IFRA Standard (Amendment 51) for hydroxycitronellal: 2.1% in Category 4.",
+        "value": "2.1% in finished product"
+      }
+    },
+    "Indole": {
+      "category": "Aroma chemical",
+      "odorFamily": "Animalic (floral)",
+      "cas": "120-72-9",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/798",
+      "casCheck": "PubChem lists 120-72-9 as indole.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_9UN00235.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Isoamyl Acetate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (banana)",
+      "synonyms": [
+        "Isopentyl acetate"
+      ],
+      "cas": "123-92-2",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/31276",
+      "casCheck": "PubChem lists 123-92-2 as ISOAMYL ACETATE.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_9FD00245.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Isobornyl Acetate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (pine)",
+      "cas": "125-12-2",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/637531",
+      "casCheck": "PubChem lists 125-12-2 as Isobornyl acetate.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3KH00065.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Juniper Berry Essential Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Herbal (gin, pine)",
+      "cas": "8002-68-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8002-68-4&tab=substance",
+      "casCheck": "PubChem lists 8002-68-4 as Juniper berry oil.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_7KH00262.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Kephalis": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (amber, tobacco)",
+      "cas": "36306-87-3",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/118292",
+      "casCheck": "PubChem lists 36306-87-3 as Kephalis.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4WY07089.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Lilyreal IFRA": {
+      "odorFamily": "Floral (lily of the valley)",
+      "ifra": {
+        "source": "https://perfumersworld.com/view.php?pro_id=6MG18474",
+        "check": "PerfumersWorld's catalog shows no IFRA limit below 25%. They don't publish a certificate for this base.",
+        "value": "None"
+      }
+    },
+    "Lime Distilled Essential Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Citrus (lime)",
+      "cas": "8008-26-2",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8008-26-2&tab=substance",
+      "casCheck": "PubChem lists 8008-26-2 as Lime oil, distilled.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_7CK00274.pdf",
+        "check": "PerfumersWorld's certificate shows no restriction. IFRA's phototoxicity limit applies to expressed lime oil, not distilled.",
+        "value": "None"
+      }
+    },
+    "Mango Fleuressence": {
+      "category": "Base",
+      "odorFamily": "Fruity (mango)",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_6FV10907.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Maple Lactone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Gourmand (maple)",
+      "synonyms": [
+        "Cyclotene",
+        "Methyl cyclopentenolone"
+      ],
+      "cas": "80-71-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/6660",
+      "casCheck": "PubChem lists 80-71-7 as Cyclotene.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_1VE00286.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Melonal": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (melon)",
+      "synonyms": [
+        "2,6-Dimethyl-5-heptenal"
+      ],
+      "cas": "106-72-9",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/61016",
+      "casCheck": "PubChem lists 106-72-9 as 2,6-Dimethyl-5-heptenal.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4FG00289.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Menthol Crystals": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fresh (mint)",
+      "note": "CAS left blank: l-menthol (2216-51-5) and racemic menthol (89-78-1) have different numbers. Check the supplier's spec sheet.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_1BB00290.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Methyl Anthranilate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (orange blossom, grape)",
+      "cas": "134-20-3",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/8635",
+      "casCheck": "PubChem lists 134-20-3 as METHYL ANTHRANILATE.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4NC00295.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Methyl Benzoate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (ylang)",
+      "cas": "93-58-3",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/7150",
+      "casCheck": "PubChem lists 93-58-3 as METHYL BENZOATE.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4NJ00296.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Methyl Laitone 10% DPG": {
+      "category": "Aroma chemical",
+      "odorFamily": "Gourmand (coconut)",
+      "cas": "94201-19-1",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/175596",
+      "casCheck": "PubChem lists 94201-19-1 as 8-METHYL-1-OXASPIRO[4.5]DECAN-2-ONE.",
+      "note": "PubChem confirms the CAS number belongs to 8-methyl-1-oxaspiro[4.5]decan-2-one (Methyl Laitone), but it doesn't list this trade name, so I couldn't confirm this product is that chemical. Check the supplier's spec sheet.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_5VD10871.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Methyl Pamplemousse": {
+      "category": "Aroma chemical",
+      "odorFamily": "Citrus (grapefruit)",
+      "cas": "67674-46-8",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/106766",
+      "casCheck": "PubChem lists 67674-46-8 as 6,6-Dimethoxy-2,5,5-trimethylhex-2-ene.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4FC11677.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Musk Ketone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "cas": "81-14-1",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/6669",
+      "casCheck": "PubChem lists 81-14-1 as MUSK KETONE.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_189.pdf",
+        "check": "No use limit, but IFRA has a specification: musk ketone must contain less than 0.1% musk xylene.",
+        "value": "None"
+      }
+    },
+    "Norlimbanol Dextro": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (dry, amber)",
+      "cas": "70788-30-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/116699",
+      "casCheck": "PubChem lists 70788-30-6 as 1-(2,2,6-Trimethylcyclohexyl)-3-hexanol.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_221.pdf",
+        "check": "IFRA Standard (Amendment 51) for Norlimbanol: 1.3% in Category 4.",
+        "value": "1.3% in finished product"
+      }
+    },
+    "Oakmoss Absolute": {
+      "category": "Absolute",
+      "odorFamily": "Mossy",
+      "cas": "90028-68-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=90028-68-5&tab=substance",
+      "casCheck": "PubChem lists 90028-68-5 as Oak moss absolute.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_067.pdf",
+        "check": "IFRA Standard for oakmoss extracts: 0.10% in Category 4, and only low-atranol grades are allowed (this product is the low-atranol grade).",
+        "value": "0.10% in finished product"
+      }
+    },
+    "Oranger Crystals": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (orange blossom)",
+      "synonyms": [
+        "2-Acetonaphthone",
+        "Methyl beta-naphthyl ketone",
+        "Oranger crystals"
+      ],
+      "cas": "93-08-3",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/7122",
+      "casCheck": "PubChem lists 93-08-3 as 2-Acetylnaphthalene.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_095.pdf",
+        "check": "IFRA Standard (Amendment 49) for methyl beta-naphthyl ketone: 0.20% in Category 4.",
+        "value": "0.20% in finished product"
+      }
+    },
+    "Orivone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (orris)",
+      "synonyms": [
+        "4-tert-Amylcyclohexanone",
+        "4-tert-Pentylcyclohexanone"
+      ],
+      "cas": "16587-71-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/27941",
+      "casCheck": "PubChem lists 16587-71-6 as 4-tert-Pentylcyclohexanone.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_236.pdf",
+        "check": "IFRA Standard (Amendment 51) for isopentylcyclohexanone (Orivone): 0.15% in Category 4. New in IFRA 51; PerfumersWorld's older IFRA 50 certificate predates it.",
+        "value": "0.15% in finished product"
+      }
+    },
+    "Phenyl Acetaldehyde Dimethyl Acetal": {
+      "category": "Aroma chemical",
+      "odorFamily": "Green (hyacinth)",
+      "synonyms": [
+        "Phenylacetaldehyde dimethyl acetal"
+      ],
+      "cas": "101-48-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/60995",
+      "casCheck": "PubChem lists 101-48-4 as Phenylacetaldehyde dimethyl acetal.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4GN00382.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Phenyl Ethyl Acetate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (rose, honey)",
+      "synonyms": [
+        "2-Phenylethyl acetate",
+        "Phenethyl acetate"
+      ],
+      "cas": "103-45-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/7654",
+      "casCheck": "PubChem lists 103-45-7 as Phenethyl acetate.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3RP00371.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Phenyl Acetaldehyde 85% PEA": {
+      "category": "Aroma chemical",
+      "odorFamily": "Green (hyacinth)",
+      "cas": "122-78-1",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/998",
+      "casCheck": "PubChem lists 122-78-1 as phenylacetaldehyde.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_073.pdf",
+        "check": "IFRA limits pure phenylacetaldehyde to 0.25% in Category 4. This product is 85% phenylacetaldehyde, so 0.25 ÷ 0.85 = 0.29% of the product (PerfumersWorld's figure).",
+        "value": "0.29% in finished product"
+      }
+    },
+    "Raspberry Ketone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (raspberry)",
+      "cas": "5471-51-2",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/21648",
+      "casCheck": "PubChem lists 5471-51-2 as Raspberry ketone.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_217.pdf",
+        "check": "IFRA Standard (Amendment 49) for raspberry ketone: 1.0% in Category 4.",
+        "value": "1.0% in finished product"
+      }
+    },
+    "Rose Oxide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (rose, green)",
+      "cas": "16409-43-1",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/27866",
+      "casCheck": "PubChem lists 16409-43-1 as Rose oxide.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4RL00399.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Safraleine": {
+      "category": "Aroma chemical",
+      "odorFamily": "Spicy (saffron, leather)",
+      "cas": "54440-17-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/10149036",
+      "casCheck": "PubChem lists 54440-17-4 as 2,3,3-Trimethylindanone.",
+      "ifra": {
+        "source": "https://ifrafragrance.org/standards-library",
+        "check": "No IFRA standard exists for this material, and PerfumersWorld's catalog shows no limit.",
+        "value": "None"
+      }
+    },
+    "Safranal": {
+      "category": "Aroma chemical",
+      "odorFamily": "Spicy (saffron)",
+      "synonyms": [
+        "Safranal"
+      ],
+      "cas": "116-26-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/61041",
+      "casCheck": "PubChem lists 116-26-7 as Safranal.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_082.pdf",
+        "check": "IFRA Standard (Amendment 49) for safranal: 0.012% in Category 4.",
+        "value": "0.012% in finished product"
+      }
+    },
+    "Sandela 50": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (sandalwood)",
+      "cas": "66068-84-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/106673",
+      "casCheck": "PubChem lists 66068-84-6 as Cyclohexanol, 4-(5,5,6-trimethylbicyclo(2.2.1)hept-2-yl)-.",
+      "note": "PubChem confirms the CAS number belongs to isocamphyl cyclohexanol, but it doesn't list this trade name, so I couldn't confirm this product is that chemical. Check the supplier's spec sheet.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3WX00407.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Styralyl Acetate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Green (gardenia)",
+      "synonyms": [
+        "1-Phenylethyl acetate",
+        "Styrallyl acetate"
+      ],
+      "cas": "93-92-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/62341",
+      "casCheck": "PubChem lists 93-92-5 as 1-Phenylethyl acetate.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4GN00417.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Sulfurol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Gourmand (nutty)",
+      "synonyms": [
+        "4-Methyl-5-thiazoleethanol"
+      ],
+      "cas": "137-00-8",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/1136",
+      "casCheck": "PubChem lists 137-00-8 as 4-METHYL-5-THIAZOLEETHANOL.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4ED00423.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Terpineol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (lilac, pine)",
+      "cas": "8000-41-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8000-41-7&tab=substance",
+      "casCheck": "PubChem lists 8000-41-7 as Terpineol.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3KK05584.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Tonalide": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "synonyms": [
+        "AHTN"
+      ],
+      "cas": "21145-77-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/89440",
+      "casCheck": "PubChem lists 21145-77-7 as Tonalide.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_1XA00444.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Tonka Bean Absolute": {
+      "category": "Absolute",
+      "odorFamily": "Gourmand (tonka)",
+      "cas": "8046-22-8",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8046-22-8&tab=substance",
+      "casCheck": "PubChem lists 8046-22-8 as Tonka bean absolute (Dipteryx odorata).",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_8VQ00445.pdf",
+        "check": "PerfumersWorld's IFRA certificate: 1.90% in Category 4, set by its coumarin content (about 79%).",
+        "value": "1.90% in finished product"
+      }
+    },
+    "Triplal": {
+      "category": "Aroma chemical",
+      "odorFamily": "Green",
+      "synonyms": [
+        "Ligustral"
+      ],
+      "cas": "68039-49-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/93375",
+      "casCheck": "PubChem lists 68039-49-6 as Ligustral.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_030.pdf",
+        "check": "IFRA Standard (Amendment 49) for Triplal: 2.5% in Category 4.",
+        "value": "2.5% in finished product"
+      }
+    },
+    "Velvione": {
+      "category": "Aroma chemical",
+      "odorFamily": "Musk",
+      "cas": "37609-25-9",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/162268",
+      "casCheck": "PubChem lists 37609-25-9 as 5-Cyclohexadecen-1-one.",
+      "note": "PubChem confirms the CAS number belongs to cyclohexadec-5-en-1-one, but it doesn't list this trade name, so I couldn't confirm this product is that chemical. Check the supplier's spec sheet.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4XU11429.pdf",
+        "check": "PerfumersWorld's certificate shows no restriction. Note: IFRA 51 added a standard for other cyclohexadecenone isomers (4.3%); Velvione's isomer isn't listed in it.",
+        "value": "None"
+      }
+    },
+    "Vertenex": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (fresh)",
+      "synonyms": [
+        "4-tert-Butylcyclohexyl acetate"
+      ],
+      "cas": "32210-23-4",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/36081",
+      "casCheck": "PubChem lists 32210-23-4 as 4-tert-Butylcyclohexyl acetate.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3LW00464.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Vetiveryl Acetate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (vetiver)",
+      "cas": "117-98-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/8347",
+      "casCheck": "PubChem lists 117-98-6 as Vetiveryl acetate.",
+      "ifra": {
+        "source": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_002.pdf",
+        "check": "IFRA Standard (Amendment 49) for acetylated vetiver oil: 0.90% in Category 4.",
+        "value": "0.90% in finished product"
+      }
+    },
+    "Violet Fleuressence": {
+      "category": "Base",
+      "odorFamily": "Floral (violet)",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_6IG08436.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Alpha Irone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Powdery (orris)",
+      "cas": "79-69-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/5371002",
+      "casCheck": "PubChem lists 79-69-6 as alpha-Irone.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_8II00243.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Alpha Terpineol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Floral (lilac, pine)",
+      "cas": "98-55-5",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/17100",
+      "casCheck": "PubChem lists 98-55-5 as alpha-TERPINEOL.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_3KL00430.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Anise Essential Oil China": {
+      "category": "Essential oil",
+      "odorFamily": "Spicy (anise)",
+      "note": "CAS left blank: \"anise oil from China\" is usually star anise (Illicium verum), but it could be aniseed (Pimpinella anisum). Check the supplier label.",
+      "ifra": {
+        "source": "https://perfumersworld.com/view.php?pro_id=7SB00041",
+        "check": "PerfumersWorld's catalog (IFRA 51): 0.09%. The oil contains about 15% estragole, which IFRA 51 limits to 0.014%. Their older IFRA 50 certificate said 2.73%.",
+        "value": "0.09% in finished product"
+      }
+    },
+    "Galanga Lesser oil": {
+      "category": "Essential oil",
+      "odorFamily": "Spicy (ginger-like)",
+      "cas": "8024-40-6",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=8024-40-6&tab=substance",
+      "casCheck": "PubChem lists 8024-40-6 as Lesser galangal oil.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_7SY07764.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (25%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Pomelo Essential Oil": {
+      "category": "Essential oil",
+      "odorFamily": "Citrus (pomelo)",
+      "note": "IFRA limit left blank: PerfumersWorld publishes no certificate for it, and citrus peel oils can be restricted for phototoxicity. Ask them for the IFRA certificate before using it."
+    },
+    "Hay Absolute 10% DPG": {
+      "category": "Absolute",
+      "odorFamily": "Herbal (hay)",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_5NY12745.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Gamma Decalactone": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (peach)",
+      "cas": "706-14-9",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/12813",
+      "casCheck": "PubChem lists 706-14-9 as gamma-Decalactone.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4DD01639.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Manzanate": {
+      "category": "Aroma chemical",
+      "odorFamily": "Fruity (apple)",
+      "synonyms": [
+        "Ethyl 2-methylpentanoate"
+      ],
+      "cas": "39255-32-8",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/62902",
+      "casCheck": "PubChem lists 39255-32-8 as Ethyl 2-methylpentanoate.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4FG15438.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Javanol": {
+      "category": "Aroma chemical",
+      "odorFamily": "Woody (sandalwood)",
+      "cas": "198404-98-7",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/#query=198404-98-7&tab=substance",
+      "casCheck": "PubChem lists 198404-98-7 as JAVANOL.",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4WX10027.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    },
+    "Aldehyde C-10 Decanal": {
+      "category": "Aroma chemical",
+      "cas": "112-31-2",
+      "casSource": "https://pubchem.ncbi.nlm.nih.gov/compound/8175",
+      "casCheck": "PubChem lists 112-31-2 as Decanal (Aldehyde C-10).",
+      "odorFamily": "Aldehydic (orange peel)",
+      "ifra": {
+        "source": "https://perfumersworld.com/ifra/IFRA/IFRA_4AC00018.pdf",
+        "check": "PerfumersWorld's IFRA certificate gives only their standard maximum (40%), meaning nothing in it is restricted below that.",
+        "value": "None"
+      }
+    }
+  }
+}

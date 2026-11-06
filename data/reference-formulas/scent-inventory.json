@@ -1,0 +1,783 @@
+{
+ "source": "Scent Inventory",
+ "sourceUrl": "https://scentinventory.com/free-perfume-formulas",
+ "about": [
+  "Free educational accords from Scent Inventory, read on 2026-10-16. Amounts are percentages of the accord.",
+  "Only material lists and shares are copied; each links back to its page, which has the scent profile and tips.",
+  "Three accords (Marine Ozone, Pear, Tobacco) add up to less than 100% on the site itself; they're kept as published."
+ ],
+ "formulas": [
+  {
+   "id": "si-amber-accord",
+   "title": "Amber Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/amber-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Labdanum absolute (10%)",
+     "amount": 30.0
+    },
+    {
+     "name": "Vanilla absolute (10%)",
+     "amount": 25.0
+    },
+    {
+     "name": "Benzoin resinoid (50%)",
+     "amount": 20.0
+    },
+    {
+     "name": "Tonka absolute (10%)",
+     "amount": 15.0
+    },
+    {
+     "name": "Patchouli EO",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "si-beginner-rose-accord",
+   "title": "Beginner Rose Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/beginner-rose-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Phenyl Ethyl Alcohol",
+     "amount": 50.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 33.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 17.0
+    }
+   ]
+  },
+  {
+   "id": "si-carnation-accord",
+   "title": "Carnation Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/carnation-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Isoeugenol",
+     "amount": 80.0
+    },
+    {
+     "name": "Phenyl Ethyl Alcohol",
+     "amount": 15.0
+    },
+    {
+     "name": "Pepper EO (or Schinus Molle)",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "si-chypre-base-accord",
+   "title": "Chypre Base Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/chypre-base-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Bergamot EO",
+     "amount": 25.0
+    },
+    {
+     "name": "Labdanum absolute (10%)",
+     "amount": 20.0
+    },
+    {
+     "name": "Patchouli EO (aged)",
+     "amount": 15.0
+    },
+    {
+     "name": "Oakmoss substitute (Evernyl)",
+     "amount": 12.0
+    },
+    {
+     "name": "Rose absolute (10%)",
+     "amount": 10.0
+    },
+    {
+     "name": "Jasmine absolute (10%)",
+     "amount": 8.0
+    },
+    {
+     "name": "Vetiver EO",
+     "amount": 6.0
+    },
+    {
+     "name": "Ambroxan (10%)",
+     "amount": 4.0
+    }
+   ]
+  },
+  {
+   "id": "si-clean-musk-accord",
+   "title": "Clean Musk Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/clean-musk-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Habanolide",
+     "amount": 35.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 30.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 20.0
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 15.0
+    }
+   ]
+  },
+  {
+   "id": "si-floral-starter-accord",
+   "title": "Floral Starter Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/floral-starter-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Hedione",
+     "amount": 35.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 15.0
+    },
+    {
+     "name": "Phenylethyl alcohol",
+     "amount": 15.0
+    },
+    {
+     "name": "Rose absolute (10%)",
+     "amount": 20.0
+    },
+    {
+     "name": "Jasmine sambac absolute (10%)",
+     "amount": 15.0
+    }
+   ]
+  },
+  {
+   "id": "si-fougere-base-accord",
+   "title": "Fougère Base Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/fougere-base-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Lavender EO (fine)",
+     "amount": 30.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 20.0
+    },
+    {
+     "name": "Bergamot EO",
+     "amount": 15.0
+    },
+    {
+     "name": "Geranium EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Oakmoss substitute (Evernyl)",
+     "amount": 10.0
+    },
+    {
+     "name": "Vetiver EO",
+     "amount": 8.0
+    },
+    {
+     "name": "Tonka absolute (10%)",
+     "amount": 7.0
+    }
+   ]
+  },
+  {
+   "id": "si-fresh-citrus-accord",
+   "title": "Fresh Citrus Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/fresh-citrus-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Bergamot EO",
+     "amount": 40.0
+    },
+    {
+     "name": "Lemon EO",
+     "amount": 25.0
+    },
+    {
+     "name": "Petitgrain EO",
+     "amount": 15.0
+    },
+    {
+     "name": "Neroli EO (or Orange Blossom abs. 10%)",
+     "amount": 10.0
+    },
+    {
+     "name": "Limonene",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "si-green-tea-accord",
+   "title": "Green Tea Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/green-tea-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Hedione",
+     "amount": 53.0
+    },
+    {
+     "name": "Bergamot EO",
+     "amount": 20.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 10.0
+    },
+    {
+     "name": "Nerolidol",
+     "amount": 10.0
+    },
+    {
+     "name": "Galaxolide 50%",
+     "amount": 7.0
+    }
+   ]
+  },
+  {
+   "id": "si-grojsman-accord",
+   "title": "Grojsman Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/grojsman-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Hedione",
+     "amount": 35.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 20.0
+    },
+    {
+     "name": "Galaxolide 50%",
+     "amount": 15.0
+    },
+    {
+     "name": "Methyl Ionone Gamma",
+     "amount": 12.0
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 8.0
+    },
+    {
+     "name": "Damascone Alpha (10%)",
+     "amount": 5.0
+    },
+    {
+     "name": "Rose absolute (10%)",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "si-iris-accord",
+   "title": "Iris Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/iris-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Methyl Ionone Gamma",
+     "amount": 35.0
+    },
+    {
+     "name": "Iralia",
+     "amount": 20.0
+    },
+    {
+     "name": "Ionone Alpha",
+     "amount": 15.0
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 10.0
+    },
+    {
+     "name": "Orris butter (10%)",
+     "amount": 10.0
+    },
+    {
+     "name": "Suederal LT",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "si-leather-accord",
+   "title": "Leather Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/leather-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Safraleine",
+     "amount": 50.0
+    },
+    {
+     "name": "Hercolyn D (diluent / fixative)",
+     "amount": 22.5
+    },
+    {
+     "name": "Isopropyl Myristate",
+     "amount": 15.5
+    },
+    {
+     "name": "Ebanol",
+     "amount": 10.0
+    },
+    {
+     "name": "Styrax resinoid (50%)",
+     "amount": 2.0
+    }
+   ]
+  },
+  {
+   "id": "si-marine-ozone-accord",
+   "title": "Marine Ozone Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/marine-ozone-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Hedione",
+     "amount": 44.0
+    },
+    {
+     "name": "Galaxolide 50%",
+     "amount": 28.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 8.0
+    },
+    {
+     "name": "Ethyl Linalool",
+     "amount": 6.0
+    },
+    {
+     "name": "Habanolide",
+     "amount": 6.0
+    }
+   ]
+  },
+  {
+   "id": "si-minimal-floral-accord",
+   "title": "Minimal Floral Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/minimal-floral-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Linalool",
+     "amount": 50.0
+    },
+    {
+     "name": "Anisic Aldehyde",
+     "amount": 15.0
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 15.0
+    },
+    {
+     "name": "Cetyver SA (Vetiver Salicylate)",
+     "amount": 10.0
+    },
+    {
+     "name": "Styrallyl Acetate",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "si-orange-flower-accord",
+   "title": "Orange Flower Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/orange-flower-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Phenyl Ethyl Alcohol",
+     "amount": 60.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 30.0
+    },
+    {
+     "name": "Methyl Anthranilate",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "si-oud-accord",
+   "title": "Modern Oud Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/oud-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Norlimbanol (10%)",
+     "amount": 30.0
+    },
+    {
+     "name": "Cypriol (Nagarmotha) EO",
+     "amount": 20.0
+    },
+    {
+     "name": "Patchouli EO (aged)",
+     "amount": 20.0
+    },
+    {
+     "name": "Safraleine",
+     "amount": 10.0
+    },
+    {
+     "name": "Labdanum absolute (10%)",
+     "amount": 10.0
+    },
+    {
+     "name": "Castoreum substitute (1%)",
+     "amount": 5.0
+    },
+    {
+     "name": "Birch tar (1%)",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "si-pear-accord",
+   "title": "Pear Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/pear-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Galaxolide 50%",
+     "amount": 55.0
+    },
+    {
+     "name": "Verdox",
+     "amount": 16.0
+    },
+    {
+     "name": "Neryl Acetate",
+     "amount": 8.0
+    },
+    {
+     "name": "Hexyl Acetate",
+     "amount": 6.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 4.0
+    }
+   ]
+  },
+  {
+   "id": "si-simple-cologne-base",
+   "title": "Simple Cologne Base",
+   "kind": "perfume",
+   "style": "a simple cologne base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/simple-cologne-base",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Bergamot EO",
+     "amount": 30.0
+    },
+    {
+     "name": "Lemon EO",
+     "amount": 20.0
+    },
+    {
+     "name": "Neroli EO (or Orange Blossom abs. 10%)",
+     "amount": 15.0
+    },
+    {
+     "name": "Lavender EO",
+     "amount": 12.0
+    },
+    {
+     "name": "Petitgrain EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Rosemary EO",
+     "amount": 8.0
+    },
+    {
+     "name": "Habanolide (musk)",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "si-tobacco-accord",
+   "title": "Tobacco Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/tobacco-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Dihydro Ionone Beta",
+     "amount": 40.0
+    },
+    {
+     "name": "Okoumal",
+     "amount": 20.0
+    },
+    {
+     "name": "Methyl Laitone 10%",
+     "amount": 16.0
+    },
+    {
+     "name": "Exaltolide",
+     "amount": 5.0
+    },
+    {
+     "name": "Ebanol",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "si-vanilla-gourmand-accord",
+   "title": "Vanilla Gourmand Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/vanilla-gourmand-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Vanilla absolute (50%)",
+     "amount": 30.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 15.0
+    },
+    {
+     "name": "Tonka absolute (10%)",
+     "amount": 20.0
+    },
+    {
+     "name": "Benzoin resinoid (50%)",
+     "amount": 10.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "si-white-musk-accord",
+   "title": "White Musk Accord",
+   "kind": "accord",
+   "style": "beginner accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/white-musk-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 40.0
+    },
+    {
+     "name": "Galaxolide 50%",
+     "amount": 38.0
+    },
+    {
+     "name": "Exaltolide",
+     "amount": 10.0
+    },
+    {
+     "name": "Velvione",
+     "amount": 10.0
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 2.0
+    }
+   ]
+  },
+  {
+   "id": "si-woody-base-accord",
+   "title": "Woody Base Accord",
+   "kind": "accord",
+   "style": "intermediate accord",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://scentinventory.com/free-perfume-formulas/woody-base-accord",
+   "article": null,
+   "unit": "%",
+   "printedTotal": 100,
+   "lines": [
+    {
+     "name": "Iso E Super",
+     "amount": 40.0
+    },
+    {
+     "name": "Cedarwood Virginia EO",
+     "amount": 25.0
+    },
+    {
+     "name": "Ambroxan (10%)",
+     "amount": 15.0
+    },
+    {
+     "name": "Vetiver EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Cashmeran",
+     "amount": 10.0
+    }
+   ]
+  }
+ ]
+}

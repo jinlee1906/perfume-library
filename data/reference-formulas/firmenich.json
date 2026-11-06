@@ -1,0 +1,5551 @@
+{
+ "source": "Firmenich",
+ "sourceUrl": "https://www.dsm-firmenich.com/en/businesses/perfumery-beauty.html",
+ "about": [
+  "Demonstration formulas from dsm-firmenich's free 'Sharing Innovation' brochures (2016, 2019, 2022, 2023, 2024, 2025), read on 2026-10-16 and 2026-10-18.",
+  "Each brochure shows its featured ingredients in formulas by Firmenich perfumers. Only ingredient lists and amounts are copied; each formula links to its page in the PDF.",
+  "Formulas were read from the PDF text where every line adds up to the printed total of 1000; the rest were transcribed from the page images and checked the same way.",
+  "Where a brochure prints several versions of a formula side by side, the version with the featured ingredient is included and the others are described in its note. Formulas a later brochure repeats (same formula number) are included once.",
+  "Amounts printed as 0 are traces that round to zero in the brochure."
+ ],
+ "formulas": [
+  {
+   "id": "fi-209210",
+   "title": "Pepper Sichuan EdT 209210",
+   "kind": "perfume",
+   "style": "a spicy-green eau de toilette (at 10%)",
+   "smellsLike": null,
+   "year": "2016",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2016.pdf#page=5",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 1.0
+    },
+    {
+     "name": "Oakmoss Synth",
+     "amount": 1.0
+    },
+    {
+     "name": "Tagete EO",
+     "amount": 2.0
+    },
+    {
+     "name": "Citral",
+     "amount": 5.0
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 5.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 5.0
+    },
+    {
+     "name": "Vetiver Haiti EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Methyl Pamplemousse",
+     "amount": 10.0
+    },
+    {
+     "name": "Ambrox® 10%",
+     "amount": 20.0
+    },
+    {
+     "name": "Florol®",
+     "amount": 20.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 20.0
+    },
+    {
+     "name": "Triethyl Citrate",
+     "amount": 46.0
+    },
+    {
+     "name": "Bergamot EO",
+     "amount": 50.0
+    },
+    {
+     "name": "Orange EO",
+     "amount": 50.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 100.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 100.0
+    },
+    {
+     "name": "Lemon EO",
+     "amount": 100.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 150.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 200.0
+    },
+    {
+     "name": "Pepper Sichuan SFE",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209220",
+   "title": "Pepper Sichuan EdT 209220",
+   "kind": "perfume",
+   "style": "a spicy-green eau de toilette (at 10%)",
+   "smellsLike": null,
+   "year": "2016",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2016.pdf#page=5",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Evodia EO",
+     "amount": 1.0
+    },
+    {
+     "name": "Ginger Africa SFE",
+     "amount": 1.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 2.0
+    },
+    {
+     "name": "Galbanum Resinoide",
+     "amount": 2.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 3.0
+    },
+    {
+     "name": "Thymol",
+     "amount": 3.0
+    },
+    {
+     "name": "Angelica Seeds EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Eucalyptus ABS",
+     "amount": 10.0
+    },
+    {
+     "name": "Olibanum Resinoide 50%",
+     "amount": 10.0
+    },
+    {
+     "name": "Eucalyptus Globulus EO",
+     "amount": 15.0
+    },
+    {
+     "name": "Rhubofix®",
+     "amount": 15.0
+    },
+    {
+     "name": "Bergamot",
+     "amount": 20.0
+    },
+    {
+     "name": "Gaiac ARR",
+     "amount": 25.0
+    },
+    {
+     "name": "Cedarwood Virginia EO",
+     "amount": 100.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 100.0
+    },
+    {
+     "name": "Triethyl Citrate",
+     "amount": 178.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 200.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 300.0
+    },
+    {
+     "name": "Pepper Sichuan SFE",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209065",
+   "title": "Cedarwood Alaska Candle 209065",
+   "kind": "home",
+   "style": "a woody-citrus candle fragrance (at 10%)",
+   "smellsLike": null,
+   "year": "2016",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2016.pdf#page=7",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Ambrettolide",
+     "amount": 1.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 2.0
+    },
+    {
+     "name": "Damascone Beta",
+     "amount": 2.0
+    },
+    {
+     "name": "Eugenol",
+     "amount": 2.0
+    },
+    {
+     "name": "Labdanum ABS / 50% DPG",
+     "amount": 2.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 2.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 3.0
+    },
+    {
+     "name": "Cinnamic Aldehyde",
+     "amount": 5.0
+    },
+    {
+     "name": "Ylang III",
+     "amount": 5.0
+    },
+    {
+     "name": "Cypress EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Muscenone®",
+     "amount": 10.0
+    },
+    {
+     "name": "Muscone",
+     "amount": 10.0
+    },
+    {
+     "name": "Cedrol",
+     "amount": 30.0
+    },
+    {
+     "name": "Linalol",
+     "amount": 50.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 50.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 80.0
+    },
+    {
+     "name": "Methylionone Alpha Iso",
+     "amount": 100.0
+    },
+    {
+     "name": "Triethyl Citrate",
+     "amount": 101.0
+    },
+    {
+     "name": "Cedarwood Virginia EO",
+     "amount": 150.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 180.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 200.0
+    },
+    {
+     "name": "Cedarwood Alaska EO",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209208",
+   "title": "Cedarwood Alaska EdT 209208",
+   "kind": "perfume",
+   "style": "a woody-citrus eau de toilette (at 10%)",
+   "smellsLike": null,
+   "year": "2016",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2016.pdf#page=7",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Coumarin",
+     "amount": 1.0
+    },
+    {
+     "name": "Cumin EO",
+     "amount": 1.0
+    },
+    {
+     "name": "Oakmoss Synth",
+     "amount": 1.0
+    },
+    {
+     "name": "Black Pepper EO",
+     "amount": 2.0
+    },
+    {
+     "name": "Nutmeg EO",
+     "amount": 3.0
+    },
+    {
+     "name": "Vetiver Haiti EO",
+     "amount": 3.0
+    },
+    {
+     "name": "Ethyl Maltol 1%",
+     "amount": 5.0
+    },
+    {
+     "name": "Orange Florida EO",
+     "amount": 9.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 10.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 10.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 15.0
+    },
+    {
+     "name": "Hexylcinnamic Aldehyde",
+     "amount": 15.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 25.0
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 25.0
+    },
+    {
+     "name": "Bergamot",
+     "amount": 30.0
+    },
+    {
+     "name": "Ethyl Linalol",
+     "amount": 40.0
+    },
+    {
+     "name": "Triethyl Citrate",
+     "amount": 90.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 145.0
+    },
+    {
+     "name": "Cedarwood Virginia EO",
+     "amount": 150.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 200.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 200.0
+    },
+    {
+     "name": "Cedarwood Alaska EO",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209209",
+   "title": "Honey SigNature EdT 209209",
+   "kind": "perfume",
+   "style": "a gourmand eau de toilette (at 10%)",
+   "smellsLike": null,
+   "year": "2016",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2016.pdf#page=9",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Civette Synth",
+     "amount": 2.0
+    },
+    {
+     "name": "Oud Laos SigNature",
+     "amount": 2.0
+    },
+    {
+     "name": "Guaiacol",
+     "amount": 3.0
+    },
+    {
+     "name": "Labdanum ABS / 50% DPG",
+     "amount": 3.0
+    },
+    {
+     "name": "Safraleine",
+     "amount": 3.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 5.0
+    },
+    {
+     "name": "Nussol Extra",
+     "amount": 5.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 5.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 5.0
+    },
+    {
+     "name": "Cinnamic Alcohol",
+     "amount": 10.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 20.0
+    },
+    {
+     "name": "Cedarwood Virginia EO",
+     "amount": 50.0
+    },
+    {
+     "name": "Norlimbanol®",
+     "amount": 50.0
+    },
+    {
+     "name": "Triethyl Citrate",
+     "amount": 90.0
+    },
+    {
+     "name": "Abalyn",
+     "amount": 100.0
+    },
+    {
+     "name": "Ambrox® 10%",
+     "amount": 100.0
+    },
+    {
+     "name": "Dartanol®",
+     "amount": 100.0
+    },
+    {
+     "name": "Guaiacwood",
+     "amount": 100.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 150.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 192.0
+    },
+    {
+     "name": "Honey SigNature",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209219",
+   "title": "Honey SigNature EdT 209219",
+   "kind": "perfume",
+   "style": "a gourmand eau de toilette (at 10%)",
+   "smellsLike": null,
+   "year": "2016",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2016.pdf#page=9",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Anethole 10%",
+     "amount": 1.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 1.0
+    },
+    {
+     "name": "Bergamot EO",
+     "amount": 3.0
+    },
+    {
+     "name": "Calone® 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 5.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 5.0
+    },
+    {
+     "name": "Phenylacetic Aldehyde 1%",
+     "amount": 5.0
+    },
+    {
+     "name": "Muscenone®",
+     "amount": 10.0
+    },
+    {
+     "name": "Rose Oxide",
+     "amount": 10.0
+    },
+    {
+     "name": "Rosinol",
+     "amount": 10.0
+    },
+    {
+     "name": "Hydroxycitronellal",
+     "amount": 20.0
+    },
+    {
+     "name": "Hexylcinnamic Aldehyde",
+     "amount": 40.0
+    },
+    {
+     "name": "Ambrox® 10%",
+     "amount": 50.0
+    },
+    {
+     "name": "Cedarwood Super Rect",
+     "amount": 50.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 50.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 50.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 114.0
+    },
+    {
+     "name": "Exaltolide®",
+     "amount": 120.0
+    },
+    {
+     "name": "Florol®",
+     "amount": 120.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 130.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 150.0
+    },
+    {
+     "name": "Honey SigNature",
+     "amount": 1.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209062",
+   "title": "Lilyflore Shower Gel 209062",
+   "kind": "home",
+   "style": "a floral shower-gel fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2016",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2016.pdf#page=11",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Methyl Salicylate",
+     "amount": 2.0
+    },
+    {
+     "name": "Ylang III",
+     "amount": 5.0
+    },
+    {
+     "name": "Decalactone Gamma",
+     "amount": 10.0
+    },
+    {
+     "name": "Helional™ (IFF)",
+     "amount": 10.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 20.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 50.0
+    },
+    {
+     "name": "Linalol",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylethyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 100.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 248.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 300.0
+    },
+    {
+     "name": "Lilyflore®",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209064",
+   "title": "Lilyflore EdT 209064",
+   "kind": "perfume",
+   "style": "a white-floral eau de toilette (at 10%)",
+   "smellsLike": null,
+   "year": "2016",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2016.pdf#page=11",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Eugenol",
+     "amount": 1.0
+    },
+    {
+     "name": "Indol",
+     "amount": 1.0
+    },
+    {
+     "name": "Oakmoss Synth 10%",
+     "amount": 2.0
+    },
+    {
+     "name": "Styrallyl Acetate",
+     "amount": 2.0
+    },
+    {
+     "name": "Undecalactone Gamma 10%",
+     "amount": 4.0
+    },
+    {
+     "name": "Cyclamen Aldehyde",
+     "amount": 10.0
+    },
+    {
+     "name": "Ylang III",
+     "amount": 10.0
+    },
+    {
+     "name": "Bergamot",
+     "amount": 15.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 15.0
+    },
+    {
+     "name": "Cis Jasmone",
+     "amount": 15.0
+    },
+    {
+     "name": "Padma",
+     "amount": 25.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 30.0
+    },
+    {
+     "name": "Jasmal",
+     "amount": 30.0
+    },
+    {
+     "name": "Citronellyl Acetate",
+     "amount": 40.0
+    },
+    {
+     "name": "Ethyl Linalol",
+     "amount": 40.0
+    },
+    {
+     "name": "Carbinol Muguet",
+     "amount": 50.0
+    },
+    {
+     "name": "Hydroxycitronellal",
+     "amount": 50.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 70.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 95.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 120.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 270.0
+    },
+    {
+     "name": "Lilyflore®",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209331",
+   "title": "Hivernal Neo EdT 209331",
+   "kind": "perfume",
+   "style": "a fresh floral eau de toilette (at 15%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=6",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Ambrox® Super",
+     "amount": 25.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 7.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 154.0
+    },
+    {
+     "name": "Bergamot Oil",
+     "amount": 47.0
+    },
+    {
+     "name": "Cassis Base",
+     "amount": 11.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 11.0
+    },
+    {
+     "name": "Crystal Moss 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Damascenone",
+     "amount": 1.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 6.0
+    },
+    {
+     "name": "Florol Neo",
+     "amount": 95.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 11.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 10.0
+    },
+    {
+     "name": "Grapefruit Acetal",
+     "amount": 2.5
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 221.8
+    },
+    {
+     "name": "Hydroxycitronellal",
+     "amount": 11.0
+    },
+    {
+     "name": "Indol",
+     "amount": 1.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 140.0
+    },
+    {
+     "name": "Jasmine Sambac China Abs 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Jasmolactone",
+     "amount": 6.0
+    },
+    {
+     "name": "Linalol",
+     "amount": 70.0
+    },
+    {
+     "name": "Manzanate 10%",
+     "amount": 2.0
+    },
+    {
+     "name": "Mayol®",
+     "amount": 2.5
+    },
+    {
+     "name": "Methyl Anthranilate 10%",
+     "amount": 2.5
+    },
+    {
+     "name": "Patchouli Heart SFE",
+     "amount": 14.0
+    },
+    {
+     "name": "Pear Ester",
+     "amount": 70.0
+    },
+    {
+     "name": "Phenyl Ethyl Alcohol",
+     "amount": 35.0
+    },
+    {
+     "name": "Pink Pepper SFE",
+     "amount": 2.5
+    },
+    {
+     "name": "Pipol Acetate",
+     "amount": 1.0
+    },
+    {
+     "name": "Verdox™ (IFF)",
+     "amount": 20.0
+    },
+    {
+     "name": "Ylang Oil Type",
+     "amount": 1.2
+    },
+    {
+     "name": "Zestover 50%",
+     "amount": 5.0
+    },
+    {
+     "name": "Hivernal® Neo",
+     "amount": 4.0
+    }
+   ]
+  },
+  {
+   "id": "fi-208982",
+   "title": "Hivernal Neo Shampoo 208982",
+   "kind": "home",
+   "style": "a fruity-floral shampoo fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=6",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Aldehyde Hexylcinnamic",
+     "amount": 80.0
+    },
+    {
+     "name": "Allyl Heptanoate",
+     "amount": 20.0
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 5.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 30.0
+    },
+    {
+     "name": "Cassis Base",
+     "amount": 5.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 35.0
+    },
+    {
+     "name": "Citronellyl Acetate 10 %",
+     "amount": 25.0
+    },
+    {
+     "name": "Damascenone Total 10 %",
+     "amount": 25.0
+    },
+    {
+     "name": "Decalactone Gamma",
+     "amount": 10.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 25.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 8.0
+    },
+    {
+     "name": "Florol®",
+     "amount": 100.0
+    },
+    {
+     "name": "Galbex®",
+     "amount": 10.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 25.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 150.0
+    },
+    {
+     "name": "Helional® (IFF)",
+     "amount": 30.0
+    },
+    {
+     "name": "Hexyl Acetate",
+     "amount": 5.0
+    },
+    {
+     "name": "Linalol",
+     "amount": 185.0
+    },
+    {
+     "name": "Muscenone®",
+     "amount": 5.0
+    },
+    {
+     "name": "Phenoxyethyl Iso Butyrate",
+     "amount": 15.0
+    },
+    {
+     "name": "Phenyl Ethyl Alcohol",
+     "amount": 30.0
+    },
+    {
+     "name": "Pipol 10%",
+     "amount": 20.0
+    },
+    {
+     "name": "Pipol Salicylate",
+     "amount": 10.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 20.0
+    },
+    {
+     "name": "Zestover 10%",
+     "amount": 25.0
+    },
+    {
+     "name": "Hivernal® Neo",
+     "amount": 2.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209398",
+   "title": "Hivernal Neo Liquid Detergent 209398",
+   "kind": "home",
+   "style": "a floral-aldehydic liquid-detergent fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=6",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Aldehyde Supra 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Allyl Cyclohexylpropionate",
+     "amount": 15.0
+    },
+    {
+     "name": "Benzyl Propionate",
+     "amount": 10.0
+    },
+    {
+     "name": "Benzylacetone",
+     "amount": 25.0
+    },
+    {
+     "name": "Benzyldimethylcarbinol Acetate",
+     "amount": 15.0
+    },
+    {
+     "name": "Citronova 533 Orange",
+     "amount": 15.0
+    },
+    {
+     "name": "Damascone Delta 10 %",
+     "amount": 25.0
+    },
+    {
+     "name": "Dartanol®",
+     "amount": 30.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 200.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 10.0
+    },
+    {
+     "name": "Florol Neo",
+     "amount": 80.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 95.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 100.0
+    },
+    {
+     "name": "Hexylcinnamic Aldehyde",
+     "amount": 100.0
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 10.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 80.0
+    },
+    {
+     "name": "Isoeugenyl Acetate",
+     "amount": 5.0
+    },
+    {
+     "name": "Lemon Oil",
+     "amount": 15.0
+    },
+    {
+     "name": "Linalol",
+     "amount": 50.0
+    },
+    {
+     "name": "Norlimbanol® 10%",
+     "amount": 15.0
+    },
+    {
+     "name": "Pipol Acetate 10%",
+     "amount": 15.0
+    },
+    {
+     "name": "Pipol Salicylate",
+     "amount": 10.0
+    },
+    {
+     "name": "Undecavertol",
+     "amount": 10.0
+    },
+    {
+     "name": "Verdox™ (IFF)",
+     "amount": 50.0
+    },
+    {
+     "name": "Violettyne 10 Mip",
+     "amount": 5.0
+    },
+    {
+     "name": "Zestover",
+     "amount": 5.0
+    },
+    {
+     "name": "Hivernal® Neo",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209397",
+   "title": "Fructalate Softener 209397",
+   "kind": "home",
+   "style": "a fabric-softener fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=8",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Astrotone",
+     "amount": 120.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 10.0
+    },
+    {
+     "name": "Decalactone Gamma",
+     "amount": 50.0
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 95.0
+    },
+    {
+     "name": "Ethylvanillin",
+     "amount": 40.0
+    },
+    {
+     "name": "Exaltolide® Total",
+     "amount": 50.0
+    },
+    {
+     "name": "Florol Neo",
+     "amount": 80.0
+    },
+    {
+     "name": "Gamma Undecalactone",
+     "amount": 10.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 150.0
+    },
+    {
+     "name": "Hexyl Salicylate",
+     "amount": 80.0
+    },
+    {
+     "name": "Hexylcinnamic Aldehyde",
+     "amount": 30.0
+    },
+    {
+     "name": "Ionone Alpha",
+     "amount": 30.0
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 50.0
+    },
+    {
+     "name": "Linalol",
+     "amount": 40.0
+    },
+    {
+     "name": "Phenethylol",
+     "amount": 140.0
+    },
+    {
+     "name": "Fructalate®",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209395",
+   "title": "Fructalate Shower Gel 209395",
+   "kind": "home",
+   "style": "a shower-gel fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=8",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Benzyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 20.0
+    },
+    {
+     "name": "Damascone Alpha",
+     "amount": 2.0
+    },
+    {
+     "name": "Decalatone Gamma",
+     "amount": 15.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 131.0
+    },
+    {
+     "name": "Dorisyl",
+     "amount": 100.0
+    },
+    {
+     "name": "Ethyl 2 Methylbutyrate",
+     "amount": 10.0
+    },
+    {
+     "name": "Ethyl Methylphenyglycidate",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethylvanillin",
+     "amount": 30.0
+    },
+    {
+     "name": "Exaltolide® Total",
+     "amount": 60.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 50.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 200.0
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 60.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 40.0
+    },
+    {
+     "name": "Methylbutyric Acid",
+     "amount": 10.0
+    },
+    {
+     "name": "Phenethylol",
+     "amount": 80.0
+    },
+    {
+     "name": "Pipol",
+     "amount": 10.0
+    },
+    {
+     "name": "Pipol Acetate",
+     "amount": 10.0
+    },
+    {
+     "name": "Raspberry Ketone",
+     "amount": 90.0
+    },
+    {
+     "name": "Sweet Basil Oil",
+     "amount": 2.0
+    },
+    {
+     "name": "Fructalate®",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209403",
+   "title": "Beyond Hivernal EdT 209403",
+   "kind": "perfume",
+   "style": "an oriental eau de toilette (at 15%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=10",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "note": "The brochure prints three versions side by side; this is version D. Version E has 20 Beyond Lilyflore® in place of Beyond Hivernal®, and version B has neither (70 Dipropylene Glycol).",
+   "lines": [
+    {
+     "name": "Astrotone",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 110.0
+    },
+    {
+     "name": "Bergamot Oil",
+     "amount": 10.0
+    },
+    {
+     "name": "Calone®",
+     "amount": 2.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 60.0
+    },
+    {
+     "name": "Dartanol®",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl Acetoacetate",
+     "amount": 2.0
+    },
+    {
+     "name": "Ethyl Linalol",
+     "amount": 60.0
+    },
+    {
+     "name": "Florol Neo",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 50.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 30.0
+    },
+    {
+     "name": "Hexylcinnamic Aldehyde",
+     "amount": 20.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 100.0
+    },
+    {
+     "name": "Jasmolactone Delta",
+     "amount": 10.0
+    },
+    {
+     "name": "Mandarin Oil",
+     "amount": 5.0
+    },
+    {
+     "name": "Muscenone®",
+     "amount": 10.0
+    },
+    {
+     "name": "Orange Oil",
+     "amount": 20.0
+    },
+    {
+     "name": "Patchouli Oil",
+     "amount": 40.0
+    },
+    {
+     "name": "Pipol Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 25.0
+    },
+    {
+     "name": "Prunella®",
+     "amount": 20.0
+    },
+    {
+     "name": "Sandalwood Album Australia EO",
+     "amount": 1.0
+    },
+    {
+     "name": "Styrallyl Acetate",
+     "amount": 5.0
+    },
+    {
+     "name": "Vanilla Tahitensis SFE Abs 1%",
+     "amount": 10.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 30.0
+    },
+    {
+     "name": "Beyond Hivernal®",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209402",
+   "title": "Beyond Hivernal Shower Gel 209402",
+   "kind": "home",
+   "style": "a white-floral shower-gel fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=10",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "note": "The brochure prints three versions side by side; this is version D. Version E has 50 Beyond Lilyflore® in place of Beyond Hivernal®, and version B has neither (170 Dipropylene Glycol).",
+   "lines": [
+    {
+     "name": "Astrotone",
+     "amount": 40.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 130.0
+    },
+    {
+     "name": "Calone® 10%",
+     "amount": 10.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 20.0
+    },
+    {
+     "name": "Citronellyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 130.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 120.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 40.0
+    },
+    {
+     "name": "Hexyl Salicylate",
+     "amount": 80.0
+    },
+    {
+     "name": "Lemon Oil Sfuma",
+     "amount": 20.0
+    },
+    {
+     "name": "Neobutenone® Alpha 1%",
+     "amount": 10.0
+    },
+    {
+     "name": "Nerol",
+     "amount": 20.0
+    },
+    {
+     "name": "Nonalactone Gamma",
+     "amount": 10.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 130.0
+    },
+    {
+     "name": "Pipol Salicylate",
+     "amount": 20.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 50.0
+    },
+    {
+     "name": "Styrallyl Acetate",
+     "amount": 5.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 5.0
+    },
+    {
+     "name": "Beyond Hivernal®",
+     "amount": 50.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209396",
+   "title": "Beyond Hivernal Softener 209396",
+   "kind": "home",
+   "style": "a musky fabric-softener fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=10",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "note": "The brochure prints three versions side by side; this is version D. Version E has 20 Beyond Lilyflore® and 30 Dipropylene Glycol in place of the 50 Beyond Hivernal®, and version B has neither (50 Dipropylene Glycol).",
+   "lines": [
+    {
+     "name": "Amyl Salicylate",
+     "amount": 100.0
+    },
+    {
+     "name": "Astrotone",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzyldimethylcarbinol Acetate",
+     "amount": 2.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 5.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 110.0
+    },
+    {
+     "name": "Crystal Moss",
+     "amount": 1.0
+    },
+    {
+     "name": "Damascone Alpha",
+     "amount": 2.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 25.0
+    },
+    {
+     "name": "Ethylvanillin",
+     "amount": 100.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 185.0
+    },
+    {
+     "name": "Hexyl Butyrate",
+     "amount": 1.0
+    },
+    {
+     "name": "Hexyl Salicylate",
+     "amount": 180.0
+    },
+    {
+     "name": "Hexylcinnamic Aldehyde",
+     "amount": 20.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 2.0
+    },
+    {
+     "name": "Phenethylol",
+     "amount": 10.0
+    },
+    {
+     "name": "Rhubofix®",
+     "amount": 1.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 2.0
+    },
+    {
+     "name": "Vanilla Planifolia Infusion",
+     "amount": 2.0
+    },
+    {
+     "name": "Wardia®",
+     "amount": 2.0
+    },
+    {
+     "name": "Beyond Hivernal®",
+     "amount": 50.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209400",
+   "title": "Lemon Tetrarome Shower Gel 209400",
+   "kind": "home",
+   "style": "a fruity shower-gel fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=12",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "note": "The brochure prints three versions side by side; this is the main one. Version D has 10 Orange Tetrarome® Fab in place of Lemon Tetrarome® Fab, and version B has neither (50 Dipropylene Glycol).",
+   "lines": [
+    {
+     "name": "Allyl Heptanoate",
+     "amount": 30.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 25.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 100.0
+    },
+    {
+     "name": "Crystal Moss",
+     "amount": 5.0
+    },
+    {
+     "name": "Damascone Delta",
+     "amount": 10.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 80.0
+    },
+    {
+     "name": "Dimethyl Benzyl Carbinyl Butyrate",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 40.0
+    },
+    {
+     "name": "Ethyl 2 Methylbutyrate",
+     "amount": 15.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 140.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 200.0
+    },
+    {
+     "name": "Hexylcinnamic Aldehyde",
+     "amount": 50.0
+    },
+    {
+     "name": "Ionone Beta",
+     "amount": 50.0
+    },
+    {
+     "name": "Mayol®",
+     "amount": 15.0
+    },
+    {
+     "name": "Orange Oil",
+     "amount": 40.0
+    },
+    {
+     "name": "Phenoxyethyl Isobutyrate",
+     "amount": 100.0
+    },
+    {
+     "name": "Pipol 50 %",
+     "amount": 5.0
+    },
+    {
+     "name": "Pipol Acetate 50 %",
+     "amount": 5.0
+    },
+    {
+     "name": "Thuyaketone 50 %",
+     "amount": 5.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 10.0
+    },
+    {
+     "name": "Verdy Propionate",
+     "amount": 35.0
+    },
+    {
+     "name": "Lemon Tetrarome® Fab",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209401",
+   "title": "Lemon Tetrarome All-Purpose Cleaner 209401",
+   "kind": "home",
+   "style": "a green fig-leaf all-purpose-cleaner fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=12",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "note": "The brochure prints three versions side by side; this is the main one. Version D has 20 Orange Tetrarome® Fab in place of Lemon Tetrarome® Fab, and version B has neither (196 Dipropylene Glycol).",
+   "lines": [
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 100.0
+    },
+    {
+     "name": "Delphone",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 176.0
+    },
+    {
+     "name": "Elemi EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Florol Neo",
+     "amount": 100.0
+    },
+    {
+     "name": "Galbex® 10 %",
+     "amount": 2.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 250.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 100.0
+    },
+    {
+     "name": "Jasmolactone Delta",
+     "amount": 2.0
+    },
+    {
+     "name": "Lavandin Grosso Oil Type",
+     "amount": 10.0
+    },
+    {
+     "name": "Lemon Oil Sfuma Decol",
+     "amount": 5.0
+    },
+    {
+     "name": "Mint Piperita EO Cascade SX",
+     "amount": 5.0
+    },
+    {
+     "name": "Neobutenone® Alpha 10 %",
+     "amount": 2.0
+    },
+    {
+     "name": "Octalactone Gamma",
+     "amount": 5.0
+    },
+    {
+     "name": "Olibanum Res 50%",
+     "amount": 2.0
+    },
+    {
+     "name": "Oxane 10%",
+     "amount": 2.0
+    },
+    {
+     "name": "Pipol",
+     "amount": 20.0
+    },
+    {
+     "name": "Rhubofix®",
+     "amount": 2.0
+    },
+    {
+     "name": "Romandolide®",
+     "amount": 30.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 50.0
+    },
+    {
+     "name": "Styrallyl Acetate",
+     "amount": 90.0
+    },
+    {
+     "name": "Violettyne 10 Hed",
+     "amount": 2.0
+    },
+    {
+     "name": "Lemon Tetrarome® Fab",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209399",
+   "title": "Orriscience EdT 209399",
+   "kind": "perfume",
+   "style": "an iris eau de toilette (at 15%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=14",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Angelica Seed Oil 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Astrotone",
+     "amount": 100.0
+    },
+    {
+     "name": "Bergamot Oil",
+     "amount": 20.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 100.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 3.0
+    },
+    {
+     "name": "Dorisyl",
+     "amount": 30.0
+    },
+    {
+     "name": "Ethyl linalol",
+     "amount": 40.0
+    },
+    {
+     "name": "Exaltolide® Total",
+     "amount": 60.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 240.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 50.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 120.0
+    },
+    {
+     "name": "Lemon Oil Sfuma Decol",
+     "amount": 20.0
+    },
+    {
+     "name": "Mandarin Oil Sfuma Decol",
+     "amount": 5.0
+    },
+    {
+     "name": "Muscenone® Delta",
+     "amount": 5.0
+    },
+    {
+     "name": "Norlimbanol®",
+     "amount": 20.0
+    },
+    {
+     "name": "Orivone",
+     "amount": 20.0
+    },
+    {
+     "name": "Physeol",
+     "amount": 20.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 20.0
+    },
+    {
+     "name": "Romandolide",
+     "amount": 60.0
+    },
+    {
+     "name": "Tonka Bean Abs 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Vetiveryl Acetate",
+     "amount": 2.0
+    },
+    {
+     "name": "Orriscience 8 Irone 10%",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209308",
+   "title": "Oud Assafi EdT 209308",
+   "kind": "perfume",
+   "style": "a woody oud eau de toilette (at 15%)",
+   "smellsLike": null,
+   "year": "2019",
+   "url": "https://www.firmenich.com/sites/default/files/2020-10/Sharing-innovation-perfumery-2019.pdf#page=16",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Ambrox® Super",
+     "amount": 30.0
+    },
+    {
+     "name": "Benzoin Siam Res 50%",
+     "amount": 100.0
+    },
+    {
+     "name": "Cedarwood Oil Rect",
+     "amount": 100.0
+    },
+    {
+     "name": "Cedroxyde®",
+     "amount": 30.0
+    },
+    {
+     "name": "Cinnamon Ceylan EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 187.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 8.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 50.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 50.0
+    },
+    {
+     "name": "Iso E Super® (IFF)",
+     "amount": 200.0
+    },
+    {
+     "name": "Labdanum Abs 50%",
+     "amount": 50.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 50.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 20.0
+    },
+    {
+     "name": "Z11 MIP",
+     "amount": 100.0
+    },
+    {
+     "name": "Oud Assafi™ 10%",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209438",
+   "title": "Muguissimo EdT 209438",
+   "kind": "perfume",
+   "style": "a muguet eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2022",
+   "url": "https://www.firmenich.com/sites/default/files/Booklet_Sharing_Innovation_2022_aaqa3q.pdf#page=6",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Ambrette Firabs",
+     "amount": 5.0
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 15.0
+    },
+    {
+     "name": "Ambrox® DL Coeur",
+     "amount": 20.0
+    },
+    {
+     "name": "Anthamber",
+     "amount": 163.0
+    },
+    {
+     "name": "Benzyl Acetate Extra II",
+     "amount": 8.0
+    },
+    {
+     "name": "Bergamote Italy Ess",
+     "amount": 55.0
+    },
+    {
+     "name": "Carbinol Muguet",
+     "amount": 25.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 2.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Acetate",
+     "amount": 1.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Benzoate",
+     "amount": 2.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Salicylate",
+     "amount": 36.0
+    },
+    {
+     "name": "Citronellol BJ",
+     "amount": 30.0
+    },
+    {
+     "name": "Citronellyl Acetate",
+     "amount": 5.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 10.0
+    },
+    {
+     "name": "Cyclosal",
+     "amount": 8.0
+    },
+    {
+     "name": "Dartanol®",
+     "amount": 45.0
+    },
+    {
+     "name": "Dersantol",
+     "amount": 75.0
+    },
+    {
+     "name": "Ethyl Decadienoate",
+     "amount": 3.0
+    },
+    {
+     "name": "Ethyl Linalol",
+     "amount": 60.0
+    },
+    {
+     "name": "Exaltolide",
+     "amount": 45.0
+    },
+    {
+     "name": "Firsantol®",
+     "amount": 35.0
+    },
+    {
+     "name": "Geraniol Pur",
+     "amount": 15.0
+    },
+    {
+     "name": "Geranyl Acetate Extra",
+     "amount": 20.0
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 140.0
+    },
+    {
+     "name": "Heliopropanal",
+     "amount": 15.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 45.0
+    },
+    {
+     "name": "Hexyl Acetate",
+     "amount": 2.0
+    },
+    {
+     "name": "Hydroxycitronellal Synth P FAB",
+     "amount": 50.0
+    },
+    {
+     "name": "Lilyflore®",
+     "amount": 5.0
+    },
+    {
+     "name": "Mandarin Oil Sfuma",
+     "amount": 10.0
+    },
+    {
+     "name": "Phenylethyl Alcohol Pure",
+     "amount": 22.0
+    },
+    {
+     "name": "Rose Centifolia Pays Infusion",
+     "amount": 2.0
+    },
+    {
+     "name": "Violet BC",
+     "amount": 21.0
+    },
+    {
+     "name": "Muguissimo™",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209432",
+   "title": "Muguissimo Day Cream 209432",
+   "kind": "home",
+   "style": "a day-cream fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2022",
+   "url": "https://www.firmenich.com/sites/default/files/Booklet_Sharing_Innovation_2022_aaqa3q.pdf#page=6",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Ambrox® DL Coeur 10 DIPG",
+     "amount": 200.0
+    },
+    {
+     "name": "Anthamber",
+     "amount": 100.0
+    },
+    {
+     "name": "Dartanol®",
+     "amount": 100.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 8.0
+    },
+    {
+     "name": "Dreamwood™ Base",
+     "amount": 40.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 400.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 50.0
+    },
+    {
+     "name": "Muguissimo™",
+     "amount": 2.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209430",
+   "title": "Muguissimo Softener 209430",
+   "kind": "home",
+   "style": "a fabric-softener fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2022",
+   "url": "https://www.firmenich.com/sites/default/files/Booklet_Sharing_Innovation_2022_aaqa3q.pdf#page=6",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Aldehyde MNA",
+     "amount": 10.0
+    },
+    {
+     "name": "Anthamber",
+     "amount": 80.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Carbinol Muguet",
+     "amount": 30.0
+    },
+    {
+     "name": "Citronellol BJ",
+     "amount": 20.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 100.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 10.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 100.0
+    },
+    {
+     "name": "Fixamber",
+     "amount": 20.0
+    },
+    {
+     "name": "Florol Neo",
+     "amount": 30.0
+    },
+    {
+     "name": "Fructalate®",
+     "amount": 10.0
+    },
+    {
+     "name": "Geraniol Pur",
+     "amount": 20.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 50.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 50.0
+    },
+    {
+     "name": "Iralia® Total",
+     "amount": 100.0
+    },
+    {
+     "name": "Linalol BJ",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylhexanol",
+     "amount": 50.0
+    },
+    {
+     "name": "Rosinol Cryst",
+     "amount": 50.0
+    },
+    {
+     "name": "Salicynile®",
+     "amount": 20.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 20.0
+    },
+    {
+     "name": "Verdyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Yara Yara",
+     "amount": 20.0
+    },
+    {
+     "name": "Muguissimo™",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209439",
+   "title": "Sylvamber EdT 209439",
+   "kind": "perfume",
+   "style": "an ambery woody eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2022",
+   "url": "https://www.firmenich.com/sites/default/files/Booklet_Sharing_Innovation_2022_aaqa3q.pdf#page=10",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Ambrox® Super",
+     "amount": 30.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 100.0
+    },
+    {
+     "name": "Bergamote Incol DM",
+     "amount": 25.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 1.0
+    },
+    {
+     "name": "Cedarwood Virginia USA EO Super",
+     "amount": 80.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Acetate",
+     "amount": 1.0
+    },
+    {
+     "name": "Dreamwood™ Base",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 100.0
+    },
+    {
+     "name": "Geraniol P Nat",
+     "amount": 10.0
+    },
+    {
+     "name": "Geranyl Acetate Extra",
+     "amount": 10.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 150.0
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 70.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 50.0
+    },
+    {
+     "name": "Indole",
+     "amount": 1.0
+    },
+    {
+     "name": "Limonene 1x Dist",
+     "amount": 40.0
+    },
+    {
+     "name": "Linalol BJ",
+     "amount": 90.0
+    },
+    {
+     "name": "Linalyl Acetate AR",
+     "amount": 15.0
+    },
+    {
+     "name": "Methyl Anthranilate Dist",
+     "amount": 2.0
+    },
+    {
+     "name": "Nerol BJ",
+     "amount": 2.0
+    },
+    {
+     "name": "Nerolidol",
+     "amount": 15.0
+    },
+    {
+     "name": "Neryl Acetate Pure",
+     "amount": 5.0
+    },
+    {
+     "name": "Orange Flower Abs",
+     "amount": 1.0
+    },
+    {
+     "name": "Pepper Sichuan SFE",
+     "amount": 1.0
+    },
+    {
+     "name": "Petitgrain EO",
+     "amount": 15.0
+    },
+    {
+     "name": "Phenylethyl Acetate",
+     "amount": 10.0
+    },
+    {
+     "name": "Phenylethyl Alcohol Pure",
+     "amount": 10.0
+    },
+    {
+     "name": "Terpineol Alpha Nat",
+     "amount": 10.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 36.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 100.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209441",
+   "title": "Sylvamber Candle 209441",
+   "kind": "home",
+   "style": "a scented-candle fragrance (at 10%)",
+   "smellsLike": null,
+   "year": "2022",
+   "url": "https://www.firmenich.com/sites/default/files/Booklet_Sharing_Innovation_2022_aaqa3q.pdf#page=10",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Benzoin Siam Res 50 TEC",
+     "amount": 20.0
+    },
+    {
+     "name": "Cedarwood Alaska Canada EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Cedarwood Virginia Usa EO",
+     "amount": 60.0
+    },
+    {
+     "name": "Cedrenol",
+     "amount": 40.0
+    },
+    {
+     "name": "Cetalox®",
+     "amount": 20.0
+    },
+    {
+     "name": "Cinnamon Sri Lanka EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Clary Sage Abs",
+     "amount": 10.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 50.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 40.0
+    },
+    {
+     "name": "Fixamber",
+     "amount": 40.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 90.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 20.0
+    },
+    {
+     "name": "Isopropyl Myristate",
+     "amount": 362.0
+    },
+    {
+     "name": "Phenylethyl Cinnamate",
+     "amount": 18.0
+    },
+    {
+     "name": "Phenylethyl Phenylacetate",
+     "amount": 10.0
+    },
+    {
+     "name": "Raspberry Ketone",
+     "amount": 10.0
+    },
+    {
+     "name": "Vanillin Perf",
+     "amount": 40.0
+    },
+    {
+     "name": "Wardia®",
+     "amount": 10.0
+    },
+    {
+     "name": "Z11 10 DIPG",
+     "amount": 20.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 100.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209440",
+   "title": "Rose Damascena EdT 209440",
+   "kind": "perfume",
+   "style": "a rose eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2022",
+   "url": "https://www.firmenich.com/sites/default/files/Booklet_Sharing_Innovation_2022_aaqa3q.pdf#page=14",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Ambrox®",
+     "amount": 10.0
+    },
+    {
+     "name": "Bergamot Italy CP Bergapt Free",
+     "amount": 20.0
+    },
+    {
+     "name": "Cascalone®",
+     "amount": 2.0
+    },
+    {
+     "name": "Cedarwood Virginia Usa EO Super",
+     "amount": 30.0
+    },
+    {
+     "name": "Cinnamic Alcohol Ord",
+     "amount": 2.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 5.0
+    },
+    {
+     "name": "Citronellol BJ",
+     "amount": 20.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 20.0
+    },
+    {
+     "name": "Cyclosia®",
+     "amount": 30.0
+    },
+    {
+     "name": "Damascenone",
+     "amount": 1.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 60.0
+    },
+    {
+     "name": "Exaltolide® Total",
+     "amount": 80.0
+    },
+    {
+     "name": "Florol Neo",
+     "amount": 100.0
+    },
+    {
+     "name": "Geraniol Pur",
+     "amount": 10.0
+    },
+    {
+     "name": "Geranyl Acetate Extra",
+     "amount": 5.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 150.0
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 100.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 60.0
+    },
+    {
+     "name": "Indole",
+     "amount": 1.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 10.0
+    },
+    {
+     "name": "Irone Alpha",
+     "amount": 1.0
+    },
+    {
+     "name": "Lemon Italy EO Sfuma Decol",
+     "amount": 20.0
+    },
+    {
+     "name": "Lilyflore®",
+     "amount": 30.0
+    },
+    {
+     "name": "Phenylethyl Alcohol Pure",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylhexanol",
+     "amount": 20.0
+    },
+    {
+     "name": "Prunella®",
+     "amount": 30.0
+    },
+    {
+     "name": "Rosessence",
+     "amount": 20.0
+    },
+    {
+     "name": "Sylvamber",
+     "amount": 100.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 11.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 1.0
+    },
+    {
+     "name": "Rose Damascena Firad",
+     "amount": 1.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209493",
+   "title": "Ambrette Firabs EdT 209493",
+   "kind": "perfume",
+   "style": "an ambery eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2023",
+   "url": "https://www.firmenich.com/sites/default/files/2023-05/20230504_firmenich_booklet_si2023.pdf#page=7",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 250.0
+    },
+    {
+     "name": "Cedarwood Virginia EO Rect",
+     "amount": 100.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 80.0
+    },
+    {
+     "name": "Lemon Italy Decol",
+     "amount": 60.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 50.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 50.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 50.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 50.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 50.0
+    },
+    {
+     "name": "Sylvamber",
+     "amount": 50.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 25.0
+    },
+    {
+     "name": "Bergamot Incol",
+     "amount": 20.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 20.0
+    },
+    {
+     "name": "Norlimbanol® Dextro",
+     "amount": 20.0
+    },
+    {
+     "name": "Phenylhexanol",
+     "amount": 20.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 10.0
+    },
+    {
+     "name": "Firsantol®",
+     "amount": 10.0
+    },
+    {
+     "name": "Lavender Diva Pays EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Petitgrain EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Physeol",
+     "amount": 10.0
+    },
+    {
+     "name": "Rhubofix®",
+     "amount": 10.0
+    },
+    {
+     "name": "Vanilla Planifolia Mada Infu P2F",
+     "amount": 10.0
+    },
+    {
+     "name": "Z11™ 10 DIPG",
+     "amount": 10.0
+    },
+    {
+     "name": "Star Anise EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Vetiver Haiti EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Vetyrisia®",
+     "amount": 5.0
+    },
+    {
+     "name": "Calone®",
+     "amount": 2.0
+    },
+    {
+     "name": "Mousse Cristal",
+     "amount": 2.0
+    },
+    {
+     "name": "Tonka Bean Brazil ABS",
+     "amount": 1.0
+    },
+    {
+     "name": "Ambrette Firabs",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209492",
+   "title": "Cardamom Green Pod EdT 209492",
+   "kind": "perfume",
+   "style": "an aromatic floral eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2023",
+   "url": "https://www.firmenich.com/sites/default/files/2023-05/20230504_firmenich_booklet_si2023.pdf#page=9",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 250.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 145.0
+    },
+    {
+     "name": "Dartanol®",
+     "amount": 110.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 100.0
+    },
+    {
+     "name": "Cedarwood Virginia EO Super",
+     "amount": 100.0
+    },
+    {
+     "name": "Sylvamber",
+     "amount": 100.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 40.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 30.0
+    },
+    {
+     "name": "Matsunol",
+     "amount": 30.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 20.0
+    },
+    {
+     "name": "Rose Wardia®",
+     "amount": 20.0
+    },
+    {
+     "name": "Amyris EO MD",
+     "amount": 10.0
+    },
+    {
+     "name": "Benzoin Siam RES 50 TEC",
+     "amount": 10.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 10.0
+    },
+    {
+     "name": "Muguissimo®",
+     "amount": 10.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 5.0
+    },
+    {
+     "name": "Pink Pepper SFE",
+     "amount": 2.0
+    },
+    {
+     "name": "Tonka Bean Brazil ABS",
+     "amount": 2.0
+    },
+    {
+     "name": "Vanilla Tahitensis SFE TEC",
+     "amount": 1.0
+    },
+    {
+     "name": "Cardamom Green Pod Guatemala SFE",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209488",
+   "title": "Mimosal Shower Gel 209488",
+   "kind": "home",
+   "style": "a shower-gel fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2023",
+   "url": "https://www.firmenich.com/sites/default/files/2023-05/20230504_firmenich_booklet_si2023.pdf#page=16",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 115.0
+    },
+    {
+     "name": "Phenoxyethyl Isobutyrate",
+     "amount": 110.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 100.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzyl Propionate",
+     "amount": 100.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 60.0
+    },
+    {
+     "name": "Amyl Salicylate",
+     "amount": 60.0
+    },
+    {
+     "name": "CIS-3-Hexenyl Salicylate",
+     "amount": 60.0
+    },
+    {
+     "name": "Methylnaphthylkeyone Crist",
+     "amount": 50.0
+    },
+    {
+     "name": "Prunella®",
+     "amount": 50.0
+    },
+    {
+     "name": "Terpineol Alpha Nat",
+     "amount": 50.0
+    },
+    {
+     "name": "Tetralinol Pur",
+     "amount": 50.0
+    },
+    {
+     "name": "Cyclosal",
+     "amount": 30.0
+    },
+    {
+     "name": "Nonalactone Gamma",
+     "amount": 20.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 20.0
+    },
+    {
+     "name": "Firsantol®",
+     "amount": 10.0
+    },
+    {
+     "name": "Ylang EO III",
+     "amount": 10.0
+    },
+    {
+     "name": "Mimosal™",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209489",
+   "title": "Mimosal EdT 209489",
+   "kind": "perfume",
+   "style": "a powdery mimosa eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2023",
+   "url": "https://www.firmenich.com/sites/default/files/2023-05/20230504_firmenich_booklet_si2023.pdf#page=16",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 125.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Hydroxycitronellal",
+     "amount": 100.0
+    },
+    {
+     "name": "Hexylcinnamic Aldehyde",
+     "amount": 90.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 90.0
+    },
+    {
+     "name": "Nonalactone Gamma",
+     "amount": 80.0
+    },
+    {
+     "name": "Benzyl Acetate Extra",
+     "amount": 60.0
+    },
+    {
+     "name": "Anthamber",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 40.0
+    },
+    {
+     "name": "Phenylethyl Alcohol Pure",
+     "amount": 30.0
+    },
+    {
+     "name": "CIS-3-Hexenyl Salicylate",
+     "amount": 30.0
+    },
+    {
+     "name": "Phenylethyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Methyl Anthranilate",
+     "amount": 20.0
+    },
+    {
+     "name": "Salicynile®",
+     "amount": 20.0
+    },
+    {
+     "name": "Vertofix Cœur",
+     "amount": 20.0
+    },
+    {
+     "name": "Ylang EO III",
+     "amount": 20.0
+    },
+    {
+     "name": "Anisyl Acetate",
+     "amount": 10.0
+    },
+    {
+     "name": "Cedarwood Virginia EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Cetalox®",
+     "amount": 10.0
+    },
+    {
+     "name": "Undecalactone Gamma",
+     "amount": 10.0
+    },
+    {
+     "name": "Jasmolactone Delta @10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Ethyl Methylphenylglycidate",
+     "amount": 5.0
+    },
+    {
+     "name": "Mimosal™",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209490",
+   "title": "Doremox Shampoo 209490",
+   "kind": "home",
+   "style": "a fruity-floral shampoo fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2023",
+   "url": "https://www.firmenich.com/sites/default/files/2023-05/20230504_firmenich_booklet_si2023.pdf#page=19",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "note": "The heading says the formula has 0.5% Doremox®; the table lists 6 parts per 1000 (0.6%).",
+   "lines": [
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 342.0
+    },
+    {
+     "name": "Geranyl Acetate Extra",
+     "amount": 250.0
+    },
+    {
+     "name": "Citronellyl Acetate",
+     "amount": 180.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 150.0
+    },
+    {
+     "name": "Florol",
+     "amount": 20.0
+    },
+    {
+     "name": "CIS-3-Hexenyl Acetate",
+     "amount": 12.0
+    },
+    {
+     "name": "Applinate",
+     "amount": 10.0
+    },
+    {
+     "name": "Linalol",
+     "amount": 10.0
+    },
+    {
+     "name": "Trivertal",
+     "amount": 7.0
+    },
+    {
+     "name": "Damascenone",
+     "amount": 4.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 4.0
+    },
+    {
+     "name": "Romascone @10%",
+     "amount": 3.0
+    },
+    {
+     "name": "Damascone Delta",
+     "amount": 2.0
+    },
+    {
+     "name": "Doremox®",
+     "amount": 6.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209491",
+   "title": "Cyclopidene EdT 209491",
+   "kind": "perfume",
+   "style": "a solar floral eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2023",
+   "url": "https://www.firmenich.com/sites/default/files/2023-05/20230504_firmenich_booklet_si2023.pdf#page=21",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 218.0
+    },
+    {
+     "name": "Anthamber",
+     "amount": 200.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 90.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 90.0
+    },
+    {
+     "name": "Exaltolide® Total",
+     "amount": 90.0
+    },
+    {
+     "name": "Ethylvanilline",
+     "amount": 60.0
+    },
+    {
+     "name": "Nonalactone Gamma",
+     "amount": 50.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 40.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 40.0
+    },
+    {
+     "name": "Cedarwood Virginia EO",
+     "amount": 28.0
+    },
+    {
+     "name": "Anisaldehyde",
+     "amount": 20.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 10.0
+    },
+    {
+     "name": "Iralia® Total",
+     "amount": 10.0
+    },
+    {
+     "name": "Mimosal™",
+     "amount": 10.0
+    },
+    {
+     "name": "Mousse Cristal",
+     "amount": 10.0
+    },
+    {
+     "name": "Muscenone® Delta",
+     "amount": 8.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 4.0
+    },
+    {
+     "name": "Decalactone Delta",
+     "amount": 4.0
+    },
+    {
+     "name": "Eugenol @10%",
+     "amount": 4.0
+    },
+    {
+     "name": "Menthe Piperita EO Cascade @10%",
+     "amount": 4.0
+    },
+    {
+     "name": "Irone Alpha",
+     "amount": 2.0
+    },
+    {
+     "name": "Jasmolactone Delta",
+     "amount": 2.0
+    },
+    {
+     "name": "Cascalone®",
+     "amount": 1.0
+    },
+    {
+     "name": "Cyclopidene",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209521",
+   "title": "Pink Pepper Madagascar EdP 209521",
+   "kind": "perfume",
+   "style": "a fine fragrance (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=7",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 200.0
+    },
+    {
+     "name": "Bergalol™",
+     "amount": 100.0
+    },
+    {
+     "name": "Cedarwood Virginia USA EO",
+     "amount": 100.0
+    },
+    {
+     "name": "Patchouli Indonesia EO",
+     "amount": 100.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 80.0
+    },
+    {
+     "name": "Bergalin",
+     "amount": 60.0
+    },
+    {
+     "name": "Ambrox® DL coeur 10 DIPG",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzoin Siam RES 50 TEC",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylhexanol",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 40.0
+    },
+    {
+     "name": "Bergamot Incol MD",
+     "amount": 30.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 30.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 29.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 20.0
+    },
+    {
+     "name": "Mousse Cristal",
+     "amount": 10.0
+    },
+    {
+     "name": "Raspberry Ketone",
+     "amount": 10.0
+    },
+    {
+     "name": "Z11 10 DIPG",
+     "amount": 10.0
+    },
+    {
+     "name": "Carrot Seed EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Labdanum Abs 50 DIPG",
+     "amount": 5.0
+    },
+    {
+     "name": "Norlimbanol®",
+     "amount": 5.0
+    },
+    {
+     "name": "Orris CTE @10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Clary Sage Abs",
+     "amount": 2.0
+    },
+    {
+     "name": "Tonka Bean Brazil Abs",
+     "amount": 2.0
+    },
+    {
+     "name": "Vetiveryl Acetate",
+     "amount": 2.0
+    },
+    {
+     "name": "Pink Pepper Madagascar EO",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209517",
+   "title": "Pink Pepper Madagascar Shower Gel 209517",
+   "kind": "home",
+   "style": "a shower-gel fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=7",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 250.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 150.0
+    },
+    {
+     "name": "Bergalol™",
+     "amount": 100.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 85.0
+    },
+    {
+     "name": "Bergalin",
+     "amount": 60.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylhexanol",
+     "amount": 50.0
+    },
+    {
+     "name": "Ambrox® DL 10 DIPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Cedarwood Virginia USA EO",
+     "amount": 30.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 30.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 30.0
+    },
+    {
+     "name": "Lemon Oil Sfuma",
+     "amount": 30.0
+    },
+    {
+     "name": "Raspberry Ketone",
+     "amount": 20.0
+    },
+    {
+     "name": "Mousse Cristal",
+     "amount": 10.0
+    },
+    {
+     "name": "Z11™ 10 DIPG",
+     "amount": 10.0
+    },
+    {
+     "name": "Irone Alpha 10 DIPG",
+     "amount": 5.0
+    },
+    {
+     "name": "Norlimbanol®",
+     "amount": 5.0
+    },
+    {
+     "name": "Pink Pepper Madagascar EO",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209522",
+   "title": "Jasmine Flower India EdT 209522",
+   "kind": "perfume",
+   "style": "a jasmine eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=12",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "note": "The heading says the formula has 0.5% Jasmine Flower India SFE Abs; the table lists 5 parts of a 10% dilution (0.05% as pure material).",
+   "lines": [
+    {
+     "name": "Hedione® HC",
+     "amount": 200.0
+    },
+    {
+     "name": "Florol®",
+     "amount": 100.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 100.0
+    },
+    {
+     "name": "Bergalol™",
+     "amount": 80.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 53.0
+    },
+    {
+     "name": "Ambrox® DL 10 DIPG",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzyl Acetate Extra II",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 50.0
+    },
+    {
+     "name": "Hydroxycitronellal Synth P Fab",
+     "amount": 50.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 30.0
+    },
+    {
+     "name": "Geraniol Pure RC",
+     "amount": 30.0
+    },
+    {
+     "name": "Bergamot CP Reco FCR Decol",
+     "amount": 20.0
+    },
+    {
+     "name": "Patchouli Indonesia EO",
+     "amount": 20.0
+    },
+    {
+     "name": "Vanilla Planifolia Mada Infusion",
+     "amount": 20.0
+    },
+    {
+     "name": "CIS Jasmone",
+     "amount": 10.0
+    },
+    {
+     "name": "Clove Bud EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Ethyl Praline",
+     "amount": 10.0
+    },
+    {
+     "name": "Exaltenone",
+     "amount": 10.0
+    },
+    {
+     "name": "Hexyl Tiglate",
+     "amount": 10.0
+    },
+    {
+     "name": "Jasminlactone",
+     "amount": 10.0
+    },
+    {
+     "name": "Mousse Cristal",
+     "amount": 10.0
+    },
+    {
+     "name": "Muscenone® Delta",
+     "amount": 10.0
+    },
+    {
+     "name": "Rose Wardia®",
+     "amount": 10.0
+    },
+    {
+     "name": "Osmanthus Abs @10%",
+     "amount": 2.0
+    },
+    {
+     "name": "Jasmine Flower India SFE Abs @10%",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-00261g",
+   "title": "Dihydroestragole EdT for Men 00261G",
+   "kind": "perfume",
+   "style": "a masculine eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=16",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Sylvamber™",
+     "amount": 500.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 250.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 75.0
+    },
+    {
+     "name": "Benzoin Siam Res 50 DIPG",
+     "amount": 25.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 25.0
+    },
+    {
+     "name": "Vanillin Perf",
+     "amount": 25.0
+    },
+    {
+     "name": "Ginger EO",
+     "amount": 22.5
+    },
+    {
+     "name": "Violet BC",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 5.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 7.5
+    },
+    {
+     "name": "Fruit sec",
+     "amount": 7.5
+    },
+    {
+     "name": "Tonka Bean Brazil Abs",
+     "amount": 7.5
+    },
+    {
+     "name": "Coranol",
+     "amount": 5.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 2.5
+    },
+    {
+     "name": "Bergamote",
+     "amount": 2.5
+    },
+    {
+     "name": "Cinnamic Aldehyde",
+     "amount": 2.5
+    },
+    {
+     "name": "Citron",
+     "amount": 2.5
+    },
+    {
+     "name": "Honey Provence Firabs",
+     "amount": 2.5
+    },
+    {
+     "name": "Koumalactone®",
+     "amount": 2.5
+    },
+    {
+     "name": "Dihydroeugenol",
+     "amount": 2.0
+    },
+    {
+     "name": "Cistus Spain Abs SIS",
+     "amount": 1.0
+    },
+    {
+     "name": "Damascone Beta Fab",
+     "amount": 1.0
+    },
+    {
+     "name": "Labdanum Spain Abs",
+     "amount": 0.5
+    },
+    {
+     "name": "Tobacco Balkan Abs Type",
+     "amount": 0.5
+    },
+    {
+     "name": "Dihydroestragole RC",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "fi-00536d",
+   "title": "Dihydroestragole EdT for Women 00536D",
+   "kind": "perfume",
+   "style": "a feminine eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=16",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 550.0
+    },
+    {
+     "name": "Mimosal™",
+     "amount": 75.0
+    },
+    {
+     "name": "Anisaldehyde Special Redist",
+     "amount": 55.0
+    },
+    {
+     "name": "Lilial Base",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 50.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 45.0
+    },
+    {
+     "name": "Foliaver",
+     "amount": 35.0
+    },
+    {
+     "name": "Anisyl Acetate",
+     "amount": 25.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 25.0
+    },
+    {
+     "name": "Calone®",
+     "amount": 20.0
+    },
+    {
+     "name": "Iralia® Total",
+     "amount": 15.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 5.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 10.0
+    },
+    {
+     "name": "Romandolide®",
+     "amount": 10.0
+    },
+    {
+     "name": "Honey Provence Firabs",
+     "amount": 7.5
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 5.0
+    },
+    {
+     "name": "Dorysane @ 1% DPG",
+     "amount": 2.5
+    },
+    {
+     "name": "Feuillage Vert",
+     "amount": 2.5
+    },
+    {
+     "name": "Pelargodienal @ 10% DPG",
+     "amount": 1.5
+    },
+    {
+     "name": "Pelargodienol @ 10% DPG",
+     "amount": 1.0
+    },
+    {
+     "name": "Dihydroestragole RC",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-00074p",
+   "title": "Velvet Musk EdT 00074P",
+   "kind": "perfume",
+   "style": "a musky eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=20",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Sylvamber™",
+     "amount": 350.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 275.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 50.0
+    },
+    {
+     "name": "Dreamwood Base®",
+     "amount": 30.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 25.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 20.0
+    },
+    {
+     "name": "Calone®",
+     "amount": 20.0
+    },
+    {
+     "name": "Lemon Oil Sfuma",
+     "amount": 20.0
+    },
+    {
+     "name": "Methyl Pamplemousse",
+     "amount": 20.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 10.0
+    },
+    {
+     "name": "Lilyflore®",
+     "amount": 10.0
+    },
+    {
+     "name": "Vetiver Haiti EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Damascenone 10% DPG",
+     "amount": 7.5
+    },
+    {
+     "name": "Basil EO 10% DPG",
+     "amount": 5.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 5.0
+    },
+    {
+     "name": "Florex®",
+     "amount": 5.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 5.0
+    },
+    {
+     "name": "Mousse Cristal",
+     "amount": 5.0
+    },
+    {
+     "name": "Violettyne 10 HED 10% DPG",
+     "amount": 5.0
+    },
+    {
+     "name": "Williams Ester",
+     "amount": 5.0
+    },
+    {
+     "name": "Z11™ HD",
+     "amount": 5.0
+    },
+    {
+     "name": "Salicynile®",
+     "amount": 4.0
+    },
+    {
+     "name": "Prunella®",
+     "amount": 3.5
+    },
+    {
+     "name": "Geranium Egypt EO",
+     "amount": 2.5
+    },
+    {
+     "name": "Neobutenone® Alpha 10% DPG",
+     "amount": 1.5
+    },
+    {
+     "name": "Koumalactone®",
+     "amount": 1.0
+    },
+    {
+     "name": "Velvet Musk B",
+     "amount": 100.0
+    }
+   ]
+  },
+  {
+   "id": "fi-00254h",
+   "title": "Velvet Musk Shower Gel 00254H",
+   "kind": "home",
+   "style": "a shower-gel fragrance (at 1%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=20",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 250.0
+    },
+    {
+     "name": "Bergamote",
+     "amount": 150.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 100.0
+    },
+    {
+     "name": "Heliopropanal",
+     "amount": 80.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 75.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 35.0
+    },
+    {
+     "name": "Violet BC",
+     "amount": 35.0
+    },
+    {
+     "name": "Salicynile®",
+     "amount": 25.0
+    },
+    {
+     "name": "Florol®",
+     "amount": 20.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 20.0
+    },
+    {
+     "name": "Romandolide®",
+     "amount": 20.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 15.0
+    },
+    {
+     "name": "Cascalone®",
+     "amount": 15.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 15.0
+    },
+    {
+     "name": "Nutmeg EO",
+     "amount": 12.5
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 12.5
+    },
+    {
+     "name": "Precyclemone B",
+     "amount": 12.5
+    },
+    {
+     "name": "Tea Black Sri Lanka SFE",
+     "amount": 10.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 7.5
+    },
+    {
+     "name": "Coumarin",
+     "amount": 7.5
+    },
+    {
+     "name": "Benzyl Acetate Extra II",
+     "amount": 5.0
+    },
+    {
+     "name": "Corps Rhubarbe @ 1% DPG",
+     "amount": 5.0
+    },
+    {
+     "name": "Dynascone®",
+     "amount": 5.0
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 5.0
+    },
+    {
+     "name": "CIS-3-Hexenyl Methyl Carbonate",
+     "amount": 2.5
+    },
+    {
+     "name": "Firsantol®",
+     "amount": 2.5
+    },
+    {
+     "name": "Lilyflore®",
+     "amount": 2.5
+    },
+    {
+     "name": "Neobutenone® Alpha",
+     "amount": 2.5
+    },
+    {
+     "name": "Oakmoss RES Firbest @ 1% DPG",
+     "amount": 2.5
+    },
+    {
+     "name": "Velvet Musk",
+     "amount": 50.0
+    }
+   ]
+  },
+  {
+   "id": "fi-00182p",
+   "title": "Cashmere Musk EdT for Men 00182P",
+   "kind": "perfume",
+   "style": "a masculine eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=23",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Sylvamber™",
+     "amount": 500.0
+    },
+    {
+     "name": "Hedione HC®",
+     "amount": 150.0
+    },
+    {
+     "name": "Vetiver Haiti SFE",
+     "amount": 100.0
+    },
+    {
+     "name": "DPG",
+     "amount": 50.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 40.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 25.0
+    },
+    {
+     "name": "Dihydroestragole RC",
+     "amount": 25.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 20.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 10.0
+    },
+    {
+     "name": "Romandolide®",
+     "amount": 10.0
+    },
+    {
+     "name": "Doremox® 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Physeol",
+     "amount": 5.0
+    },
+    {
+     "name": "Plicatone 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Furaneol® 1%",
+     "amount": 2.5
+    },
+    {
+     "name": "Norlimbanol® Dextro",
+     "amount": 2.5
+    },
+    {
+     "name": "Cashmere Musk",
+     "amount": 50.0
+    }
+   ]
+  },
+  {
+   "id": "fi-00201c",
+   "title": "Cashmere Musk EdT for Women 00201C",
+   "kind": "perfume",
+   "style": "a feminine eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=23",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Sylvamber™",
+     "amount": 450.0
+    },
+    {
+     "name": "Cedarwood Virginia USA EO Super",
+     "amount": 125.0
+    },
+    {
+     "name": "Vetyrisia®",
+     "amount": 100.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 50.0
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 50.0
+    },
+    {
+     "name": "Cedrenol",
+     "amount": 25.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 20.0
+    },
+    {
+     "name": "Vanilla Tahitensis SFE Abs 10%",
+     "amount": 20.0
+    },
+    {
+     "name": "Damascenia 10%",
+     "amount": 12.5
+    },
+    {
+     "name": "Doremox® 1%",
+     "amount": 12.5
+    },
+    {
+     "name": "Pepper Sichuan SFE",
+     "amount": 12.5
+    },
+    {
+     "name": "Labdanum Abs 10%",
+     "amount": 10.0
+    },
+    {
+     "name": "Cascalone®",
+     "amount": 7.5
+    },
+    {
+     "name": "Clove BUD SFE",
+     "amount": 7.5
+    },
+    {
+     "name": "Cypress Spain EO",
+     "amount": 7.5
+    },
+    {
+     "name": "Sage Spain EO 10%",
+     "amount": 7.5
+    },
+    {
+     "name": "Cinnamon Bark SFE",
+     "amount": 5.0
+    },
+    {
+     "name": "Civettone",
+     "amount": 5.0
+    },
+    {
+     "name": "Ginger SFE 10%",
+     "amount": 5.0
+    },
+    {
+     "name": "Ylang EO",
+     "amount": 5.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 2.5
+    },
+    {
+     "name": "Cistus Oil",
+     "amount": 2.5
+    },
+    {
+     "name": "Cumin EO 10%",
+     "amount": 2.5
+    },
+    {
+     "name": "Firsantol®",
+     "amount": 2.5
+    },
+    {
+     "name": "Osmanthus Abs",
+     "amount": 2.5
+    },
+    {
+     "name": "Cashmere Musk",
+     "amount": 50.0
+    }
+   ]
+  },
+  {
+   "id": "fi-00259ad",
+   "title": "Clearwood Prisma EdT 00259AD",
+   "kind": "perfume",
+   "style": "a woody eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=27",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 200.0
+    },
+    {
+     "name": "Bergamote",
+     "amount": 100.0
+    },
+    {
+     "name": "Florol®",
+     "amount": 100.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 80.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 50.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 50.0
+    },
+    {
+     "name": "Heliopropanal",
+     "amount": 30.0
+    },
+    {
+     "name": "Salicynile®",
+     "amount": 30.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 25.0
+    },
+    {
+     "name": "Cyclomethylene Citronellol",
+     "amount": 20.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 17.5
+    },
+    {
+     "name": "Terpineol Normal",
+     "amount": 15.0
+    },
+    {
+     "name": "Vetiver Haiti SFE",
+     "amount": 15.0
+    },
+    {
+     "name": "Grapefruit Base",
+     "amount": 12.5
+    },
+    {
+     "name": "Tamarine Base",
+     "amount": 12.5
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 10.0
+    },
+    {
+     "name": "Cascalone®",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 8.0
+    },
+    {
+     "name": "Jasminlactone",
+     "amount": 5.0
+    },
+    {
+     "name": "Williams Ester",
+     "amount": 2.5
+    },
+    {
+     "name": "Z11™ HD",
+     "amount": 2.5
+    },
+    {
+     "name": "Osmanthus Abs",
+     "amount": 1.0
+    },
+    {
+     "name": "Indocolore® @ 10% DPG",
+     "amount": 0.5
+    },
+    {
+     "name": "Oakmoss Res Firbest 0.1% DPG",
+     "amount": 0.5
+    },
+    {
+     "name": "Vanilla Planifolia Mada SFE",
+     "amount": 0.5
+    },
+    {
+     "name": "Clearwood® Prisma",
+     "amount": 2.0
+    }
+   ]
+  },
+  {
+   "id": "fi-00448f",
+   "title": "Clearwood Prisma EdT 00448F",
+   "kind": "perfume",
+   "style": "a musky woody eau de toilette (at 12%)",
+   "smellsLike": null,
+   "year": "2024",
+   "url": "https://www.firmenich.com/sites/default/files/Customer_Booklet_-_Sharing_Innovation_2024_final.pdf#page=27",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "note": "Version 00448H, printed beside it, is the same with 10 Clearwood® Prisma 50% in place of Clearwood® Prisma 10%.",
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 375.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 250.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 125.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 100.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 25.0
+    },
+    {
+     "name": "Muscenone® Delta",
+     "amount": 15.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 10.0
+    },
+    {
+     "name": "Cedarwood Virginia USA EO Rect",
+     "amount": 10.0
+    },
+    {
+     "name": "Elemi Philippines SFE P2F",
+     "amount": 10.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 10.0
+    },
+    {
+     "name": "Sclareolate®",
+     "amount": 10.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 7.5
+    },
+    {
+     "name": "Cistus Abs Vulcain",
+     "amount": 7.5
+    },
+    {
+     "name": "Polysantol®",
+     "amount": 7.5
+    },
+    {
+     "name": "Clove BUD SFE",
+     "amount": 2.5
+    },
+    {
+     "name": "Cypriol EO Heart",
+     "amount": 2.5
+    },
+    {
+     "name": "Dihydroestragole RC",
+     "amount": 2.5
+    },
+    {
+     "name": "Firsantol®",
+     "amount": 2.5
+    },
+    {
+     "name": "Ginger Clear SFE",
+     "amount": 2.5
+    },
+    {
+     "name": "Olibanum SFE",
+     "amount": 2.5
+    },
+    {
+     "name": "Vanilla Bourbon SFE Abs",
+     "amount": 2.5
+    },
+    {
+     "name": "Z11™ HD",
+     "amount": 2.5
+    },
+    {
+     "name": "Tonka Bean Brazil Abs",
+     "amount": 2.0
+    },
+    {
+     "name": "Ylang EO",
+     "amount": 2.0
+    },
+    {
+     "name": "Cinnamon Bark SFE",
+     "amount": 1.0
+    },
+    {
+     "name": "Civette Synth",
+     "amount": 1.0
+    },
+    {
+     "name": "Rum SFE",
+     "amount": 1.0
+    },
+    {
+     "name": "Damascenone",
+     "amount": 0.5
+    },
+    {
+     "name": "Clearwood® Prisma 10%",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209565",
+   "title": "Cyclamen Base EdT 209565",
+   "kind": "perfume",
+   "style": "a green floral eau de toilette",
+   "smellsLike": null,
+   "year": "2025",
+   "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/Ingredients/documents/sharing-innovation-collection-2025.pdf#page=3",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Basil EO 10%",
+     "amount": 10.0
+    },
+    {
+     "name": "Bergamote Italy EO",
+     "amount": 20.0
+    },
+    {
+     "name": "Cedarwood Atlas EO",
+     "amount": 30.0
+    },
+    {
+     "name": "Citral",
+     "amount": 10.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 175.0
+    },
+    {
+     "name": "Dihydroestragole RC 10%",
+     "amount": 35.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 10.0
+    },
+    {
+     "name": "Geraniol Pur",
+     "amount": 100.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 175.0
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 40.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 25.0
+    },
+    {
+     "name": "Mimosal™",
+     "amount": 25.0
+    },
+    {
+     "name": "Mint Spicata Oil",
+     "amount": 5.0
+    },
+    {
+     "name": "Muscenone® Delta",
+     "amount": 20.0
+    },
+    {
+     "name": "Neobutenone® Alpha 1%",
+     "amount": 25.0
+    },
+    {
+     "name": "Neroli EO 10%",
+     "amount": 10.0
+    },
+    {
+     "name": "Oakmoss Firbest 50 MIP 1%",
+     "amount": 5.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 150.0
+    },
+    {
+     "name": "Stemone 1%",
+     "amount": 20.0
+    },
+    {
+     "name": "Styrallyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Tamarine Base",
+     "amount": 50.0
+    },
+    {
+     "name": "Vetiver Haiti EO",
+     "amount": 30.0
+    },
+    {
+     "name": "Cyclamen Base",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209563",
+   "title": "Cyclamen Base Shower Gel 209563",
+   "kind": "home",
+   "style": "a fig-cyclamen shower-gel fragrance",
+   "smellsLike": null,
+   "year": "2025",
+   "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/Ingredients/documents/sharing-innovation-collection-2025.pdf#page=3",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Ambrox® Super",
+     "amount": 5.0
+    },
+    {
+     "name": "Cascalone® 10%",
+     "amount": 10.0
+    },
+    {
+     "name": "Cassis Base 10%",
+     "amount": 20.0
+    },
+    {
+     "name": "Cedarwood Atlas EO",
+     "amount": 25.0
+    },
+    {
+     "name": "Coranol",
+     "amount": 100.0
+    },
+    {
+     "name": "Damascone Gamma 10%",
+     "amount": 15.0
+    },
+    {
+     "name": "Dipropylene Glycol",
+     "amount": 40.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 25.0
+    },
+    {
+     "name": "Ethyl Praline 10%",
+     "amount": 10.0
+    },
+    {
+     "name": "Galbex® 10%",
+     "amount": 25.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 50.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 75.0
+    },
+    {
+     "name": "Indocolore® 1%",
+     "amount": 10.0
+    },
+    {
+     "name": "Iris Concrete Synth 10%",
+     "amount": 25.0
+    },
+    {
+     "name": "Jasmine Sambac India Abs 10%",
+     "amount": 20.0
+    },
+    {
+     "name": "Lemon Oil Sfuma",
+     "amount": 20.0
+    },
+    {
+     "name": "Muscenone® Delta",
+     "amount": 20.0
+    },
+    {
+     "name": "Octalactone G",
+     "amount": 150.0
+    },
+    {
+     "name": "Oxane 50 Tec 1%",
+     "amount": 20.0
+    },
+    {
+     "name": "Prunella® 10%",
+     "amount": 20.0
+    },
+    {
+     "name": "Rose Abs Synth",
+     "amount": 50.0
+    },
+    {
+     "name": "Salicynile®",
+     "amount": 10.0
+    },
+    {
+     "name": "Stemone",
+     "amount": 20.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 100.0
+    },
+    {
+     "name": "Vetiver Haiti EO",
+     "amount": 25.0
+    },
+    {
+     "name": "Cyclamen Base",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209559",
+   "title": "Olibanum EdT 209559",
+   "kind": "perfume",
+   "style": "a balsamic floral eau de toilette",
+   "smellsLike": null,
+   "year": "2025",
+   "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/Ingredients/documents/sharing-innovation-collection-2025.pdf#page=10",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Hedione®",
+     "amount": 200.0
+    },
+    {
+     "name": "Habanolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 70.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Hexyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Linalool Laevo",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylethyl Alcohol Pure",
+     "amount": 50.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 50.0
+    },
+    {
+     "name": "Bergamot Cp",
+     "amount": 40.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 40.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 35.0
+    },
+    {
+     "name": "Ambrox® Super",
+     "amount": 20.0
+    },
+    {
+     "name": "Benzyl Acetate Extra",
+     "amount": 20.0
+    },
+    {
+     "name": "Clove Bud Eo",
+     "amount": 20.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 20.0
+    },
+    {
+     "name": "Cis Jasmone",
+     "amount": 10.0
+    },
+    {
+     "name": "Florantone T",
+     "amount": 10.0
+    },
+    {
+     "name": "Geraniol Pur",
+     "amount": 10.0
+    },
+    {
+     "name": "Isoeugenyl Acetate",
+     "amount": 10.0
+    },
+    {
+     "name": "Jasmine Flower India Sfe Abs @1%",
+     "amount": 10.0
+    },
+    {
+     "name": "Jasminlactone",
+     "amount": 10.0
+    },
+    {
+     "name": "Jasmolactone Delta",
+     "amount": 10.0
+    },
+    {
+     "name": "Beyond Lilyflore®",
+     "amount": 10.0
+    },
+    {
+     "name": "Methyl Diantilis",
+     "amount": 10.0
+    },
+    {
+     "name": "Muscenone® Delta",
+     "amount": 10.0
+    },
+    {
+     "name": "Nonalactone Gamma",
+     "amount": 10.0
+    },
+    {
+     "name": "Pink Pepper Eo",
+     "amount": 10.0
+    },
+    {
+     "name": "Vanilla Planifolia Mada Infusion",
+     "amount": 10.0
+    },
+    {
+     "name": "Vanillin Hp Nat",
+     "amount": 10.0
+    },
+    {
+     "name": "Vinyl Guaiacol 50 Citr",
+     "amount": 10.0
+    },
+    {
+     "name": "Ethyl Praline",
+     "amount": 5.0
+    },
+    {
+     "name": "Indole",
+     "amount": 5.0
+    },
+    {
+     "name": "Mousse Cristal",
+     "amount": 5.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 3.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Tiglate",
+     "amount": 2.0
+    },
+    {
+     "name": "Exaltenone",
+     "amount": 2.0
+    },
+    {
+     "name": "Osmanthus Abs @10%",
+     "amount": 2.0
+    },
+    {
+     "name": "Tuberose Guatemala Abs @10%",
+     "amount": 1.0
+    },
+    {
+     "name": "Olibanum SFE Cert",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209560",
+   "title": "Olibanum Reed Diffuser 209560",
+   "kind": "home",
+   "style": "a reed-diffuser fragrance",
+   "smellsLike": null,
+   "year": "2025",
+   "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/Ingredients/documents/sharing-innovation-collection-2025.pdf#page=10",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Linalyl Acetate",
+     "amount": 3.0
+    },
+    {
+     "name": "Isovaleric Aldehyde",
+     "amount": 0.0
+    },
+    {
+     "name": "Anthamber",
+     "amount": 80.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Coffee Peru Org Firgood® Alc",
+     "amount": 2.0
+    },
+    {
+     "name": "Cafeol 10 Triac",
+     "amount": 0.0
+    },
+    {
+     "name": "Cardamom Guatemala EO",
+     "amount": 6.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 13.0
+    },
+    {
+     "name": "Lemon Oil Sfuma",
+     "amount": 6.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 4.0
+    },
+    {
+     "name": "Dipg Monomethyl Ether",
+     "amount": 795.0
+    },
+    {
+     "name": "Ethyl Methyl Pyrazine",
+     "amount": 0.0
+    },
+    {
+     "name": "Ethyl Praline",
+     "amount": 2.0
+    },
+    {
+     "name": "Homofuronol",
+     "amount": 1.0
+    },
+    {
+     "name": "Isobutavan",
+     "amount": 0.0
+    },
+    {
+     "name": "Nussol Extra",
+     "amount": 0.0
+    },
+    {
+     "name": "Patchouli Indonesia EO",
+     "amount": 25.0
+    },
+    {
+     "name": "Trimethyl Pyrazine",
+     "amount": 0.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 3.0
+    },
+    {
+     "name": "Olibanum SFE Cert",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209557",
+   "title": "Coffee Peru EdT 209557",
+   "kind": "perfume",
+   "style": "a woody-leathery eau de toilette",
+   "smellsLike": null,
+   "year": "2025",
+   "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/Ingredients/documents/sharing-innovation-collection-2025.pdf#page=13",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Cedarwood Virginia Usa EO Rect",
+     "amount": 150.0
+    },
+    {
+     "name": "Dartanol®",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione® HC",
+     "amount": 100.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 100.0
+    },
+    {
+     "name": "Ambrox®",
+     "amount": 50.0
+    },
+    {
+     "name": "Amyris EO MD",
+     "amount": 50.0
+    },
+    {
+     "name": "Cashmeran",
+     "amount": 50.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 50.0
+    },
+    {
+     "name": "Cypriol EO MD",
+     "amount": 50.0
+    },
+    {
+     "name": "Dreamwood® Base",
+     "amount": 50.0
+    },
+    {
+     "name": "Sylvamber™",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzoin Siam RES 50 Rect",
+     "amount": 20.0
+    },
+    {
+     "name": "Guaiacwood EO Rect",
+     "amount": 20.0
+    },
+    {
+     "name": "Matsunol™",
+     "amount": 20.0
+    },
+    {
+     "name": "Muscone",
+     "amount": 20.0
+    },
+    {
+     "name": "Physeol",
+     "amount": 20.0
+    },
+    {
+     "name": "Rose North Africa Abs Cert",
+     "amount": 20.0
+    },
+    {
+     "name": "Ambrinol",
+     "amount": 10.0
+    },
+    {
+     "name": "Civette Synth",
+     "amount": 10.0
+    },
+    {
+     "name": "Labdanum Spain ABS @10%",
+     "amount": 10.0
+    },
+    {
+     "name": "Patchouli Heart SFE",
+     "amount": 10.0
+    },
+    {
+     "name": "Oud Assafi® 10 TEC",
+     "amount": 5.0
+    },
+    {
+     "name": "Safraleine",
+     "amount": 5.0
+    },
+    {
+     "name": "Tonka Bean ABS",
+     "amount": 5.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 5.0
+    },
+    {
+     "name": "Myrrh SFE",
+     "amount": 2.0
+    },
+    {
+     "name": "Pink Pepper EO",
+     "amount": 2.0
+    },
+    {
+     "name": "Pixinol I @10%",
+     "amount": 2.0
+    },
+    {
+     "name": "Sandalwood Album Australia EO",
+     "amount": 2.0
+    },
+    {
+     "name": "Vinyl Guaiacol 50 Citr",
+     "amount": 2.0
+    },
+    {
+     "name": "Coffee Peru Org Firgood® Alc",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209562",
+   "title": "Coffee Peru Candle 209562",
+   "kind": "home",
+   "style": "a gourmand candle fragrance",
+   "smellsLike": null,
+   "year": "2025",
+   "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/Ingredients/documents/sharing-innovation-collection-2025.pdf#page=13",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Acetylmethylcarbinol",
+     "amount": 0.05
+    },
+    {
+     "name": "Butyric Acid Redist",
+     "amount": 0.1
+    },
+    {
+     "name": "Isovaleric Aldehyde",
+     "amount": 0.15
+    },
+    {
+     "name": "Anthamber",
+     "amount": 150.0
+    },
+    {
+     "name": "Cafeol",
+     "amount": 0.0005
+    },
+    {
+     "name": "Corps Praline",
+     "amount": 0.5
+    },
+    {
+     "name": "Coumarine",
+     "amount": 30.0
+    },
+    {
+     "name": "Dodecalactone Delta",
+     "amount": 2.0
+    },
+    {
+     "name": "Ethyl Dimethyl Pyrazine",
+     "amount": 0.03
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 40.0
+    },
+    {
+     "name": "Fenugreek ABS TEC",
+     "amount": 0.5
+    },
+    {
+     "name": "Furaneol®",
+     "amount": 0.05
+    },
+    {
+     "name": "Galaxolide 70 MIP Extra",
+     "amount": 250.0
+    },
+    {
+     "name": "Menoxaline",
+     "amount": 0.005
+    },
+    {
+     "name": "Isopropyl Myristate",
+     "amount": 416.5345
+    },
+    {
+     "name": "Nussol Extra",
+     "amount": 0.05
+    },
+    {
+     "name": "Patchouli Indonesia EO",
+     "amount": 50.0
+    },
+    {
+     "name": "Sotolone Pure",
+     "amount": 0.005
+    },
+    {
+     "name": "Tonalide",
+     "amount": 50.0
+    },
+    {
+     "name": "Trimethyl Pyrazine",
+     "amount": 0.015
+    },
+    {
+     "name": "Vinyl Guaiacol 50 Citr",
+     "amount": 0.01
+    },
+    {
+     "name": "Coffee Peru Org Firgood® Alc",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209558",
+   "title": "Rum SFE EdT 209558",
+   "kind": "perfume",
+   "style": "a fruity floral eau de toilette",
+   "smellsLike": null,
+   "year": "2025",
+   "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/Ingredients/documents/sharing-innovation-collection-2025.pdf#page=15",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Habanolide®",
+     "amount": 140.0
+    },
+    {
+     "name": "Hedione®",
+     "amount": 120.0
+    },
+    {
+     "name": "Anthamber",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzyl Acetate Extra",
+     "amount": 50.0
+    },
+    {
+     "name": "Clearwood®",
+     "amount": 50.0
+    },
+    {
+     "name": "Firsantol®",
+     "amount": 50.0
+    },
+    {
+     "name": "Helvetolide®",
+     "amount": 50.0
+    },
+    {
+     "name": "Hydroxycitronellal Synth P Fab",
+     "amount": 50.0
+    },
+    {
+     "name": "Phenylethyl Alcohol Pure",
+     "amount": 50.0
+    },
+    {
+     "name": "Vanilla Tahitensis Infusion",
+     "amount": 50.0
+    },
+    {
+     "name": "Bergamot Incol MD",
+     "amount": 40.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 40.0
+    },
+    {
+     "name": "Geraniol Pur",
+     "amount": 30.0
+    },
+    {
+     "name": "Beta Ionone DH",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 20.0
+    },
+    {
+     "name": "Iralia®",
+     "amount": 20.0
+    },
+    {
+     "name": "Physeol",
+     "amount": 20.0
+    },
+    {
+     "name": "Wardia®",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethyl Praline",
+     "amount": 10.0
+    },
+    {
+     "name": "Mandarin Yellow Italy CP Decol",
+     "amount": 10.0
+    },
+    {
+     "name": "Pink Pepper EO",
+     "amount": 10.0
+    },
+    {
+     "name": "Raspberry Ketone Usoc Nat",
+     "amount": 10.0
+    },
+    {
+     "name": "Rhubofix®",
+     "amount": 10.0
+    },
+    {
+     "name": "Vanillin Perf",
+     "amount": 10.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 8.0
+    },
+    {
+     "name": "Cassis Base",
+     "amount": 5.0
+    },
+    {
+     "name": "Oxane 50 Tec @1%",
+     "amount": 2.0
+    },
+    {
+     "name": "Rose North Africa Abs Cert @10%",
+     "amount": 2.0
+    },
+    {
+     "name": "Orris CTE 10%",
+     "amount": 1.0
+    },
+    {
+     "name": "Rum SFE @10%",
+     "amount": 2.0
+    }
+   ]
+  },
+  {
+   "id": "fi-209561",
+   "title": "Rum SFE Candle 209561",
+   "kind": "home",
+   "style": "an ambery candle fragrance",
+   "smellsLike": null,
+   "year": "2025",
+   "url": "https://www.dsm-firmenich.com/content/dam/dsm-firmenich/perfumery-beauty/Ingredients/documents/sharing-innovation-collection-2025.pdf#page=15",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000,
+   "lines": [
+    {
+     "name": "Anthamber",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzoin Siam Res 50 DIPG",
+     "amount": 150.0
+    },
+    {
+     "name": "Triethylcitrate",
+     "amount": 19.8
+    },
+    {
+     "name": "Corps Praline",
+     "amount": 4.0
+    },
+    {
+     "name": "Damascenone Total",
+     "amount": 9.0
+    },
+    {
+     "name": "Davana India EO",
+     "amount": 9.0
+    },
+    {
+     "name": "Dodecalactone CP",
+     "amount": 18.0
+    },
+    {
+     "name": "Ethyl Guaiacol",
+     "amount": 1.8
+    },
+    {
+     "name": "Galaxolide 70 Mip Extra",
+     "amount": 300.0
+    },
+    {
+     "name": "Clove Bud EO",
+     "amount": 18.0
+    },
+    {
+     "name": "Isopropyl Myristate",
+     "amount": 206.0
+    },
+    {
+     "name": "Myrrh Abs Nat Clear",
+     "amount": 70.0
+    },
+    {
+     "name": "Nussol Extra",
+     "amount": 18.0
+    },
+    {
+     "name": "Peru Balsam Abs Decol",
+     "amount": 9.0
+    },
+    {
+     "name": "Vanillin Perf",
+     "amount": 40.0
+    },
+    {
+     "name": "Violet BC",
+     "amount": 27.0
+    },
+    {
+     "name": "Rhum SFE",
+     "amount": 0.4
+    }
+   ]
+  }
+ ]
+}

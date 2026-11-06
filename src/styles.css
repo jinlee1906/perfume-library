@@ -1,0 +1,2558 @@
+/* Plain CSS. Colours are variables so light and dark mode share one set of rules.
+   Each colour is written light-dark(light mode, dark mode):
+   dark mode is black and gold, light mode is warm white and hot pink.
+
+   The look: a silent film in a ruled ledger. Black hairlines that run edge to edge, huge Didone
+   type, typewriter-like figures, film grain over everything. Colour is kept for what it means:
+   each of the 8 scent groups has one (see src/families.ts), and it follows that group's materials
+   through the site. A page about an ingredient takes on its group's colour.
+
+   The rule lines and the entry gate take their structure from Orto Parisi's site; the film, type
+   and colours are Jin's own. */
+
+:root {
+  color-scheme: light dark; /* follow the system setting... */
+  --bg: light-dark(#faf6ef, #0c0b09); /* page background */
+  --surface: light-dark(#fffdf8, #141210); /* cards, tables, inputs */
+  --text: light-dark(#14110d, #f3ecdf);
+  --muted: light-dark(#665d50, #a59c8b);
+  --border: light-dark(#e2dacb, #2a261f); /* quiet dividers between rows */
+  --rule: light-dark(#14110d, #5a5345); /* structural lines: grid, header, tables */
+  --accent: light-dark(#c4125f, #e5b53e); /* hot pink / gold: buttons, highlights, default link line */
+  --accent-soft: light-dark(#fbe6ee, #2a2110); /* tinted backgrounds */
+  --on-accent: light-dark(#ffffff, #0c0b09); /* text on an accent background */
+  --warn: light-dark(#9a4d05, #f0a457);
+  --warn-bg: light-dark(#fbeedb, #2a1f12);
+  --note-bg: light-dark(#f4eee2, #1a1710);
+  --ok: light-dark(#256b34, #7fcf8e);
+  --bad: light-dark(#b3261e, #ff8a80);
+  --filled: light-dark(#3f5fa8, #9db6ec); /* values Claude filled in: blue, so they don't look like links */
+
+  /* The 8 scent groups, in their fixed order. Checked with a colour-blindness validator against
+     --bg in both modes: re-run it if any of these change. Marks only, never text. */
+  --g-citrus: light-dark(#c79a00, #b08700);
+  --g-cool: light-dark(#2f7fc4, #3f8fd4);
+  --g-green: light-dark(#3f9440, #3f9440);
+  --g-floral: light-dark(#d93f8e, #d9458f);
+  --g-amber: light-dark(#a8501f, #a85a1e);
+  --g-musk: light-dark(#7f5cc0, #8f6fd0);
+  --g-fruity: light-dark(#e8693a, #e0653a);
+  --g-woody: light-dark(#7d4f00, #84560a);
+  --g-none: light-dark(#cdc5b5, #3e3a31); /* not in Jin's library */
+  --g-solvent: light-dark(#e6dfd1, #26231d);
+  --g-other: light-dark(#9c9484, #6f6858);
+
+  --tint: var(--accent); /* the colour of whatever this part of the page is about */
+  --on-tint: var(--on-accent);
+
+  /* Fonts (installed with npm, loaded in main.tsx):
+     Bodoni Moda, a high-contrast "Didone" serif like fashion magazine mastheads, for headings;
+     Jost, a clean geometric sans in the spirit of Futura, for reading;
+     DM Mono, for numbers and labels, like the typed slips on a specimen drawer. */
+  --font-display: "Bodoni Moda Variable", "Didot", "Bodoni 72", Georgia, serif;
+  --font-body: "Jost Variable", "Futura", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --gutter: clamp(16px, 2.6vw, 40px); /* space between a rule and what's inside it */
+  --header-h: 57px;
+  --caps: 0.09em; /* letter spacing for small capitals */
+}
+
+/* ...unless you've picked a mode with the button in the header. */
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+/* Anything marked with a scent group takes on its colour. White reads best on these colours;
+   near-black reads better on the yellow. */
+[data-group] {
+  --on-tint: #ffffff;
+}
+[data-group="citrus"] { --tint: var(--g-citrus); --on-tint: #14110d; }
+[data-group="cool"] { --tint: var(--g-cool); }
+[data-group="green"] { --tint: var(--g-green); }
+[data-group="floral"] { --tint: var(--g-floral); }
+[data-group="amber"] { --tint: var(--g-amber); }
+[data-group="musk"] { --tint: var(--g-musk); }
+[data-group="fruity"] { --tint: var(--g-fruity); }
+[data-group="woody"] { --tint: var(--g-woody); }
+[data-group="none"] { --tint: var(--g-none); --on-tint: var(--text); }
+[data-group="solvent"] { --tint: var(--g-solvent); --on-tint: var(--text); }
+[data-group="other"] { --tint: var(--g-other); }
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-color: var(--muted) var(--bg);
+  scroll-padding-top: calc(var(--header-h) + 12px);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 16.5px/1.55 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  font-optical-sizing: auto;
+}
+
+/* Links are ink with a coloured line under them, so colour never has to carry the text. */
+a {
+  color: var(--text);
+  text-decoration-color: var(--tint);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: text-decoration-thickness 0.12s, color 0.12s;
+}
+
+a:hover {
+  text-decoration-thickness: 3px;
+}
+
+/* Keyboard focus and selected text in the accent colour. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--tint);
+  color: var(--on-tint);
+}
+
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -60px;
+  z-index: 100;
+  padding: 8px 14px;
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.skip-link:focus {
+  top: 8px;
+}
+
+/* Headings in the display serif, with its italic for emphasis. */
+h1,
+h2,
+h3,
+.site-title,
+.formula-name {
+  font-family: var(--font-display);
+}
+
+/* The display serif's hairlines are lovely when huge and vanish when small: at small sizes a hyphen
+   could disappear, and "C-8" isn't "C 8". So small text uses the font's sturdier optical size. */
+.cell-name,
+.shelf-name,
+.scent-family,
+.formula-card h3,
+.formula-table .cell-name,
+.door-title {
+  font-variation-settings: "opsz" 6;
+  font-weight: 500;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 7.4vw, 7rem);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.022em;
+}
+
+h1 em {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: clamp(1.45rem, 2.2vw, 1.95rem);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.008em;
+  margin: 0 0 14px;
+}
+
+h3 {
+  font-size: 1.32rem;
+  font-weight: 500;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Typed slips: small mono capitals above a heading or section ("FORMULARY"). */
+.eyebrow {
+  margin: 0 0 8px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: var(--caps);
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.lede {
+  margin: 0;
+  max-width: 54ch;
+  font-size: clamp(1.05rem, 1.5vw, 1.22rem);
+  line-height: 1.42;
+}
+
+.mono,
+.num {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+}
+
+/* Content that isn't ruled edge to edge sits in a gutter. */
+.page {
+  padding: 0 var(--gutter);
+}
+
+.not-found {
+  padding-top: 12vh;
+  padding-bottom: 14vh;
+}
+
+.not-found h1 {
+  margin-bottom: 20px;
+}
+
+/* ---------- Film grain over every page ---------- */
+
+.site-grain {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  background: url(/film/grain.webp);
+  background-size: 256px;
+  mix-blend-mode: overlay;
+  opacity: 0.09;
+}
+
+/* ---------- The front door ---------- */
+
+.gate {
+  /* The film is printed differently in each mode: warm on black, or rose on pale pink. */
+  --print-shadow: light-dark(#4d0629, #0a0806);
+  --print-light: light-dark(#fff1f3, #f7e6c2);
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  isolation: isolate;
+  background: #000;
+  color: #fff9ef;
+}
+
+.gate > div {
+  pointer-events: none;
+}
+
+.gate-film {
+  position: absolute;
+  inset: -3px;
+  background: url(/film/sillage.webp) repeat;
+  background-size: var(--tile-w) var(--tile-h);
+  background-position: calc(var(--ox) + 3px) calc(var(--oy) + 3px);
+  animation: gate-weave 0.74s steps(1) infinite;
+}
+
+.gate.is-paused .gate-film {
+  background-image: url(/film/sillage-still.webp);
+  animation: none;
+}
+
+/* A photographic negative, one tile wide. */
+.gate-negative {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--tile-w);
+  height: var(--tile-h);
+  background: #fff;
+  mix-blend-mode: difference;
+  opacity: 0;
+}
+
+.gate-print-shadow {
+  position: absolute;
+  inset: 0;
+  background: var(--print-shadow);
+  mix-blend-mode: screen;
+}
+
+.gate-print-light {
+  position: absolute;
+  inset: 0;
+  background: var(--print-light);
+  mix-blend-mode: multiply;
+}
+
+.gate-grain {
+  position: absolute;
+  inset: -200px;
+  background: url(/film/grain.webp);
+  background-size: 300px;
+  mix-blend-mode: overlay;
+  opacity: 0.62;
+  animation: gate-grain 0.5s steps(1) infinite;
+}
+
+.gate-flicker {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 0;
+  animation: gate-flicker 1.9s steps(1) infinite;
+}
+
+/* Keeps the name readable, whatever's passing behind it. */
+.gate-scrim {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(48vmax 24vmax at 50% 84%, rgb(0 0 0 / 0.78), transparent 74%);
+}
+
+.gate.is-paused .gate-grain,
+.gate.is-paused .gate-flicker {
+  animation: none;
+}
+
+@keyframes gate-weave {
+  0%   { transform: translate(0, 0); }
+  17%  { transform: translate(1px, 0); }
+  31%  { transform: translate(0, 1px); }
+  48%  { transform: translate(-1px, 0); }
+  63%  { transform: translate(1px, 1px); }
+  82%  { transform: translate(0, -1px); }
+}
+
+@keyframes gate-grain {
+  0%   { transform: translate(0, 0); }
+  14%  { transform: translate(-61px, 37px); }
+  28%  { transform: translate(43px, -83px); }
+  42%  { transform: translate(-97px, -29px); }
+  57%  { transform: translate(71px, 53px); }
+  71%  { transform: translate(-23px, 101px); }
+  85%  { transform: translate(113px, -7px); }
+}
+
+@keyframes gate-flicker {
+  0%   { opacity: 0; }
+  11%  { opacity: 0.07; }
+  14%  { opacity: 0; }
+  37%  { opacity: 0.11; }
+  39%  { opacity: 0.03; }
+  58%  { opacity: 0; }
+  72%  { opacity: 0.08; }
+  76%  { opacity: 0.015; }
+  91%  { opacity: 0.05; }
+}
+
+.gate-play {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  padding: 6px 10px;
+  border: none;
+  background: none;
+  color: inherit;
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-shadow: 0 0 12px rgb(0 0 0 / 0.9);
+}
+
+.gate-play:hover:not(:disabled) {
+  background: #fff9ef;
+  color: #000;
+  text-shadow: none;
+}
+
+.gate-door {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(36px, 9vh, 96px);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(86vw, 520px);
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 0 22px rgb(0 0 0 / 0.75);
+}
+
+.gate-door h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.gate-door em {
+  font-size: clamp(4.4rem, 11vw, 8.2rem);
+  line-height: 0.86;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+.gate-door h1 span {
+  margin-top: 10px;
+  font-size: clamp(0.92rem, 1.75vw, 1.28rem);
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-right: -0.3em;
+}
+
+.gate-rule {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 16px 0 13px;
+  background: currentColor;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.5);
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.gate-enter {
+  font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+  font-weight: 500;
+  letter-spacing: 0.34em;
+  margin-right: -0.34em;
+}
+
+.gate-door:hover .gate-rule {
+  transform: scaleX(0.58);
+}
+
+.gate-door:focus-visible {
+  outline-color: #fff9ef;
+  outline-offset: 10px;
+}
+
+/* Going in: the old screen closes on the point that was clicked, then the lights come up. */
+html.iris::view-transition-old(root) {
+  z-index: 2;
+  animation: iris-close 0.8s cubic-bezier(0.72, 0, 0.3, 1) both;
+  mix-blend-mode: normal;
+}
+
+html.iris::view-transition-new(root) {
+  z-index: 1;
+  animation: lights-up 1.15s ease-out both;
+  mix-blend-mode: normal;
+}
+
+@keyframes iris-close {
+  from { clip-path: circle(160vmax at var(--iris-x) var(--iris-y)); }
+  to { clip-path: circle(0 at var(--iris-x) var(--iris-y)); }
+}
+
+@keyframes lights-up {
+  0%, 55% { filter: brightness(0); }
+  100% { filter: brightness(1); }
+}
+
+/* ---------- Header: three ruled cells ---------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: stretch;
+  min-height: var(--header-h);
+  background: var(--bg);
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5em;
+  align-self: center;
+  padding: 8px 28px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.site-title em {
+  font-size: 1.85rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  line-height: 1;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 clamp(10px, 1.4vw, 20px);
+  border-right: 1px solid var(--rule);
+  color: var(--text);
+  font-size: 0.92rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.12s, color 0.12s;
+}
+
+.nav-number {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+  transition: color 0.12s;
+}
+
+.site-nav a:hover {
+  background: var(--accent-soft);
+}
+
+.site-nav a.active {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.site-nav a.active .nav-number {
+  color: inherit;
+}
+
+.site-tools {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Light/dark switch: a cell of its own. */
+.theme-toggle {
+  padding: 0 clamp(12px, 1.6vw, 22px);
+  border: none;
+  border-left: 1px solid var(--rule);
+  font-size: 0.74rem;
+}
+
+@media (max-width: 1040px) {
+  .site-header {
+    position: static;
+    grid-template-columns: 1fr auto;
+  }
+  .site-title {
+    grid-column: 1 / -1;
+    order: -1;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .site-nav a {
+    padding: 11px 12px;
+  }
+  .nav-number {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .site-title {
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+  }
+  .site-nav a {
+    font-size: 0.84rem;
+    padding: 11px 9px;
+  }
+  .theme-toggle {
+    padding: 0 9px;
+    font-size: 0.66rem;
+    letter-spacing: 0.04em;
+  }
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  margin-top: clamp(48px, 8vw, 110px);
+  border-top: 1px solid var(--rule);
+  overflow: hidden;
+}
+
+.to-top {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-mono);
+  font-weight: 400;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 32px;
+  padding: 18px var(--gutter) 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer-columns p {
+  margin: 0;
+  max-width: 70ch;
+}
+
+/* The name, huge, running off the bottom of the page. */
+.footer-mark {
+  margin: 10px 0 -0.24em;
+  padding: 0 var(--gutter);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(7rem, 31vw, 34rem);
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+  user-select: none;
+}
+
+/* ---------- Page intros: name on the left, what it is on the right ---------- */
+
+.page-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 20px var(--gutter);
+  align-items: end;
+  padding: clamp(28px, 4.4vw, 64px) var(--gutter) clamp(20px, 2.6vw, 34px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.page-intro-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.page-intro-side p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .page-intro {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.back:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.subtitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  margin: 18px 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+.subtitle .badge {
+  margin-left: 0;
+}
+
+/* ---------- Shared markers ---------- */
+
+.muted {
+  color: var(--muted);
+}
+
+.small {
+  font-size: 0.88rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.missing {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.warn-icon {
+  color: var(--warn);
+  margin-left: 6px;
+  cursor: help;
+}
+
+/* Values Claude filled in: dashed underline in a different colour. */
+.filled {
+  color: var(--filled);
+  text-decoration: underline dashed;
+  text-underline-offset: 3px;
+  cursor: help;
+}
+
+.badge,
+.tag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 0 6px;
+  border: 1px solid currentColor;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  vertical-align: middle;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.badge-filled {
+  color: var(--filled);
+}
+
+.ok {
+  color: var(--ok);
+}
+
+.approx {
+  font-weight: 600;
+}
+
+.bad {
+  color: var(--bad);
+  font-size: 0.88rem;
+}
+
+.highlight {
+  color: var(--warn);
+  font-weight: 600;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* A dot of a scent group's colour, always beside its name. */
+.swatch {
+  display: inline-block;
+  flex: none;
+  width: 9px;
+  height: 9px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: var(--tint);
+}
+
+/* ---------- Seals ---------- */
+
+.seal {
+  display: inline-block;
+  flex: none;
+  position: relative;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: var(--tint);
+  isolation: isolate;
+  vertical-align: middle;
+}
+
+.seal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  transform: rotate(var(--turn, 0deg)) scale(var(--zoom, 1));
+  transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.seal-blank {
+  background: transparent;
+  border: 1px dashed var(--muted);
+}
+
+/* ---------- Form controls and buttons: a ruled bar of cells ---------- */
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--rule);
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1 1 150px;
+  min-width: 0;
+  padding: 9px var(--gutter) 7px;
+  border-right: 1px solid var(--rule);
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: var(--caps);
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.controls > .control:last-child {
+  border-right: none;
+}
+
+.control-search {
+  flex: 3 1 280px;
+}
+
+.controls input,
+.controls select {
+  width: 100%;
+  min-height: 32px;
+  padding: 2px 0;
+  border: none;
+  background-color: transparent;
+}
+
+.controls .control:focus-within {
+  background: var(--accent-soft);
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  padding: 9px 12px;
+  min-height: 42px;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* Square, outlined, typed labels; filled in on hover. */
+button {
+  font: inherit;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 400;
+  letter-spacing: var(--caps);
+  text-transform: uppercase;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--text);
+  border-radius: 0;
+  padding: 10px 18px;
+  cursor: pointer;
+  transition: background-color 0.12s, color 0.12s, border-color 0.12s;
+}
+
+button:hover:not(:disabled) {
+  background: var(--text);
+  color: var(--bg);
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.button-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+}
+
+.button-primary:hover:not(:disabled) {
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--bg);
+}
+
+.button-small {
+  padding: 6px 12px;
+  font-size: 0.68rem;
+  white-space: nowrap;
+}
+
+.button-icon {
+  padding: 2px 8px;
+  border-color: transparent;
+  color: var(--muted);
+  font-size: 0.9rem;
+  letter-spacing: 0;
+}
+
+.button-icon:hover:not(:disabled) {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.button-danger {
+  color: var(--bad);
+  border-color: var(--bad);
+}
+
+.button-danger:hover:not(:disabled) {
+  background: var(--bad);
+  color: var(--bg);
+}
+
+.show-more {
+  margin: 18px var(--gutter) 0;
+}
+
+.section-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 16px;
+}
+
+.heading-aside {
+  font-family: var(--font-mono);
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: var(--caps);
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.result-count {
+  margin: 0;
+  padding: 9px var(--gutter);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+
+.empty {
+  padding: 28px var(--gutter);
+  color: var(--muted);
+}
+
+/* Ledger or shelf. */
+.view-switch {
+  display: flex;
+  gap: 0;
+  min-height: 32px;
+  align-items: center;
+}
+
+.view-switch button {
+  padding: 4px 10px;
+  border-color: var(--rule);
+  font-size: 0.68rem;
+}
+
+.view-switch button + button {
+  border-left: none;
+}
+
+.view-switch button[aria-pressed="true"] {
+  background: var(--text);
+  color: var(--bg);
+}
+
+/* ---------- The ledger ---------- */
+
+.ingredient-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.ingredient-table th,
+.ingredient-table td {
+  text-align: left;
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.ingredient-table th:first-child,
+.ingredient-table td:first-child {
+  padding-left: var(--gutter);
+}
+
+.ingredient-table th:last-child,
+.ingredient-table td:last-child {
+  padding-right: var(--gutter);
+}
+
+.ingredient-table th,
+.formula-table thead th,
+.sheet thead th {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--caps);
+  color: var(--muted);
+}
+
+.ingredient-table thead th {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 5;
+  background: var(--bg);
+  border-bottom: 1px solid var(--rule);
+}
+
+.ingredient-table tbody tr {
+  transition: background-color 0.1s;
+}
+
+.ingredient-table tbody tr:hover {
+  background: var(--accent-soft);
+}
+
+.ingredient-table tbody tr:hover .seal img {
+  transform: rotate(calc(var(--turn, 0deg) + 40deg)) scale(var(--zoom, 1));
+}
+
+.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.ingredient-table .num {
+  text-align: right;
+}
+
+.cell-name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.cell-name .seal {
+  margin-right: 12px;
+}
+
+.cell-name a {
+  text-decoration: none;
+}
+
+.cell-name a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--tint);
+  text-decoration-thickness: 2px;
+}
+
+@media (max-width: 1040px) {
+  .ingredient-table thead th {
+    top: 0;
+  }
+}
+
+/* On phones the table turns into a stack of cards. */
+@media (max-width: 680px) {
+  .ingredient-table,
+  .ingredient-table tbody,
+  .ingredient-table tr,
+  .ingredient-table td {
+    display: block;
+  }
+  .ingredient-table thead {
+    display: none;
+  }
+  .ingredient-table tr {
+    border-bottom: 1px solid var(--rule);
+    padding: 12px var(--gutter);
+  }
+  .ingredient-table td,
+  .ingredient-table td:first-child,
+  .ingredient-table td:last-child {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    border: none;
+    padding: 1px 0;
+  }
+  .ingredient-table td::before {
+    content: attr(data-label);
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: 0.86rem;
+  }
+  .ingredient-table td.cell-name {
+    display: block;
+    padding-bottom: 6px;
+    font-size: 1.28rem;
+  }
+  .ingredient-table td.cell-name::before {
+    content: none;
+  }
+}
+
+/* ---------- The shelf ---------- */
+
+.shelf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin: 0 0 -1px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.shelf-grid li {
+  margin: 0 -1px -1px 0;
+  border-right: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.shelf-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  height: 100%;
+  padding: 26px 16px 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.shelf-item .seal {
+  width: min(62%, 138px);
+  height: auto;
+  aspect-ratio: 1;
+  margin-bottom: 14px;
+}
+
+.shelf-name {
+  font-family: var(--font-display);
+  font-size: 1.22rem;
+  line-height: 1.12;
+}
+
+.shelf-family {
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+.shelf-facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 12px;
+  margin-top: auto;
+  padding-top: 10px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.shelf-item .badge {
+  margin: 8px 0 0;
+}
+
+.shelf-item:hover {
+  background: var(--tint);
+  color: var(--on-tint);
+}
+
+.shelf-item:hover .shelf-family,
+.shelf-item:hover .shelf-facts,
+.shelf-item:hover .badge,
+.shelf-item:hover .missing {
+  color: inherit;
+}
+
+.shelf-item:hover .seal {
+  background: var(--on-tint);
+}
+
+.shelf-item:hover .seal img {
+  mix-blend-mode: multiply;
+  transform: rotate(calc(var(--turn, 0deg) + 60deg)) scale(var(--zoom, 1));
+}
+
+/* ---------- The lobby ---------- */
+
+.doors {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-bottom: 1px solid var(--rule);
+}
+
+.door {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border-right: 1px solid var(--rule);
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.door:last-child {
+  border-right: none;
+}
+
+.door-film {
+  display: block;
+  position: relative;
+  aspect-ratio: 4 / 5;
+  max-height: 74vh;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  border-bottom: 1px solid var(--rule);
+}
+
+.door-film img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.door:hover .door-film img {
+  transform: scale(1.035);
+}
+
+.door-label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 12px;
+  align-items: baseline;
+  padding: 14px var(--gutter) 18px;
+}
+
+.door-number {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--muted);
+}
+
+.door-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 3.4vw, 3.1rem);
+  font-variation-settings: normal;
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+.door-line {
+  grid-column: 2;
+  font-size: 0.98rem;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.door:hover {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.door:hover .door-number,
+.door:hover .door-line {
+  color: inherit;
+}
+
+@media (max-width: 760px) {
+  .doors {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .door {
+    border-right: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  .door:last-child {
+    border-bottom: none;
+  }
+  .door-film {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* A band of names, moving slowly. */
+.marquee {
+  overflow: hidden;
+  border-bottom: 1px solid var(--rule);
+  padding: 7px 0 11px;
+  white-space: nowrap;
+}
+
+.marquee-track {
+  display: inline-block;
+  animation: marquee 620s linear infinite;
+}
+
+.marquee-name {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.5rem, 2.6vw, 2.3rem);
+}
+
+.marquee-name::after {
+  content: "·";
+  margin: 0 0.5em;
+  font-style: normal;
+  color: var(--accent);
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+
+.house-rule {
+  padding: clamp(40px, 7vw, 96px) var(--gutter);
+  border-bottom: 1px solid var(--rule);
+  text-align: center;
+}
+
+.house-rule p {
+  margin: 0 auto 6px;
+  max-width: 58ch;
+  font-size: clamp(1.02rem, 1.4vw, 1.18rem);
+}
+
+.house-rule .eyebrow {
+  margin-bottom: 14px;
+  font-style: normal;
+  font-family: var(--font-mono);
+}
+
+.house-rule .house-rule-big {
+  max-width: none;
+  margin-bottom: 20px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(2.5rem, 7.6vw, 7rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.band-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 8px var(--gutter);
+  align-items: end;
+  padding: clamp(26px, 3.6vw, 48px) var(--gutter) 18px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.band-head h2 {
+  margin: 0;
+  font-size: clamp(2.2rem, 5vw, 4.4rem);
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.band-head p {
+  margin: 0;
+  max-width: 54ch;
+}
+
+@media (max-width: 800px) {
+  .band-head {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* The library by scent: a row for each group, with its families as round seals. */
+.scent-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) minmax(0, 5fr);
+  border-bottom: 1px solid var(--rule);
+}
+
+.scent-row-name {
+  display: flex;
+  align-items: baseline;
+  padding: 16px 14px 16px var(--gutter);
+  border-right: 1px solid var(--rule);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.scent-row-families {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.scent-row-families li {
+  flex: 0 0 auto;
+}
+
+.scent-row-families a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  width: clamp(112px, 12.4vw, 180px);
+  padding: 16px 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.scent-row-families .seal {
+  width: min(72%, 112px);
+  height: auto;
+  aspect-ratio: 1;
+  margin-bottom: 8px;
+}
+
+.scent-family {
+  font-family: var(--font-display);
+  font-size: 1.14rem;
+  line-height: 1.1;
+}
+
+.scent-count {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--muted);
+}
+
+.scent-row-families a:hover {
+  background: var(--tint);
+  color: var(--on-tint);
+}
+
+.scent-row-families a:hover .scent-count {
+  color: inherit;
+}
+
+.scent-row-families a:hover .seal img {
+  transform: rotate(50deg) scale(1.15);
+}
+
+@media (max-width: 640px) {
+  .scent-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .scent-row-name {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 10px var(--gutter);
+  }
+}
+
+.ready-band .card-grid {
+  border-top: none;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .ready-band .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .ready-band .card-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ---------- An ingredient: a band in its scent group's colour ---------- */
+
+.specimen {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px var(--gutter);
+  align-items: end;
+  padding: clamp(18px, 2.6vw, 30px) var(--gutter) clamp(24px, 3vw, 42px);
+  background: var(--tint);
+  color: var(--on-tint);
+  border-bottom: 1px solid var(--rule);
+  overflow: hidden;
+}
+
+.specimen a {
+  color: inherit;
+  text-decoration-color: currentColor;
+}
+
+.specimen .eyebrow {
+  margin-bottom: 12px;
+  color: inherit;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.specimen h1 {
+  font-size: clamp(2.6rem, 8.4vw, 8.2rem);
+  line-height: 0.96;
+  overflow-wrap: anywhere;
+}
+
+.specimen .back {
+  font-size: 0.86rem;
+  font-weight: 500;
+}
+
+.specimen .subtitle {
+  font-size: 0.86rem;
+  font-weight: 500;
+}
+
+.specimen .badge {
+  color: inherit;
+}
+
+.specimen button {
+  border-color: currentColor;
+  color: inherit;
+}
+
+.specimen button:hover:not(:disabled) {
+  background: var(--on-tint);
+  color: var(--tint);
+}
+
+.specimen-seal {
+  width: clamp(120px, 24vw, 360px);
+  height: auto;
+  aspect-ratio: 1;
+  background: var(--tint);
+  box-shadow: 0 0 0 1px currentColor, 0 0 0 7px var(--tint), 0 0 0 8px currentColor;
+  margin: 8px 8px 0 0;
+}
+
+.specimen-seal img {
+  mix-blend-mode: normal;
+  filter: grayscale(1) contrast(1.05);
+  transform: rotate(var(--turn, 0deg)) scale(var(--zoom, 1));
+}
+
+/* The tint over the texture, so the seal stays in the band's colour family. */
+.specimen-seal::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--tint);
+  mix-blend-mode: color;
+}
+
+.specimen:hover .specimen-seal img {
+  transform: rotate(calc(var(--turn, 0deg) + 25deg)) scale(var(--zoom, 1));
+}
+
+@media (max-width: 640px) {
+  .specimen {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .specimen-seal {
+    order: -1;
+    justify-self: end;
+    width: 96px;
+    margin-bottom: -6px;
+  }
+}
+
+.detail section {
+  padding: 22px 0 26px;
+  border-top: 1px solid var(--rule);
+}
+
+.detail section:first-child {
+  border-top: none;
+}
+
+.detail > .callout {
+  padding: 16px var(--gutter);
+  border-bottom: 1px solid var(--rule);
+}
+
+.callout ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.callout p {
+  margin: 0;
+}
+
+.callout h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.detail > .callout-warn {
+  background: var(--warn-bg);
+}
+
+.detail > .callout-note {
+  background: var(--note-bg);
+}
+
+.related {
+  margin-top: 8px !important;
+}
+
+/* The spreadsheet's fields on the left, staying in view; what's known about it on the right. */
+.detail-columns {
+  display: grid;
+  grid-template-columns: minmax(300px, 4fr) minmax(0, 8fr);
+  align-items: start;
+}
+
+.spec-sheet {
+  position: sticky;
+  top: var(--header-h);
+  max-height: calc(100vh - var(--header-h));
+  overflow-y: auto;
+  padding: 0 var(--gutter);
+  border-right: 1px solid var(--rule);
+}
+
+.detail-main {
+  min-width: 0;
+  padding: 0 var(--gutter);
+}
+
+@media (max-width: 960px) {
+  .detail-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .spec-sheet {
+    position: static;
+    max-height: none;
+    border-right: none;
+    border-bottom: 1px solid var(--rule);
+  }
+}
+
+.fields {
+  margin: 0;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: minmax(96px, 2fr) minmax(0, 3fr);
+  gap: 2px 14px;
+  padding: 7px 0;
+  border-top: 1px solid var(--border);
+}
+
+.field:first-child {
+  border-top: none;
+}
+
+.field dt {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.field dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.source {
+  margin: 4px 0 0;
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+.detail .placeholder p {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* Numbers in a ruled row: "64 of 125 formulas use it" | "8.3% typical" | "Main note". */
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  margin: 12px 0 18px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  background: var(--bg);
+}
+
+.stat-value {
+  font-family: var(--font-body);
+  font-size: 1.85rem;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.stat-label {
+  font-size: 0.86rem;
+  line-height: 1.3;
+  color: var(--muted);
+}
+
+.stat-action {
+  justify-content: center;
+}
+
+/* Usage range chart (UsageRange.tsx): thin marks on a hairline axis, one hue. */
+.usage-range {
+  margin: 0 0 12px;
+}
+
+.usage-track {
+  position: relative;
+  height: 34px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.usage-grid {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--border);
+}
+
+.usage-whisker {
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  background: var(--muted);
+}
+
+/* A bigger hit target than the 2px line. */
+.usage-whisker::before {
+  content: "";
+  position: absolute;
+  inset: -11px 0;
+}
+
+.usage-box {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  background: var(--tint);
+  opacity: 0.55;
+  border-radius: 2px;
+}
+
+.usage-median {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  border-radius: 50%;
+  background: var(--tint);
+  box-shadow: 0 0 0 2px var(--bg);
+}
+
+.usage-ticks {
+  position: relative;
+  height: 22px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.usage-ticks span {
+  position: absolute;
+  top: 4px;
+  transform: translateX(-50%);
+}
+
+.usage-range figcaption {
+  margin-top: 6px;
+}
+
+/* A tooltip for chart marks. Every value it shows is also written out beside the chart. */
+[data-tip]:hover::after,
+[data-tip]:focus-visible::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%);
+  z-index: 20;
+  width: max-content;
+  max-width: 260px;
+  padding: 4px 9px;
+  background: var(--text);
+  color: var(--bg);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1.35;
+  text-align: left;
+  white-space: normal;
+  pointer-events: none;
+}
+
+/* Small labelled chips: odour profile and usage keywords. */
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0 0;
+}
+
+.chip {
+  display: inline-block;
+  padding: 1px 9px;
+  border: 1px solid var(--rule);
+  font-size: 0.86rem;
+}
+
+/* "Pairs well with": name | strength bar | why. */
+.pair-list {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--border);
+}
+
+.pair-list li {
+  display: grid;
+  grid-template-columns: minmax(150px, 2fr) 90px minmax(0, 4fr);
+  align-items: center;
+  gap: 4px 18px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pair-bar {
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+}
+
+.pair-bar span {
+  display: block;
+  height: 100%;
+  background: var(--text);
+  border-radius: 2px;
+}
+
+@media (max-width: 640px) {
+  .pair-list li {
+    grid-template-columns: 1fr 80px;
+  }
+  .pair-why {
+    grid-column: 1 / -1;
+  }
+}
+
+.pairing-list {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+
+.pairing-list li {
+  padding: 3px 0;
+}
+
+.formulas-section {
+  padding: 0 !important;
+  border-top: 1px solid var(--rule);
+}
+
+.formulas-section .section-heading,
+.formulas-section > p {
+  padding: 0 var(--gutter);
+}
+
+.formulas-section .section-heading {
+  padding-top: 22px;
+}
+
+.formulas-section .card-grid {
+  margin-top: 14px;
+  border-bottom: none;
+}
+
+/* ---------- Formulary: a ruled grid of formula cards ---------- */
+
+.legend-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 18px;
+  padding: 10px var(--gutter);
+  border-bottom: 1px solid var(--rule);
+}
+
+.legend-band .eyebrow {
+  margin: 0;
+}
+
+.scent-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.84rem;
+}
+
+.scent-legend li {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  overflow: hidden;
+  border-bottom: 1px solid var(--rule);
+}
+
+.formula-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0 -1px -1px 0;
+  padding: 18px var(--gutter) 16px;
+  border-right: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  transition: background-color 0.12s;
+}
+
+.formula-card:hover {
+  background: var(--accent-soft);
+}
+
+.formula-card .eyebrow {
+  margin: 0 0 4px;
+}
+
+/* "Ready to make": every material is in Jin's library. */
+.ready {
+  margin-left: 8px;
+  padding: 0 6px;
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.control-check .check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--text);
+}
+
+.control-check input {
+  min-height: auto;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.formula-card h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.formula-card h3 a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+}
+
+.formula-card-style {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.3;
+}
+
+.formula-card .small {
+  margin: 0;
+}
+
+.formula-card-share {
+  margin: 6px 0 0;
+}
+
+.share-value {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.coverage {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: auto;
+  padding-top: 14px;
+}
+
+/* One formula split into its parts: 2px gaps do the separating. */
+.scent-bar {
+  display: flex;
+  gap: 2px;
+  width: 100%;
+}
+
+.scent-bar > span {
+  position: relative;
+  min-width: 2px;
+  flex-basis: 0;
+  background: var(--tint);
+}
+
+.scent-bar-thin {
+  height: 8px;
+}
+
+.scent-bar-thin > span:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.scent-bar-thin > span:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.scent-bar-thin > span:only-child {
+  border-radius: 4px;
+}
+
+.scent-bar-tall {
+  height: 28px;
+}
+
+.scent-bar-tall > span {
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+  border-radius: 4px;
+  color: var(--on-tint);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+.scent-bar-tall > span:hover {
+  filter: brightness(1.08);
+}
+
+.scent-figure {
+  margin: 0;
+  padding: 16px var(--gutter);
+  border-bottom: 1px solid var(--rule);
+}
+
+.scent-figure figcaption {
+  margin-top: 9px;
+}
+
+.source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-top: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.source-links a {
+  text-decoration: none;
+}
+
+.source-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+}
+
+.page-intro .source-links {
+  margin-top: 14px;
+}
+
+/* A published formula as a formula sheet. */
+.published .stat-row {
+  margin: 0;
+  border-width: 0 0 1px;
+}
+
+.published .stat {
+  padding-left: var(--gutter);
+}
+
+.sheet-wrap {
+  padding: 0 var(--gutter);
+}
+
+.sheet {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+.sheet th,
+.sheet td {
+  text-align: left;
+  padding: 7px 12px;
+  border: 1px solid var(--rule);
+}
+
+.sheet tbody tr:hover {
+  background: var(--accent-soft);
+}
+
+.sheet .num {
+  text-align: right;
+}
+
+.sheet tfoot th,
+.sheet tfoot td {
+  font-weight: 500;
+}
+
+.sheet .row-solvent td {
+  color: var(--muted);
+}
+
+.sheet .tag {
+  margin-left: 6px;
+}
+
+.thread-under {
+  margin: 12px var(--gutter) 0;
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 640px) {
+  .sheet,
+  .sheet tbody,
+  .sheet tfoot,
+  .sheet tr,
+  .sheet td,
+  .sheet tfoot th {
+    display: block;
+  }
+  .sheet thead {
+    display: none;
+  }
+  .sheet tr {
+    border: 1px solid var(--rule);
+    margin-bottom: -1px;
+    padding: 6px 0;
+  }
+  .sheet td,
+  .sheet tfoot th {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    border: none;
+    padding: 2px 12px;
+    text-align: right;
+  }
+  .sheet td::before {
+    content: attr(data-label);
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: 0.84rem;
+    text-align: left;
+  }
+  .sheet td:first-child {
+    display: block;
+    text-align: left;
+    font-weight: 500;
+  }
+  .sheet td:first-child::before {
+    content: none;
+  }
+  .sheet .hide-mobile {
+    display: none;
+  }
+}
+
+.caveats {
+  margin: 40px var(--gutter) 0;
+  padding: 18px 20px;
+  border: 1px solid var(--rule);
+  font-size: 0.9rem;
+}
+
+.caveats ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.caveats li + li {
+  margin-top: 4px;
+}
+
+/* ---------- Jin's formula editor ---------- */
+
+.formula-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  align-items: start;
+}
+
+.formula-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  padding: 20px var(--gutter) 0;
+}
+
+.formula-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.formula-topbar .back {
+  margin: 0;
+}
+
+.formula-name {
+  width: 100%;
+  margin-left: -6px;
+  padding: 2px 6px;
+  border-color: transparent;
+  background: transparent;
+  font-size: clamp(2.2rem, 5vw, 4.4rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.formula-name:hover,
+.formula-name:focus {
+  border-color: var(--rule);
+  background: var(--surface);
+}
+
+.formula-main > .control,
+.formula-settings .control {
+  border: none;
+  padding: 0;
+}
+
+.formula-settings p {
+  margin: 4px 0 0;
+}
+
+.formula-settings input {
+  max-width: 220px;
+}
+
+.formula-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--rule);
+}
+
+.formula-table th,
+.formula-table td {
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.formula-table thead th {
+  border-bottom-color: var(--rule);
+}
+
+.formula-table .num {
+  text-align: right;
+}
+
+.formula-table tfoot th,
+.formula-table tfoot td {
+  font-weight: 500;
+  border-bottom: none;
+  border-top: 1px solid var(--rule);
+}
+
+.formula-table .col-ifra {
+  min-width: 150px;
+}
+
+.grams-input {
+  width: 90px;
+  text-align: right;
+  min-height: 34px;
+  padding: 4px 8px;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.row-over td {
+  background: var(--warn-bg);
+}
+
+.formula-main > .callout {
+  border: 1px solid var(--warn);
+  background: var(--warn-bg);
+  padding: 12px 16px;
+}
+
+.formula-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.save-status.bad {
+  color: var(--bad);
+}
+
+@media (max-width: 640px) {
+  .formula-table,
+  .formula-table tbody,
+  .formula-table tfoot,
+  .formula-table tr,
+  .formula-table td,
+  .formula-table tfoot th {
+    display: block;
+  }
+  .formula-table {
+    border: none;
+    background: none;
+  }
+  .formula-table thead {
+    display: none;
+  }
+  .formula-table tr {
+    position: relative;
+    border: 1px solid var(--rule);
+    margin-bottom: -1px;
+    padding: 6px 0;
+  }
+  .formula-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    padding: 3px 12px;
+    text-align: right;
+  }
+  .formula-table td::before {
+    content: attr(data-label);
+    color: var(--muted);
+    font-size: 0.85rem;
+    text-align: left;
+  }
+  .formula-table td.cell-name {
+    display: block;
+    text-align: left;
+    padding-right: 44px;
+  }
+  .formula-table td.cell-name::before,
+  .formula-table td.cell-remove::before,
+  .formula-table td.no-label::before {
+    content: none;
+  }
+  .formula-table td.cell-remove {
+    position: absolute;
+    top: 4px;
+    right: 0;
+  }
+  .formula-table .hide-mobile {
+    display: none;
+  }
+}
+
+/* ---------- Ingredient picker (formula sidebar) ---------- */
+
+.picker {
+  position: sticky;
+  top: var(--header-h);
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - var(--header-h));
+  margin-left: var(--gutter);
+  border-left: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--rule);
+}
+
+.tabs button {
+  flex: 1;
+  border: none;
+  color: var(--muted);
+  padding: 12px 8px;
+}
+
+.tabs button + button {
+  border-left: 1px solid var(--rule);
+}
+
+.tabs button:hover:not(:disabled) {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.tabs button[aria-selected="true"] {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.picker-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.picker-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.picker-list > li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.picker-text {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.3;
+}
+
+.picker-list > li.picker-divider {
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+}
+
+.picker-list .badge {
+  margin-left: 6px;
+}
+
+.picker-empty,
+.picker-note {
+  margin: 0;
+  padding: 12px;
+}
+
+.reasons {
+  margin: 4px 0 0;
+  padding-left: 16px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* Narrow windows: picker goes under the formula. */
+@media (max-width: 900px) {
+  .formula-page {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .picker {
+    position: static;
+    max-height: 70vh;
+    margin: 24px var(--gutter) 0;
+    border: 1px solid var(--rule);
+  }
+}
+
+/* ---------- Anyone who has asked for less motion gets stills and no sliding ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .gate-film,
+  .gate-grain,
+  .gate-flicker,
+  .marquee-track {
+    animation: none;
+  }
+  .gate-film {
+    background-image: url(/film/sillage-still.webp);
+  }
+  * {
+    transition: none !important;
+  }
+}

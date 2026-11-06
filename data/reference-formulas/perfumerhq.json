@@ -1,0 +1,3087 @@
+{
+ "source": "PerfumerHQ",
+ "sourceUrl": "https://perfumerhq.com/",
+ "about": [
+  "Free accords and bases from PerfumerHQ's 'Accords & Base Formulas' page, read on 2026-10-16. Amounts are parts per 1000 by weight.",
+  "PerfumerHQ describes them as tested formulas synthesised from cross-referenced industry sources. Only material lists and amounts are copied; each links back to the site.",
+  "Every formula adds up to its printed total."
+ ],
+ "formulas": [
+  {
+   "id": "phq-peach-accord",
+   "title": "Peach Accord",
+   "kind": "accord",
+   "style": "an accord · stone fruits",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Gamma Decalactone",
+     "amount": 160.0
+    },
+    {
+     "name": "Gamma Undecalactone",
+     "amount": 140.0
+    },
+    {
+     "name": "Gamma Nonalactone",
+     "amount": 70.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 130.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 90.0
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 60.0
+    },
+    {
+     "name": "Allyl Caproate",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl Methyl Phenyl Glycidate",
+     "amount": 40.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 20.0
+    },
+    {
+     "name": "Beta Damascone 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 210.0
+    }
+   ]
+  },
+  {
+   "id": "phq-pear-accord",
+   "title": "Pear Accord",
+   "kind": "accord",
+   "style": "an accord · stone fruits",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Neryl Acetate",
+     "amount": 240.0
+    },
+    {
+     "name": "Verdox",
+     "amount": 110.0
+    },
+    {
+     "name": "Gamma Undecalactone",
+     "amount": 130.0
+    },
+    {
+     "name": "Hexyl Acetate",
+     "amount": 70.0
+    },
+    {
+     "name": "Fructone",
+     "amount": 60.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Hexanoate",
+     "amount": 50.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 120.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 30.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 40.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 50.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 30.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 30.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 40.0
+    }
+   ]
+  },
+  {
+   "id": "phq-plum-accord",
+   "title": "Plum Accord",
+   "kind": "accord",
+   "style": "an accord · stone fruits",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Prunella",
+     "amount": 160.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 120.0
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 100.0
+    },
+    {
+     "name": "Dimethyl Benzyl Carbinyl Butyrate",
+     "amount": 80.0
+    },
+    {
+     "name": "Datilat",
+     "amount": 60.0
+    },
+    {
+     "name": "Osmanthus Absolute",
+     "amount": 60.0
+    },
+    {
+     "name": "Gamma Undecalactone",
+     "amount": 50.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 40.0
+    },
+    {
+     "name": "Citronellyl Formate",
+     "amount": 30.0
+    },
+    {
+     "name": "Alpha Damascone 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Beta Damascone 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Benzaldehyde",
+     "amount": 30.0
+    },
+    {
+     "name": "Allyl Heptanoate",
+     "amount": 30.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 30.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 140.0
+    }
+   ]
+  },
+  {
+   "id": "phq-green-apple-accord",
+   "title": "Green Apple Accord",
+   "kind": "accord",
+   "style": "an accord · fresh fruits",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Verdox",
+     "amount": 190.0
+    },
+    {
+     "name": "Amyl Acetate",
+     "amount": 80.0
+    },
+    {
+     "name": "Ethyl 2-Methyl Butyrate",
+     "amount": 90.0
+    },
+    {
+     "name": "Hexyl Acetate",
+     "amount": 70.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Propionate",
+     "amount": 70.0
+    },
+    {
+     "name": "Gamma Undecalactone",
+     "amount": 70.0
+    },
+    {
+     "name": "Hexyl Salicylate",
+     "amount": 60.0
+    },
+    {
+     "name": "Amyl Butyrate",
+     "amount": 45.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 50.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 100.0
+    },
+    {
+     "name": "Alpha Ionone",
+     "amount": 30.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 30.0
+    },
+    {
+     "name": "Triplal",
+     "amount": 30.0
+    },
+    {
+     "name": "Cyclogalbanate",
+     "amount": 30.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 25.0
+    },
+    {
+     "name": "Ambrofix",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "phq-cherry-accord",
+   "title": "Cherry Accord",
+   "kind": "accord",
+   "style": "an accord · fresh fruits",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 200.0
+    },
+    {
+     "name": "Benzaldehyde",
+     "amount": 120.0
+    },
+    {
+     "name": "Ethyl Methyl Phenyl Glycidate",
+     "amount": 80.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 60.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 60.0
+    },
+    {
+     "name": "Methyl Anthranilate",
+     "amount": 50.0
+    },
+    {
+     "name": "Raspberry Ketone",
+     "amount": 40.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 80.0
+    },
+    {
+     "name": "Gamma Decalactone",
+     "amount": 30.0
+    },
+    {
+     "name": "Ethyl Maltol",
+     "amount": 30.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 30.0
+    },
+    {
+     "name": "Anisic Aldehyde",
+     "amount": 30.0
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 30.0
+    },
+    {
+     "name": "Fructone",
+     "amount": 30.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 130.0
+    }
+   ]
+  },
+  {
+   "id": "phq-strawberry-accord",
+   "title": "Strawberry Accord",
+   "kind": "accord",
+   "style": "an accord · fresh fruits",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 380.0
+    },
+    {
+     "name": "Strawberry Glycidate (EMPG)",
+     "amount": 210.0
+    },
+    {
+     "name": "Raspberry Ketone",
+     "amount": 60.0
+    },
+    {
+     "name": "Ethyl Lactate",
+     "amount": 50.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 40.0
+    },
+    {
+     "name": "Fructalate",
+     "amount": 40.0
+    },
+    {
+     "name": "Methyl Cinnamate",
+     "amount": 30.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 30.0
+    },
+    {
+     "name": "Gamma Decalactone",
+     "amount": 30.0
+    },
+    {
+     "name": "Helional",
+     "amount": 25.0
+    },
+    {
+     "name": "Furaneol 20% in EtOH",
+     "amount": 25.0
+    },
+    {
+     "name": "Canthoxal",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethyl Maltol",
+     "amount": 20.0
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 20.0
+    },
+    {
+     "name": "Delta Damascone 10% in DPG",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "phq-raspberry-accord",
+   "title": "Raspberry Accord",
+   "kind": "accord",
+   "style": "an accord · red berries",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Framboise",
+     "amount": 120.0
+    },
+    {
+     "name": "Methyl Dihydrojasmonate",
+     "amount": 100.0
+    },
+    {
+     "name": "Raspberry Ketone",
+     "amount": 90.0
+    },
+    {
+     "name": "Ethyl Methyl Phenyl Glycidate",
+     "amount": 90.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 90.0
+    },
+    {
+     "name": "Benzyl Propionate",
+     "amount": 80.0
+    },
+    {
+     "name": "Pentalide",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzaldehyde",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl 2-Methyl Butyrate",
+     "amount": 40.0
+    },
+    {
+     "name": "Gamma Undecalactone",
+     "amount": 30.0
+    },
+    {
+     "name": "Triplal 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Delta Damascone 10% in DPG",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 120.0
+    }
+   ]
+  },
+  {
+   "id": "phq-lychee-accord",
+   "title": "Lychee Accord",
+   "kind": "accord",
+   "style": "an accord · red berries",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 200.0
+    },
+    {
+     "name": "Hedione HC",
+     "amount": 150.0
+    },
+    {
+     "name": "Magnolan",
+     "amount": 70.0
+    },
+    {
+     "name": "Phenylethyl Alcohol (PEA)",
+     "amount": 70.0
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 70.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 80.0
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 50.0
+    },
+    {
+     "name": "Strawberry Glycidate",
+     "amount": 50.0
+    },
+    {
+     "name": "Raspberry Ketone",
+     "amount": 40.0
+    },
+    {
+     "name": "Dimethyl Benzyl Carbinyl Butyrate",
+     "amount": 40.0
+    },
+    {
+     "name": "Helional",
+     "amount": 30.0
+    },
+    {
+     "name": "Rose Oxide 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Ambrofix",
+     "amount": 20.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 20.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Undecavertol",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethyl Maltol",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 30.0
+    }
+   ]
+  },
+  {
+   "id": "phq-coconut-accord",
+   "title": "Coconut Accord",
+   "kind": "accord",
+   "style": "an accord · tropical",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Gamma Nonalactone",
+     "amount": 250.0
+    },
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 150.0
+    },
+    {
+     "name": "Methyl Laitone",
+     "amount": 120.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 80.0
+    },
+    {
+     "name": "Alpha Hexyl Cinnamic Aldehyde",
+     "amount": 60.0
+    },
+    {
+     "name": "Hexyl Salicylate",
+     "amount": 40.0
+    },
+    {
+     "name": "Bicyclononalactone",
+     "amount": 40.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 35.0
+    },
+    {
+     "name": "Delta Decalactone",
+     "amount": 30.0
+    },
+    {
+     "name": "Gamma Octalactone",
+     "amount": 30.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 25.0
+    },
+    {
+     "name": "Anisic Aldehyde",
+     "amount": 20.0
+    },
+    {
+     "name": "Helional",
+     "amount": 20.0
+    },
+    {
+     "name": "Gamma Decalactone",
+     "amount": 20.0
+    },
+    {
+     "name": "Veloutone",
+     "amount": 15.0
+    },
+    {
+     "name": "Whiskey Lactone",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 55.0
+    }
+   ]
+  },
+  {
+   "id": "phq-pineapple-accord",
+   "title": "Pineapple Accord",
+   "kind": "accord",
+   "style": "an accord · tropical",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Allyl Cyclohexyl Propionate",
+     "amount": 170.0
+    },
+    {
+     "name": "Allyl Caproate",
+     "amount": 140.0
+    },
+    {
+     "name": "Fructalate",
+     "amount": 110.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 100.0
+    },
+    {
+     "name": "Cyclogalbanate",
+     "amount": 80.0
+    },
+    {
+     "name": "Orange Oil Terpenes",
+     "amount": 80.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 80.0
+    },
+    {
+     "name": "Allyl Amyl Glycolate",
+     "amount": 60.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl Butyrate",
+     "amount": 40.0
+    },
+    {
+     "name": "Veloutone",
+     "amount": 30.0
+    },
+    {
+     "name": "Ethyl Maltol",
+     "amount": 20.0
+    },
+    {
+     "name": "Gamma Octalactone",
+     "amount": 20.0
+    },
+    {
+     "name": "Pharaone 10% in DPG",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "phq-mango-accord",
+   "title": "Mango Accord",
+   "kind": "accord",
+   "style": "an accord · tropical",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Hedione",
+     "amount": 250.0
+    },
+    {
+     "name": "Phenoxy Ethyl Isobutyrate",
+     "amount": 160.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 120.0
+    },
+    {
+     "name": "Delta Decalactone",
+     "amount": 100.0
+    },
+    {
+     "name": "Gamma Nonalactone",
+     "amount": 60.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 60.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl Butyrate",
+     "amount": 50.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Acetate",
+     "amount": 40.0
+    },
+    {
+     "name": "Allyl Amyl Glycolate",
+     "amount": 40.0
+    },
+    {
+     "name": "Carrot Heart MD",
+     "amount": 30.0
+    },
+    {
+     "name": "Maltol",
+     "amount": 20.0
+    },
+    {
+     "name": "Ethyl Maltol",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-fig-accord",
+   "title": "Fig Accord",
+   "kind": "accord",
+   "style": "an accord · other fruity",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Nectaryl",
+     "amount": 140.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione HC",
+     "amount": 100.0
+    },
+    {
+     "name": "Stemone",
+     "amount": 90.0
+    },
+    {
+     "name": "Datilat",
+     "amount": 80.0
+    },
+    {
+     "name": "Gamma Octalactone",
+     "amount": 70.0
+    },
+    {
+     "name": "Gamma Nonalactone",
+     "amount": 50.0
+    },
+    {
+     "name": "Methyl Laitone",
+     "amount": 50.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 50.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 40.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 80.0
+    },
+    {
+     "name": "Allyl Amyl Glycolate",
+     "amount": 30.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 30.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 20.0
+    },
+    {
+     "name": "Lemon Oil",
+     "amount": 20.0
+    },
+    {
+     "name": "Triplal 10% in DPG",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 30.0
+    }
+   ]
+  },
+  {
+   "id": "phq-watermelon-accord",
+   "title": "Watermelon Accord",
+   "kind": "accord",
+   "style": "an accord · other fruity",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Helional",
+     "amount": 360.0
+    },
+    {
+     "name": "Strawberry Glycidate (EMPG)",
+     "amount": 220.0
+    },
+    {
+     "name": "Calone 10% in DPG",
+     "amount": 150.0
+    },
+    {
+     "name": "Lilial",
+     "amount": 100.0
+    },
+    {
+     "name": "Floralozone",
+     "amount": 60.0
+    },
+    {
+     "name": "Gamma Undecalactone",
+     "amount": 40.0
+    },
+    {
+     "name": "Melonal",
+     "amount": 30.0
+    },
+    {
+     "name": "Verdalia A",
+     "amount": 20.0
+    },
+    {
+     "name": "Canthoxal",
+     "amount": 10.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "phq-rose-accord",
+   "title": "Rose Accord",
+   "kind": "accord",
+   "style": "an accord · classic florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Phenylethyl Alcohol (PEA)",
+     "amount": 260.0
+    },
+    {
+     "name": "Citronellol",
+     "amount": 170.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 120.0
+    },
+    {
+     "name": "Rhodinol ex Geranium Bourbon",
+     "amount": 70.0
+    },
+    {
+     "name": "Nerol",
+     "amount": 60.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 60.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Farnesol",
+     "amount": 30.0
+    },
+    {
+     "name": "Rose Oxide 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Citronellyl Formate",
+     "amount": 30.0
+    },
+    {
+     "name": "Eugenol",
+     "amount": 20.0
+    },
+    {
+     "name": "Citronellyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Damascenone 10% in DPG",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 60.0
+    }
+   ]
+  },
+  {
+   "id": "phq-jasmine-accord",
+   "title": "Jasmine Accord",
+   "kind": "accord",
+   "style": "an accord · classic florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Benzyl Acetate",
+     "amount": 260.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 160.0
+    },
+    {
+     "name": "Alpha Hexyl Cinnamic Aldehyde",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 90.0
+    },
+    {
+     "name": "Benzyl Alcohol",
+     "amount": 80.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 70.0
+    },
+    {
+     "name": "Indole 10% in DPG",
+     "amount": 50.0
+    },
+    {
+     "name": "Methyl Anthranilate",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 40.0
+    },
+    {
+     "name": "Cinnamyl Alcohol",
+     "amount": 30.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Benzoate",
+     "amount": 30.0
+    },
+    {
+     "name": "Dihydro Jasmone",
+     "amount": 30.0
+    },
+    {
+     "name": "Farnesol",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-orange-blossom-neroli-accord",
+   "title": "Orange Blossom / Neroli Accord",
+   "kind": "accord",
+   "style": "an accord · classic florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Linalool",
+     "amount": 190.0
+    },
+    {
+     "name": "Petitgrain Bigarade Oil",
+     "amount": 120.0
+    },
+    {
+     "name": "Methyl Anthranilate",
+     "amount": 90.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 80.0
+    },
+    {
+     "name": "Aurantiol",
+     "amount": 70.0
+    },
+    {
+     "name": "Linalyl Acetate",
+     "amount": 70.0
+    },
+    {
+     "name": "Nerolidol",
+     "amount": 60.0
+    },
+    {
+     "name": "Farnesol",
+     "amount": 50.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 50.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 40.0
+    },
+    {
+     "name": "Nerol",
+     "amount": 40.0
+    },
+    {
+     "name": "Alpha Terpineol",
+     "amount": 40.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 40.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 30.0
+    },
+    {
+     "name": "Indole 10% in DPG",
+     "amount": 30.0
+    }
+   ]
+  },
+  {
+   "id": "phq-iris-accord",
+   "title": "Iris Accord",
+   "kind": "accord",
+   "style": "an accord · powdery florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Alpha Isomethyl Ionone",
+     "amount": 250.0
+    },
+    {
+     "name": "Alpha Ionone",
+     "amount": 150.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 80.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 80.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 60.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 60.0
+    },
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 60.0
+    },
+    {
+     "name": "Violet Leaf Abs 10% in DPG",
+     "amount": 40.0
+    },
+    {
+     "name": "Anisic Aldehyde",
+     "amount": 30.0
+    },
+    {
+     "name": "Irone Alpha 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 60.0
+    }
+   ]
+  },
+  {
+   "id": "phq-violet-accord",
+   "title": "Violet Accord",
+   "kind": "accord",
+   "style": "an accord · powdery florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Alpha Isomethyl Ionone",
+     "amount": 260.0
+    },
+    {
+     "name": "Alpha Ionone",
+     "amount": 160.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 80.0
+    },
+    {
+     "name": "Hydroxycitronellal",
+     "amount": 70.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 50.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 60.0
+    },
+    {
+     "name": "Anisic Aldehyde",
+     "amount": 40.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 50.0
+    },
+    {
+     "name": "Cassie Absolute",
+     "amount": 30.0
+    },
+    {
+     "name": "Beta Ionone",
+     "amount": 30.0
+    },
+    {
+     "name": "Violet Leaf Absolute 10% in DPG",
+     "amount": 30.0
+    }
+   ]
+  },
+  {
+   "id": "phq-muguet-accord",
+   "title": "Muguet Accord",
+   "kind": "accord",
+   "style": "an accord · powdery florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Hydroxycitronellal",
+     "amount": 240.0
+    },
+    {
+     "name": "Lilial",
+     "amount": 120.0
+    },
+    {
+     "name": "Cyclamen Aldehyde",
+     "amount": 100.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 100.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 80.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 70.0
+    },
+    {
+     "name": "Florhydral",
+     "amount": 60.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl Linalool",
+     "amount": 50.0
+    },
+    {
+     "name": "Alpha Terpineol",
+     "amount": 50.0
+    },
+    {
+     "name": "Rhodinyl Acetate",
+     "amount": 40.0
+    },
+    {
+     "name": "Indole 10% in DPG",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-tuberose-accord",
+   "title": "Tuberose Accord",
+   "kind": "accord",
+   "style": "an accord · white florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 180.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 110.0
+    },
+    {
+     "name": "Methyl Anthranilate",
+     "amount": 80.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 80.0
+    },
+    {
+     "name": "Ylang Ylang Complete Oil",
+     "amount": 70.0
+    },
+    {
+     "name": "Habanolide",
+     "amount": 70.0
+    },
+    {
+     "name": "Methyl Salicylate",
+     "amount": 70.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 70.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Salicylate",
+     "amount": 60.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 60.0
+    },
+    {
+     "name": "Methyl Isoeugenol",
+     "amount": 50.0
+    },
+    {
+     "name": "Isoeugenol",
+     "amount": 30.0
+    },
+    {
+     "name": "Indole 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Eugenol",
+     "amount": 20.0
+    },
+    {
+     "name": "Gamma Nonalactone",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-gardenia-accord",
+   "title": "Gardenia Accord",
+   "kind": "accord",
+   "style": "an accord · white florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 180.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 130.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 100.0
+    },
+    {
+     "name": "Hydroxycitronellal",
+     "amount": 90.0
+    },
+    {
+     "name": "Styrallyl Acetate",
+     "amount": 80.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 70.0
+    },
+    {
+     "name": "Linalyl Acetate",
+     "amount": 60.0
+    },
+    {
+     "name": "Methyl Anthranilate",
+     "amount": 50.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 50.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 50.0
+    },
+    {
+     "name": "Ylang Ylang Extra Oil",
+     "amount": 40.0
+    },
+    {
+     "name": "Methyl Benzoate",
+     "amount": 30.0
+    },
+    {
+     "name": "Indole 10% in DPG",
+     "amount": 30.0
+    },
+    {
+     "name": "Gamma Nonalactone",
+     "amount": 20.0
+    },
+    {
+     "name": "Dimethyl Benzyl Carbinol",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-ylang-ylang-accord",
+   "title": "Ylang-Ylang Accord",
+   "kind": "accord",
+   "style": "an accord · white florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Benzyl Acetate",
+     "amount": 200.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 180.0
+    },
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 130.0
+    },
+    {
+     "name": "Geraniol",
+     "amount": 90.0
+    },
+    {
+     "name": "Methyl Para-Cresol",
+     "amount": 70.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 60.0
+    },
+    {
+     "name": "Methyl Benzoate",
+     "amount": 60.0
+    },
+    {
+     "name": "Cinnamyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Isoeugenol",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 30.0
+    },
+    {
+     "name": "Eugenol",
+     "amount": 20.0
+    },
+    {
+     "name": "Para-Cresyl Acetate",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-carnation-accord",
+   "title": "Carnation Accord",
+   "kind": "accord",
+   "style": "an accord · spiced & fresh florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 200.0
+    },
+    {
+     "name": "Eugenol",
+     "amount": 180.0
+    },
+    {
+     "name": "Methyl Isoeugenol",
+     "amount": 130.0
+    },
+    {
+     "name": "Methyl Diantilis",
+     "amount": 120.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 80.0
+    },
+    {
+     "name": "Isoeugenol",
+     "amount": 60.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 60.0
+    },
+    {
+     "name": "Ylang Ylang Extra Oil",
+     "amount": 50.0
+    },
+    {
+     "name": "Methyl Laitone 10% in DPG",
+     "amount": 40.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 40.0
+    },
+    {
+     "name": "Nutmeg Oil",
+     "amount": 20.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-hyacinth-accord",
+   "title": "Hyacinth Accord",
+   "kind": "accord",
+   "style": "an accord · spiced & fresh florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 200.0
+    },
+    {
+     "name": "Cinnamyl Alcohol",
+     "amount": 130.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 100.0
+    },
+    {
+     "name": "Canthoxal",
+     "amount": 80.0
+    },
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 80.0
+    },
+    {
+     "name": "Lilial",
+     "amount": 70.0
+    },
+    {
+     "name": "Alpha Hexyl Cinnamic Aldehyde",
+     "amount": 60.0
+    },
+    {
+     "name": "Cyclamen Aldehyde",
+     "amount": 50.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 50.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 40.0
+    },
+    {
+     "name": "Phenylacetic Aldehyde 50% in DPG",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 40.0
+    },
+    {
+     "name": "Anisyl Alcohol",
+     "amount": 20.0
+    },
+    {
+     "name": "Eugenol",
+     "amount": 20.0
+    },
+    {
+     "name": "Indole 10% in DPG",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-peony-accord",
+   "title": "Peony Accord",
+   "kind": "accord",
+   "style": "an accord · spiced & fresh florals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Citronellol",
+     "amount": 160.0
+    },
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 130.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 110.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 100.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 80.0
+    },
+    {
+     "name": "Phenylethyl Alcohol",
+     "amount": 70.0
+    },
+    {
+     "name": "Peonile",
+     "amount": 70.0
+    },
+    {
+     "name": "Nerol",
+     "amount": 60.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 50.0
+    },
+    {
+     "name": "Helional",
+     "amount": 40.0
+    },
+    {
+     "name": "Cis-3-Hexenyl Salicylate",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 40.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 30.0
+    },
+    {
+     "name": "Magnolan",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-sandalwood-accord",
+   "title": "Sandalwood Accord",
+   "kind": "accord",
+   "style": "an accord · woody accords",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Javanol",
+     "amount": 220.0
+    },
+    {
+     "name": "Ebanol",
+     "amount": 180.0
+    },
+    {
+     "name": "Sandela 85",
+     "amount": 120.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 100.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 80.0
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 80.0
+    },
+    {
+     "name": "Guaiacwood",
+     "amount": 60.0
+    },
+    {
+     "name": "Copaiba Balsam Oil",
+     "amount": 50.0
+    },
+    {
+     "name": "Vetiveryl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Amyris Wood",
+     "amount": 30.0
+    },
+    {
+     "name": "Clearwood",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "phq-oud-accord",
+   "title": "Oud Accord",
+   "kind": "accord",
+   "style": "an accord · woody accords",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Iso E Super",
+     "amount": 150.0
+    },
+    {
+     "name": "Patchouli Oil Dark",
+     "amount": 140.0
+    },
+    {
+     "name": "Guaiacwood",
+     "amount": 120.0
+    },
+    {
+     "name": "Styrax Resinoid",
+     "amount": 80.0
+    },
+    {
+     "name": "Cypriol Oil",
+     "amount": 80.0
+    },
+    {
+     "name": "Benzoin Siam Resinoid",
+     "amount": 70.0
+    },
+    {
+     "name": "Isobutyl Quinoline",
+     "amount": 60.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 60.0
+    },
+    {
+     "name": "Peru Balsam",
+     "amount": 50.0
+    },
+    {
+     "name": "Cashmeran",
+     "amount": 50.0
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 50.0
+    },
+    {
+     "name": "Labdanum Resinoid",
+     "amount": 40.0
+    },
+    {
+     "name": "Castoreum Synthetic",
+     "amount": 30.0
+    },
+    {
+     "name": "Ambrox Super",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-driftwood-base",
+   "title": "Driftwood Base",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Clearwood",
+     "amount": 200.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 150.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 130.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 100.0
+    },
+    {
+     "name": "Ambrofix",
+     "amount": 80.0
+    },
+    {
+     "name": "Bacdanol",
+     "amount": 80.0
+    },
+    {
+     "name": "Cedarwood Virginia Oil",
+     "amount": 80.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 60.0
+    },
+    {
+     "name": "Evernyl",
+     "amount": 50.0
+    },
+    {
+     "name": "Vertenex",
+     "amount": 40.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 30.0
+    }
+   ]
+  },
+  {
+   "id": "phq-sandalwood-base",
+   "title": "Sandalwood Base",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Ebanol",
+     "amount": 200.0
+    },
+    {
+     "name": "Javanol",
+     "amount": 180.0
+    },
+    {
+     "name": "Polysantol",
+     "amount": 120.0
+    },
+    {
+     "name": "Sandela 85",
+     "amount": 100.0
+    },
+    {
+     "name": "Copaiba Balsam Oil",
+     "amount": 100.0
+    },
+    {
+     "name": "Amyris Wood",
+     "amount": 80.0
+    },
+    {
+     "name": "Guaiacwood",
+     "amount": 60.0
+    },
+    {
+     "name": "Methyl Laitone",
+     "amount": 50.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 50.0
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 40.0
+    },
+    {
+     "name": "Cedarwood Atlas Oil",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-hug-me-grosjman-accord",
+   "title": "Hug Me (Grosjman Accord)",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Galaxolide",
+     "amount": 330.0
+    },
+    {
+     "name": "Methyl Ionone Alpha",
+     "amount": 285.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 285.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 100.0
+    }
+   ]
+  },
+  {
+   "id": "phq-rougere-accord",
+   "title": "Rougère Accord",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Hedione",
+     "amount": 540.0
+    },
+    {
+     "name": "Ambrofix",
+     "amount": 270.0
+    },
+    {
+     "name": "Evernyl",
+     "amount": 160.0
+    },
+    {
+     "name": "Ethyl Maltol",
+     "amount": 30.0
+    }
+   ]
+  },
+  {
+   "id": "phq-mellis-accord",
+   "title": "Mellis Accord",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 280.0
+    },
+    {
+     "name": "Patchouli Oil",
+     "amount": 170.0
+    },
+    {
+     "name": "Hydroxycitronellal",
+     "amount": 160.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 100.0
+    },
+    {
+     "name": "Eugenol",
+     "amount": 60.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 60.0
+    },
+    {
+     "name": "Cinnamic Alcohol",
+     "amount": 50.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 40.0
+    },
+    {
+     "name": "Star Anise",
+     "amount": 30.0
+    },
+    {
+     "name": "Clove Bud Oil",
+     "amount": 20.0
+    },
+    {
+     "name": "Gamma Nonalactone",
+     "amount": 20.0
+    },
+    {
+     "name": "Allspice Oil",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "phq-bergamot-accord",
+   "title": "Bergamot Accord",
+   "kind": "accord",
+   "style": "an accord · citrus accords",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Linalyl Acetate",
+     "amount": 340.0
+    },
+    {
+     "name": "Limonene",
+     "amount": 260.0
+    },
+    {
+     "name": "Linalool",
+     "amount": 160.0
+    },
+    {
+     "name": "Gamma Terpinene",
+     "amount": 100.0
+    },
+    {
+     "name": "Beta Pinene",
+     "amount": 80.0
+    },
+    {
+     "name": "Myrcene",
+     "amount": 15.0
+    },
+    {
+     "name": "Alpha Pinene",
+     "amount": 12.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 8.0
+    },
+    {
+     "name": "Neryl Acetate",
+     "amount": 8.0
+    },
+    {
+     "name": "Citral",
+     "amount": 7.0
+    },
+    {
+     "name": "Alpha Terpineol",
+     "amount": 5.0
+    },
+    {
+     "name": "Methyl Anthranilate 10%",
+     "amount": 5.0
+    }
+   ]
+  },
+  {
+   "id": "phq-eau-de-cologne-accord",
+   "title": "Eau de Cologne Accord",
+   "kind": "accord",
+   "style": "an accord · citrus accords",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 220.0
+    },
+    {
+     "name": "Linalyl Acetate",
+     "amount": 150.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 80.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 70.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 70.0
+    },
+    {
+     "name": "Petitgrain Bigarade Oil",
+     "amount": 70.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 60.0
+    },
+    {
+     "name": "Geranyl Acetate",
+     "amount": 60.0
+    },
+    {
+     "name": "Exaltolide Total",
+     "amount": 60.0
+    },
+    {
+     "name": "Aurantiol",
+     "amount": 50.0
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 40.0
+    },
+    {
+     "name": "Ambrofix",
+     "amount": 30.0
+    }
+   ]
+  },
+  {
+   "id": "phq-amber-accord",
+   "title": "Amber Accord",
+   "kind": "accord",
+   "style": "an accord · warm orientals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Vanillin",
+     "amount": 120.0
+    },
+    {
+     "name": "Labdanum Resinoid",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzoin Siam Resinoid",
+     "amount": 100.0
+    },
+    {
+     "name": "Ambrox DL",
+     "amount": 100.0
+    },
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 90.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 80.0
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 80.0
+    },
+    {
+     "name": "Peru Balsam",
+     "amount": 60.0
+    },
+    {
+     "name": "Cashmeran",
+     "amount": 60.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 50.0
+    },
+    {
+     "name": "Patchouli Oil",
+     "amount": 40.0
+    },
+    {
+     "name": "Castoreum Abs",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 100.0
+    }
+   ]
+  },
+  {
+   "id": "phq-vanilla-accord",
+   "title": "Vanilla Accord",
+   "kind": "accord",
+   "style": "an accord · warm orientals",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Vanillin",
+     "amount": 200.0
+    },
+    {
+     "name": "Benzyl Benzoate",
+     "amount": 160.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 130.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 100.0
+    },
+    {
+     "name": "Methyl Diantilis",
+     "amount": 70.0
+    },
+    {
+     "name": "Vanilla Absolute",
+     "amount": 60.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 60.0
+    },
+    {
+     "name": "Ethyl Maltol",
+     "amount": 40.0
+    },
+    {
+     "name": "Benzoin Siam Resinoid",
+     "amount": 40.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 30.0
+    },
+    {
+     "name": "Peru Balsam",
+     "amount": 30.0
+    },
+    {
+     "name": "Castoreum Abs",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 60.0
+    }
+   ]
+  },
+  {
+   "id": "phq-tobacco-accord",
+   "title": "Tobacco Accord",
+   "kind": "accord",
+   "style": "an accord · dark & smoky",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 180.0
+    },
+    {
+     "name": "Okoumal",
+     "amount": 120.0
+    },
+    {
+     "name": "Kephalis",
+     "amount": 100.0
+    },
+    {
+     "name": "Evernyl",
+     "amount": 100.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 80.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 80.0
+    },
+    {
+     "name": "Methyl Laitone",
+     "amount": 60.0
+    },
+    {
+     "name": "Ebanol",
+     "amount": 60.0
+    },
+    {
+     "name": "Theaspirane",
+     "amount": 50.0
+    },
+    {
+     "name": "Clary Sage Oil",
+     "amount": 40.0
+    },
+    {
+     "name": "Safraleine",
+     "amount": 30.0
+    },
+    {
+     "name": "Castoreum Abs",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 80.0
+    }
+   ]
+  },
+  {
+   "id": "phq-leather-accord",
+   "title": "Leather Accord",
+   "kind": "accord",
+   "style": "an accord · dark & smoky",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Safraleine",
+     "amount": 200.0
+    },
+    {
+     "name": "Cashmeran",
+     "amount": 140.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 80.0
+    },
+    {
+     "name": "Okoumal",
+     "amount": 80.0
+    },
+    {
+     "name": "Isobutyl Quinoline",
+     "amount": 70.0
+    },
+    {
+     "name": "Ebanol",
+     "amount": 70.0
+    },
+    {
+     "name": "Benzoin Siam Resinoid",
+     "amount": 60.0
+    },
+    {
+     "name": "Castoreum Abs",
+     "amount": 50.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 40.0
+    },
+    {
+     "name": "Patchouli Oil",
+     "amount": 40.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 40.0
+    },
+    {
+     "name": "Cade Oil",
+     "amount": 30.0
+    },
+    {
+     "name": "Birch Tar Rectified",
+     "amount": 20.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 80.0
+    }
+   ]
+  },
+  {
+   "id": "phq-incense-accord",
+   "title": "Incense Accord",
+   "kind": "accord",
+   "style": "an accord · dark & smoky",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Ambroxan",
+     "amount": 200.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 100.0
+    },
+    {
+     "name": "Frankincense Sacra Oil",
+     "amount": 100.0
+    },
+    {
+     "name": "Labdanum Abs",
+     "amount": 100.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 80.0
+    },
+    {
+     "name": "Veramoss",
+     "amount": 60.0
+    },
+    {
+     "name": "Benzoin Siam Resinoid",
+     "amount": 60.0
+    },
+    {
+     "name": "Patchouli Oil",
+     "amount": 60.0
+    },
+    {
+     "name": "Myrrh Oil",
+     "amount": 50.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 40.0
+    },
+    {
+     "name": "Opoponax Resinoid",
+     "amount": 40.0
+    },
+    {
+     "name": "Isobutyl Quinoline",
+     "amount": 30.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 80.0
+    }
+   ]
+  },
+  {
+   "id": "phq-white-musk-accord",
+   "title": "White Musk Accord",
+   "kind": "accord",
+   "style": "an accord · clean & classic",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 280.0
+    },
+    {
+     "name": "Ethylene Brassylate",
+     "amount": 220.0
+    },
+    {
+     "name": "Habanolide",
+     "amount": 120.0
+    },
+    {
+     "name": "Exaltolide Total",
+     "amount": 100.0
+    },
+    {
+     "name": "Ambrettolide",
+     "amount": 80.0
+    },
+    {
+     "name": "Velvione",
+     "amount": 80.0
+    },
+    {
+     "name": "Helvetolide",
+     "amount": 60.0
+    },
+    {
+     "name": "Tonalide",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-chypre-base",
+   "title": "Chypre Base",
+   "kind": "accord",
+   "style": "a base · clean & classic",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Bergamot FCF",
+     "amount": 200.0
+    },
+    {
+     "name": "Patchouli Oil",
+     "amount": 100.0
+    },
+    {
+     "name": "Evernyl",
+     "amount": 100.0
+    },
+    {
+     "name": "Labdanum Abs",
+     "amount": 90.0
+    },
+    {
+     "name": "Coumarin",
+     "amount": 80.0
+    },
+    {
+     "name": "Oakmoss Abs",
+     "amount": 70.0
+    },
+    {
+     "name": "Benzoin Siam Resinoid",
+     "amount": 60.0
+    },
+    {
+     "name": "Vetiver Bourbon",
+     "amount": 60.0
+    },
+    {
+     "name": "Benzyl Salicylate",
+     "amount": 50.0
+    },
+    {
+     "name": "Rose Absolute Morocco",
+     "amount": 50.0
+    },
+    {
+     "name": "Linalyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Jasmine Absolute",
+     "amount": 30.0
+    },
+    {
+     "name": "Musk Ketone",
+     "amount": 30.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 30.0
+    }
+   ]
+  },
+  {
+   "id": "phq-fougere-base",
+   "title": "Fougère Base",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Coumarin",
+     "amount": 140.0
+    },
+    {
+     "name": "Lavender Oil",
+     "amount": 130.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 120.0
+    },
+    {
+     "name": "Amyl Salicylate",
+     "amount": 100.0
+    },
+    {
+     "name": "Oakmoss Abs",
+     "amount": 80.0
+    },
+    {
+     "name": "Evernyl",
+     "amount": 70.0
+    },
+    {
+     "name": "Patchouli Oil",
+     "amount": 70.0
+    },
+    {
+     "name": "Geranium Bourbon",
+     "amount": 60.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 50.0
+    },
+    {
+     "name": "Vetiver Bourbon",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzoin Siam Resinoid",
+     "amount": 30.0
+    },
+    {
+     "name": "Petitgrain Bigarade Oil",
+     "amount": 30.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 30.0
+    },
+    {
+     "name": "Linalyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Clove Bud Oil",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-mimosa-powdery-floral-base",
+   "title": "Mimosa / Powdery Floral Base",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Anisic Aldehyde",
+     "amount": 160.0
+    },
+    {
+     "name": "Dihydro Beta Ionone",
+     "amount": 160.0
+    },
+    {
+     "name": "Peonile",
+     "amount": 150.0
+    },
+    {
+     "name": "Florhydral",
+     "amount": 140.0
+    },
+    {
+     "name": "Hedione",
+     "amount": 100.0
+    },
+    {
+     "name": "Alpha Terpineol",
+     "amount": 80.0
+    },
+    {
+     "name": "Anisyl Alcohol",
+     "amount": 60.0
+    },
+    {
+     "name": "Heliotropin",
+     "amount": 50.0
+    },
+    {
+     "name": "Benzyl Acetate",
+     "amount": 40.0
+    },
+    {
+     "name": "Viridine",
+     "amount": 30.0
+    },
+    {
+     "name": "Nerolidol",
+     "amount": 20.0
+    },
+    {
+     "name": "Nonadienal",
+     "amount": 10.0
+    }
+   ]
+  },
+  {
+   "id": "phq-marine-aquatic-base",
+   "title": "Marine / Aquatic Base",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Hedione",
+     "amount": 200.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 120.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 120.0
+    },
+    {
+     "name": "Dihydromyrcenol",
+     "amount": 70.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 80.0
+    },
+    {
+     "name": "Ambrox Super",
+     "amount": 80.0
+    },
+    {
+     "name": "Ethyl Linalool",
+     "amount": 60.0
+    },
+    {
+     "name": "Habanolide",
+     "amount": 60.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 60.0
+    },
+    {
+     "name": "Helional",
+     "amount": 50.0
+    },
+    {
+     "name": "Melonal",
+     "amount": 30.0
+    },
+    {
+     "name": "Allyl Amyl Glycolate",
+     "amount": 30.0
+    },
+    {
+     "name": "Linalyl Acetate",
+     "amount": 20.0
+    },
+    {
+     "name": "Calone 10% in DPG",
+     "amount": 20.0
+    }
+   ]
+  },
+  {
+   "id": "phq-green-fresh-foliage-base",
+   "title": "Green / Fresh Foliage Base",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Cis-3-Hexenyl Salicylate",
+     "amount": 120.0
+    },
+    {
+     "name": "Canthoxal",
+     "amount": 100.0
+    },
+    {
+     "name": "Hexyl Salicylate",
+     "amount": 100.0
+    },
+    {
+     "name": "Mayol",
+     "amount": 80.0
+    },
+    {
+     "name": "Cis-3-Hexenol",
+     "amount": 80.0
+    },
+    {
+     "name": "Triplal",
+     "amount": 80.0
+    },
+    {
+     "name": "Tetrahydro Linalool",
+     "amount": 80.0
+    },
+    {
+     "name": "Helional",
+     "amount": 60.0
+    },
+    {
+     "name": "Stemone",
+     "amount": 60.0
+    },
+    {
+     "name": "Iso E Super",
+     "amount": 50.0
+    },
+    {
+     "name": "Styrallyl Acetate",
+     "amount": 50.0
+    },
+    {
+     "name": "Florhydral",
+     "amount": 40.0
+    },
+    {
+     "name": "Dipropylene Glycol (DPG)",
+     "amount": 100.0
+    }
+   ]
+  },
+  {
+   "id": "phq-oriental-base",
+   "title": "Oriental Base",
+   "kind": "accord",
+   "style": "a base",
+   "smellsLike": null,
+   "year": null,
+   "url": "https://perfumerhq.com/",
+   "article": null,
+   "unit": "parts",
+   "printedTotal": 1000.0,
+   "lines": [
+    {
+     "name": "Coumarin",
+     "amount": 130.0
+    },
+    {
+     "name": "Bergamot FCF",
+     "amount": 110.0
+    },
+    {
+     "name": "Vanillin",
+     "amount": 100.0
+    },
+    {
+     "name": "Labdanum Abs",
+     "amount": 90.0
+    },
+    {
+     "name": "Patchouli Oil",
+     "amount": 80.0
+    },
+    {
+     "name": "Benzoin Siam Resinoid",
+     "amount": 70.0
+    },
+    {
+     "name": "Ethyl Vanillin",
+     "amount": 60.0
+    },
+    {
+     "name": "Vetiveryl Acetate",
+     "amount": 60.0
+    },
+    {
+     "name": "Vertofix Coeur",
+     "amount": 60.0
+    },
+    {
+     "name": "Galaxolide 50% in IPM",
+     "amount": 60.0
+    },
+    {
+     "name": "Tonka Bean Abs",
+     "amount": 50.0
+    },
+    {
+     "name": "Opoponax Resinoid",
+     "amount": 50.0
+    },
+    {
+     "name": "Myrrh Oil",
+     "amount": 30.0
+    },
+    {
+     "name": "Civet Abs",
+     "amount": 30.0
+    },
+    {
+     "name": "Clove Bud Oil",
+     "amount": 20.0
+    }
+   ]
+  }
+ ]
+}

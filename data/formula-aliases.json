@@ -1,0 +1,1031 @@
+{
+  "about": [
+    "Hand-checked matches between names used in published formulas and Jin's library (checked 2026-10-14, added to 2026-10-16 and 2026-10-18).",
+    "Matching ignores ®/™, quotes, dilution wording (\"10% DPG\") and Fraterworks base codes, so one entry covers those variants.",
+    "library: the exact name in Jin's spreadsheet, or null for 'checked: not in Jin's library' (this blocks a wrong automatic match).",
+    "match: 'exact' = the same product under another spelling; 'variant' = the same material in another grade, dilution or trade name.",
+    "Edit freely, then run npm run import."
+  ],
+  "aliases": {
+    "Rose Imperiale": {
+      "library": "Rose Imperial",
+      "match": "exact",
+      "why": "The same Fraterworks base (code 819656, which was in Jin's CAS cell)."
+    },
+    "Cedarwood “Superior” Oil, Virginia": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "exact",
+      "why": "VA = Virginia; same Fraterworks product."
+    },
+    "Patchouli Dark PA 30": {
+      "library": "Patchouli Dark PA30",
+      "match": "exact",
+      "why": "Spacing only."
+    },
+    "Styrallyl Acetate": {
+      "library": "Styralyl Acetate",
+      "match": "exact",
+      "why": "Two spellings of the same name."
+    },
+    "Aldehyde C-10": {
+      "library": "Aldehyde C-10 Decanal",
+      "match": "exact",
+      "why": "Aldehyde C-10 is decanal."
+    },
+    "Aldehyde C-12 Lauric": {
+      "library": "Aldehyde C-12 Lauric Dodecanal",
+      "match": "exact",
+      "why": "Aldehyde C-12 lauric is dodecanal."
+    },
+    "Aldehyde C-11 Undecylic": {
+      "library": "Aldehyde C-11 Undecanal",
+      "match": "exact",
+      "why": "Undecylic aldehyde is undecanal (112-44-7)."
+    },
+    "Lime Oil, Distilled": {
+      "library": "Lime Distilled Essential Oil",
+      "match": "exact",
+      "why": "Same oil, words reordered."
+    },
+    "Cyclosia": {
+      "library": "Hydroxycitronellal",
+      "match": "variant",
+      "why": "Cyclosia is Firmenich's hydroxycitronellal; the PDFs list its CAS as 107-75-5."
+    },
+    "Anisic Aldehyde": {
+      "library": "Anisaldehyde",
+      "match": "variant",
+      "why": "Another name for anisaldehyde (123-11-5)."
+    },
+    "Hedione HC": {
+      "library": "Hedione",
+      "match": "variant",
+      "why": "High-cis grade of Hedione."
+    },
+    "Ambrox Super": {
+      "library": "Ambrofix",
+      "match": "variant",
+      "why": "Firmenich's (-)-ambroxide, the same molecule as Ambrofix."
+    },
+    "Ambroxan Flakes": {
+      "library": "Ambrofix",
+      "match": "variant",
+      "why": "Ambroxan is (-)-ambroxide."
+    },
+    "Ambrox Classique": {
+      "library": "Ambrofix",
+      "match": "variant",
+      "why": "Firmenich's (-)-ambroxide."
+    },
+    "Sandal Cyclopropane (Javanol)": {
+      "library": "Javanol",
+      "match": "variant",
+      "why": "Javanol is sandal cyclopropane (198404-98-7)."
+    },
+    "Sandela 85 IPM": {
+      "library": "Sandela 50",
+      "match": "variant",
+      "why": "Same Givaudan material at another strength."
+    },
+    "Sandela 85": {
+      "library": "Sandela 50",
+      "match": "variant",
+      "why": "Same Givaudan material at another strength."
+    },
+    "Suederal": {
+      "library": "Suederal LT 0710",
+      "match": "variant",
+      "why": "Same base; the formula doesn't name the LT grade."
+    },
+    "Clearwood PRISMA 50 HED": {
+      "library": "Clearwood",
+      "match": "variant",
+      "why": "Clearwood supplied as a 50% blend in Hedione."
+    },
+    "Phenyl Acetaldehyde 50%": {
+      "library": "Phenyl Acetaldehyde 85% PEA",
+      "match": "variant",
+      "why": "Same material at another dilution."
+    },
+    "Patchouli Light Aceh PA38": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, light (steel-distilled) grade."
+    },
+    "Patchouli Light Aceh PA38 Payan Bertrand": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, light grade."
+    },
+    "Patchouli Aceh Oil, PA38": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, light grade."
+    },
+    "Patchouli Heart MD PA50": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, heart fraction."
+    },
+    "Patchouli Heart N.3 CSM PA60": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, heart fraction."
+    },
+    "Patchouli Dark Aged PA32": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, aged dark grade."
+    },
+    "Patchouli Dark Aged PA30": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, aged dark grade."
+    },
+    "Patchouli Dark Aceh PA30": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, dark grade."
+    },
+    "Patchouli Oil, Dark": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil, dark grade."
+    },
+    "Patchouli Oil Vintage": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil."
+    },
+    "Labdanum Absolute “Super Premium” 50%": {
+      "library": "Labdanum Absolute 50% TEC",
+      "match": "variant",
+      "why": "Labdanum absolute, another grade."
+    },
+    "Labdanum Absolute “Super Premium” 50% ETH": {
+      "library": "Labdanum Absolute 50% TEC",
+      "match": "variant",
+      "why": "Labdanum absolute diluted in ethanol."
+    },
+    "Labdanum Tincture 20%": {
+      "library": "Labdanum Absolute 50% TEC",
+      "match": "variant",
+      "why": "Labdanum as a tincture."
+    },
+    "Oakmoss “IFRA 43” Absolute 50%": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute, low-atranol (IFRA 43) grade."
+    },
+    "Oakmoss “IFRA 43” 50% ETH": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute, low-atranol grade."
+    },
+    "Oakmoss Green Absolute 50%": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute, green grade."
+    },
+    "Oakmoss Absolute Green 50%": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute, green grade."
+    },
+    "Oakmoss Green Yugoslavia": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute from the Balkans."
+    },
+    "Oakmoss Green Yugoslavia 50% Eth.": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute from the Balkans."
+    },
+    "Oakmoss Green Yugoslavia P&N": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute from the Balkans."
+    },
+    "Oakmoss Green Absolute (Yugoslavia) 50% ETH": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute from the Balkans."
+    },
+    "Oakmoss Green Yugloslavia 50% ETH": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Oakmoss absolute (spelling as printed)."
+    },
+    "Oakmoss DEC Abs MD 55% TEC": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Decolourised oakmoss absolute."
+    },
+    "Ylang-Ylang Extra Oil, Organic": {
+      "library": "Ylang Ylang \"Superior\" Oil",
+      "match": "variant",
+      "why": "Ylang ylang extra oil."
+    },
+    "Ylang-Ylang Extra Superior Oil, Org": {
+      "library": "Ylang Ylang \"Superior\" Oil",
+      "match": "variant",
+      "why": "Ylang ylang extra oil."
+    },
+    "Ylang-Ylang Extra Oil, Comoros": {
+      "library": "Ylang Ylang \"Superior\" Oil",
+      "match": "variant",
+      "why": "Ylang ylang extra oil."
+    },
+    "Ylang-Ylang Extra, Comoros": {
+      "library": "Ylang Ylang \"Superior\" Oil",
+      "match": "variant",
+      "why": "Ylang ylang extra oil."
+    },
+    "Ylang Ylang Extra Comoros Robertet": {
+      "library": "Ylang Ylang \"Superior\" Oil",
+      "match": "variant",
+      "why": "Ylang ylang extra oil."
+    },
+    "Ylang Ylang Extra, Organic": {
+      "library": "Ylang Ylang \"Superior\" Oil",
+      "match": "variant",
+      "why": "Ylang ylang extra oil."
+    },
+    "Lemon Oil Messina": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Cold-pressed lemon oil (not furocoumarin-free)."
+    },
+    "Lemon Oil Messina, Pelatrice": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Cold-pressed lemon oil."
+    },
+    "Lemon Oil, Washed": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Lemon oil."
+    },
+    "Lemon Oil C. P. Italy": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Cold-pressed lemon oil."
+    },
+    "Lemon Oil Sicily": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Lemon oil."
+    },
+    "Lemon Oil Sfumatrice": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Lemon oil."
+    },
+    "Lemon Oil Terpeneless": {
+      "library": null,
+      "why": "Terpeneless oil is several times stronger; not interchangeable."
+    },
+    "Bergamot Oil Melito": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Cold-pressed bergamot oil (not furocoumarin-free)."
+    },
+    "Bergamot Oil Melito, P&N": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Cold-pressed bergamot oil."
+    },
+    "Bergamot Oil CP “Trad” Melito": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Cold-pressed bergamot oil."
+    },
+    "Bergamot Calabria": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Bergamot oil from Calabria."
+    },
+    "Bergamot “Superior” Oil, Bergaptene Free": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Bergaptene-free is the furocoumarin-free (FCF) grade."
+    },
+    "Bergamot Reggio 406968": {
+      "library": null,
+      "why": "A Fraterworks bergamot base (code 406968), not the oil."
+    },
+    "Bergamot Oil FCF, Terpeneless": {
+      "library": null,
+      "why": "Terpeneless oil is several times stronger."
+    },
+    "Bergamot Oil Terpeneless": {
+      "library": null,
+      "why": "Terpeneless oil is several times stronger."
+    },
+    "Bergamot, Terpeneless": {
+      "library": null,
+      "why": "Terpeneless oil is several times stronger."
+    },
+    "Orange Oil Sweet, Decolourised": {
+      "library": "Sweet Orange \"Signature\" oil",
+      "match": "variant",
+      "why": "Sweet orange oil."
+    },
+    "Sweet Orange Oil Decolorised": {
+      "library": "Sweet Orange \"Signature\" oil",
+      "match": "variant",
+      "why": "Sweet orange oil."
+    },
+    "Sweet Orange Oil 10 Fold": {
+      "library": null,
+      "why": "A tenfold (concentrated) oil; not interchangeable."
+    },
+    "Orange Oil Sweet Terpeneless 10%": {
+      "library": null,
+      "why": "Terpeneless oil is several times stronger."
+    },
+    "Lavender “Signature” Oil": {
+      "library": "Lavender Oil \"Avice Hill\"",
+      "match": "variant",
+      "why": "Lavender oil from another origin."
+    },
+    "Lavender “Signature” Oil, France": {
+      "library": "Lavender Oil \"Avice Hill\"",
+      "match": "variant",
+      "why": "Lavender oil from another origin."
+    },
+    "Coriander Seed Oil": {
+      "library": "Coriander Essential Oil",
+      "match": "variant",
+      "why": "Coriander seed oil."
+    },
+    "Coriander Seed Oil, Russia": {
+      "library": "Coriander Essential Oil",
+      "match": "variant",
+      "why": "Coriander seed oil."
+    },
+    "Coriander Oil": {
+      "library": "Coriander Essential Oil",
+      "match": "variant",
+      "why": "Coriander seed oil."
+    },
+    "Clary Sage Oil": {
+      "library": "Clary Sage Oil, France",
+      "match": "variant",
+      "why": "Clary sage oil."
+    },
+    "Cedarwood Oil, Virginia": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Virginia cedarwood oil."
+    },
+    "Cedarwood Virginia": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Virginia cedarwood oil."
+    },
+    "Cedarwood Virginia Oil": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Virginia cedarwood oil."
+    },
+    "Benzoin Siam “Signature” Tincture 20%": {
+      "library": "Benzoin Siam Resinoid 50% TEC",
+      "match": "variant",
+      "why": "Siam benzoin as a tincture."
+    },
+    "Benzoin Resinoid 50 PCT TEC": {
+      "library": "Benzoin Siam Resinoid 50% TEC",
+      "match": "variant",
+      "why": "Benzoin resinoid at the same dilution."
+    },
+    "Benzoin Siam 50 PCT TEC": {
+      "library": "Benzoin Siam Resinoid 50% TEC",
+      "match": "exact",
+      "why": "Same product, shorter name."
+    },
+    "Tonka Bean “Luxe” Absolute": {
+      "library": "Tonka Bean Absolute",
+      "match": "variant",
+      "why": "Tonka absolute, another grade."
+    },
+    "Tonka Bean Absolute 30% ETH": {
+      "library": "Tonka Bean Absolute",
+      "match": "variant",
+      "why": "Tonka absolute diluted in ethanol."
+    },
+    "Pink Peppercorn Oil": {
+      "library": "Pink Peppercorn \"Molle\" Oil",
+      "match": "variant",
+      "why": "Pink peppercorn oil."
+    },
+    "Pink Peppercorn Oil, CSM": {
+      "library": "Pink Peppercorn \"Molle\" Oil",
+      "match": "variant",
+      "why": "Pink peppercorn oil."
+    },
+    "Pink Peppercorn Oil, CSM LMR": {
+      "library": "Pink Peppercorn \"Molle\" Oil",
+      "match": "variant",
+      "why": "Pink peppercorn oil."
+    },
+    "Pink Peppercorn Oil LMR": {
+      "library": "Pink Peppercorn \"Molle\" Oil",
+      "match": "variant",
+      "why": "Pink peppercorn oil."
+    },
+    "Birch Tar “Signature” Oil, Clear 10%": {
+      "library": "Birch Tar Oil Rectified 10%",
+      "match": "variant",
+      "why": "Clear (rectified) birch tar oil at 10%."
+    },
+    "Juniper Berry Oil, Rectified": {
+      "library": "Juniper Berry Essential Oil",
+      "match": "variant",
+      "why": "Juniper berry oil."
+    },
+    "Grapefruit Oil": {
+      "library": "Grapefruit Pink Essential Oil",
+      "match": "variant",
+      "why": "Grapefruit oil."
+    },
+    "Guaiacwood Oil": {
+      "library": "Guaiacwood Essential Oil",
+      "match": "exact",
+      "why": "Same oil, spacing only."
+    },
+    "Aldehyde C-11 Undecylenic": {
+      "library": null,
+      "why": "10-Undecenal (112-45-8), a different chemical from Jin's undecanal."
+    },
+    "Ambrox DL": {
+      "library": null,
+      "why": "Racemic ambrox (3738-00-9), a different isomer mix from Ambrofix/Orcanox."
+    },
+    "Isoamyl Salicylate": {
+      "library": null,
+      "why": "87-20-7, a different CAS from Jin's amyl salicylate."
+    },
+    "Iso Amyl Salicylate": {
+      "library": null,
+      "why": "87-20-7, a different CAS from Jin's amyl salicylate."
+    },
+    "Anise Oil Spain": {
+      "library": null,
+      "why": "True anise (Pimpinella); Jin's China oil is likely star anise. Different plants."
+    },
+    "Rose de Mai ex Grasse": {
+      "library": null,
+      "why": "Its PDF prints a lavender CAS by mistake; this is a rose product."
+    },
+    "Operanide (IFF)": {
+      "library": null,
+      "why": "Its PDF prints linalool's CAS; Operanide is a different material."
+    },
+    "Sandalwood Mysore “Signature” Oil": {
+      "library": null,
+      "why": "One PDF prints Sandalore's CAS; this is natural sandalwood oil."
+    },
+    "Persicol 888561": {
+      "library": null,
+      "why": "A Fraterworks peach base built around undecalactone, not undecalactone itself."
+    },
+    "Persicol CNC 888561": {
+      "library": null,
+      "why": "A Fraterworks peach base, not undecalactone itself."
+    },
+    "Cistus Oil “Rock Rose”": {
+      "library": null,
+      "why": "Cistus oil smells quite different from labdanum absolute, though both come from the same plant."
+    },
+    "Pink Peppercorn CO2 10%": {
+      "library": null,
+      "why": "A CO2 extract, not the distilled oil."
+    },
+    "Phenylethyl Alcohol": {
+      "library": "Phenyl Ethyl Alcohol",
+      "match": "variant",
+      "why": "Another spelling of phenylethyl alcohol (PEA)."
+    },
+    "Linalol": {
+      "library": "Linalool",
+      "match": "variant",
+      "why": "French spelling of linalool."
+    },
+    "Linalool Laevo": {
+      "library": "Linalool",
+      "match": "variant",
+      "why": "The laevo (R) isomer grade of linalool."
+    },
+    "Coumarine": {
+      "library": "Coumarin",
+      "match": "variant",
+      "why": "French spelling of coumarin."
+    },
+    "Indol": {
+      "library": "Indole",
+      "match": "variant",
+      "why": "Another spelling of indole."
+    },
+    "Citronellol": {
+      "library": "Citronellol 98",
+      "match": "variant",
+      "why": "Citronellol; Jin's is the 98% grade."
+    },
+    "Geraniol Pur": {
+      "library": "Geraniol Extra",
+      "match": "variant",
+      "why": "Pure geraniol, another grade."
+    },
+    "Ambrox": {
+      "library": "Ambrofix",
+      "match": "variant",
+      "why": "Firmenich's (-)-ambroxide, the same molecule as Ambrofix."
+    },
+    "Bergamot": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Bergamot oil (Firmenich doesn't name the grade)."
+    },
+    "Bergamot EO": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Bergamot oil."
+    },
+    "Bergamot Cp": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Cold-pressed bergamot oil."
+    },
+    "Bergamote Italy EO": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Italian bergamot oil."
+    },
+    "Bergamot Incol MD": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Firmenich's colourless, molecularly distilled bergamot oil."
+    },
+    "Cedarwood Virginia EO": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Virginia cedarwood oil."
+    },
+    "Cedarwood Virginia Usa EO Rect": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Rectified Virginia cedarwood oil."
+    },
+    "Lemon EO": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Lemon oil."
+    },
+    "Lemon Oil Sfuma": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Lemon oil (sfumatrice-pressed)."
+    },
+    "Orange EO": {
+      "library": "Sweet Orange \"Signature\" oil",
+      "match": "variant",
+      "why": "Sweet orange oil."
+    },
+    "Orange Florida EO": {
+      "library": "Sweet Orange \"Signature\" oil",
+      "match": "variant",
+      "why": "Sweet orange oil from Florida."
+    },
+    "Patchouli Indonesia EO": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Indonesian patchouli oil."
+    },
+    "Tonka Bean ABS": {
+      "library": "Tonka Bean Absolute",
+      "match": "variant",
+      "why": "Tonka bean absolute."
+    },
+    "Vanillin Perf": {
+      "library": "Vanillin \"Signature\"",
+      "match": "variant",
+      "why": "Vanillin, perfumery grade."
+    },
+    "Vanillin Hp Nat": {
+      "library": "Vanillin \"Signature\"",
+      "match": "variant",
+      "why": "Natural vanillin."
+    },
+    "Pink Pepper EO": {
+      "library": "Pink Peppercorn \"Molle\" Oil",
+      "match": "variant",
+      "why": "Pink pepper oil."
+    },
+    "Cassis Base": {
+      "library": "Cassis Base 345B",
+      "match": "variant",
+      "why": "Firmenich's cassis base; the formula doesn't print the 345 B code."
+    },
+    "Galaxolide 70 MIP Extra": {
+      "library": "Galaxolide 50% IPM",
+      "match": "variant",
+      "why": "Galaxolide at 70% in MIP instead of 50% in IPM."
+    },
+    "Benzoin Siam RES 50 Rect": {
+      "library": "Benzoin Siam Resinoid 50% TEC",
+      "match": "variant",
+      "why": "Siam benzoin resinoid at 50%."
+    },
+    "Benzoin Siam Res 50 DIPG": {
+      "library": "Benzoin Siam Resinoid 50% TEC",
+      "match": "variant",
+      "why": "Siam benzoin resinoid at 50% in DPG."
+    },
+    "Labdanum ABS / 50% DPG": {
+      "library": "Labdanum Absolute 50% TEC",
+      "match": "variant",
+      "why": "Labdanum absolute at 50% in DPG."
+    },
+    "Labdanum Spain ABS @10%": {
+      "library": "Labdanum Absolute 50% TEC",
+      "match": "variant",
+      "why": "Spanish labdanum absolute at 10%."
+    },
+    "Guaiacwood": {
+      "library": "Guaiacwood Essential Oil",
+      "match": "variant",
+      "why": "Guaiacwood oil."
+    },
+    "Guaiacwood EO Rect": {
+      "library": "Guaiacwood Essential Oil",
+      "match": "variant",
+      "why": "Rectified guaiacwood oil."
+    },
+    "Padma": {
+      "library": "Phenyl Acetaldehyde Dimethyl Acetal",
+      "match": "variant",
+      "why": "PADMA is phenylacetaldehyde dimethyl acetal."
+    },
+    "Phenylacetic Aldehyde 1%": {
+      "library": "Phenyl Acetaldehyde 85% PEA",
+      "match": "variant",
+      "why": "Phenylacetaldehyde at 1%."
+    },
+    "Hydroxycitronellal Synth P Fab": {
+      "library": "Hydroxycitronellal",
+      "match": "variant",
+      "why": "Synthetic hydroxycitronellal, another grade."
+    },
+    "Raspberry Ketone Usoc Nat": {
+      "library": "Raspberry Ketone",
+      "match": "variant",
+      "why": "Natural raspberry ketone."
+    },
+    "Oakmoss Firbest 50 MIP 1%": {
+      "library": "Oakmoss Absolute",
+      "match": "variant",
+      "why": "Firmenich's purified oakmoss extract, at 1%."
+    },
+    "Ylang III": {
+      "library": null,
+      "why": "Ylang ylang III is a different (heavier) fraction from Jin's Ylang Superior."
+    },
+    "Civette Synth": {
+      "library": null,
+      "why": "Firmenich's synthetic civet; not the same product as Jin's Civet Fleuressence."
+    },
+    "Violet BC": {
+      "library": null,
+      "why": "A Firmenich violet base; not the same product as Jin's Violet Fleuressence."
+    },
+    "Patchouli Heart SFE": {
+      "library": null,
+      "why": "A CO2 (SFE) extract; smells different from distilled patchouli oil."
+    },
+    "Cedarwood Atlas EO": {
+      "library": null,
+      "why": "Atlas cedarwood (Cedrus atlantica), a different tree from Jin's Virginia and Chinese cedarwood."
+    },
+    "Damascone Gamma 10%": {
+      "library": null,
+      "why": "Gamma damascone; Jin has alpha, beta and delta."
+    },
+    "Birch tar (1%)": {
+      "library": "Birch Tar Oil Rectified 10%",
+      "match": "variant",
+      "why": "Birch tar at 1%."
+    },
+    "Lavender EO": {
+      "library": "Lavender Oil \"Avice Hill\"",
+      "match": "variant",
+      "why": "Lavender oil."
+    },
+    "Lavender EO (fine)": {
+      "library": "Lavender Oil \"Avice Hill\"",
+      "match": "variant",
+      "why": "Fine lavender oil."
+    },
+    "Patchouli EO": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil."
+    },
+    "Patchouli EO (aged)": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Aged patchouli oil."
+    },
+    "Oakmoss substitute (Evernyl)": {
+      "library": "Veramoss",
+      "match": "variant",
+      "why": "Evernyl and Veramoss are both methyl atrarate (4707-47-5)."
+    },
+    "Suederal LT": {
+      "library": "Suederal LT 0710",
+      "match": "exact",
+      "why": "Same base; the code isn't printed."
+    },
+    "Tonka absolute (10%)": {
+      "library": "Tonka Bean Absolute",
+      "match": "variant",
+      "why": "Tonka absolute at 10%."
+    },
+    "Castoreum substitute (1%)": {
+      "library": "Castoreum Fleuressence",
+      "match": "variant",
+      "why": "A castoreum reconstruction; Jin's Castoreum Fleuressence is one."
+    },
+    "Phenylacetaldehyde": {
+      "library": "Phenyl Acetaldehyde 85% PEA",
+      "match": "variant",
+      "why": "Phenylacetaldehyde; Jin's is 85% in PEA."
+    },
+    "Maltol": {
+      "library": null,
+      "why": "Maltol (118-71-8) is not ethyl maltol."
+    },
+    "Patchouli Oil": {
+      "library": "Patchouli Dark PA30",
+      "match": "variant",
+      "why": "Patchouli oil."
+    },
+    "Oakmoss Abs": {
+      "library": "Oakmoss Absolute",
+      "match": "exact",
+      "why": "Abbreviation of oakmoss absolute."
+    },
+    "Labdanum Resinoid": {
+      "library": "Labdanum Absolute 50% TEC",
+      "match": "variant",
+      "why": "Labdanum, as a resinoid rather than an absolute."
+    },
+    "Pentalide": {
+      "library": "Exaltolide",
+      "match": "variant",
+      "why": "Pentalide is pentadecanolide (106-02-5), the same molecule as Exaltolide."
+    },
+    "Castoreum Synthetic": {
+      "library": "Castoreum Fleuressence",
+      "match": "variant",
+      "why": "A synthetic castoreum reconstruction, like Jin's Castoreum Fleuressence."
+    },
+    "Castoreum Abs": {
+      "library": null,
+      "why": "Natural castoreum absolute; Jin's Castoreum Fleuressence is a reconstruction."
+    },
+    "Civet Abs": {
+      "library": null,
+      "why": "Natural civet absolute; Jin's Civet Fleuressence is a reconstruction."
+    },
+    "Anisaldehyde Special Redist": {
+      "library": "Anisaldehyde",
+      "match": "variant",
+      "why": "Redistilled anisaldehyde."
+    },
+    "Benzoin Siam RES 50 TEC": {
+      "library": "Benzoin Siam Resinoid 50% TEC",
+      "match": "exact",
+      "why": "Same product: Siam benzoin resinoid 50% in TEC."
+    },
+    "Benzoin Siam Res 50%": {
+      "library": "Benzoin Siam Resinoid 50% TEC",
+      "match": "variant",
+      "why": "Siam benzoin resinoid at 50%."
+    },
+    "Benzyl Acetate Extra II": {
+      "library": "Benzyl Acetate",
+      "match": "variant",
+      "why": "Benzyl acetate, another grade."
+    },
+    "Bergamote": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Bergamot oil (French spelling)."
+    },
+    "Bergamot Italy CP Bergapt Free": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Bergaptene-free (FCF) Italian bergamot oil."
+    },
+    "Bergamote Incol DM": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Firmenich's colourless distilled bergamot."
+    },
+    "Bergamote Italy Ess": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Italian bergamot oil."
+    },
+    "Cedarwood Virginia USA EO": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Virginia cedarwood oil."
+    },
+    "Cedarwood Virginia USA EO Super": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Virginia cedarwood oil, superior grade."
+    },
+    "Citronellol BJ": {
+      "library": "Citronellol 98",
+      "match": "variant",
+      "why": "Citronellol, Firmenich grade."
+    },
+    "Damascone Beta Fab": {
+      "library": "Damascone Beta 10%DPG",
+      "match": "variant",
+      "why": "Beta damascone, Firmenich grade."
+    },
+    "Decalatone Gamma": {
+      "library": "Gamma Decalactone",
+      "match": "variant",
+      "why": "Gamma decalactone (spelling as printed)."
+    },
+    "Ethylvanillin": {
+      "library": "Ethyl Vanillin",
+      "match": "exact",
+      "why": "One-word spelling of ethyl vanillin."
+    },
+    "Geraniol P Nat": {
+      "library": "Geraniol Extra",
+      "match": "variant",
+      "why": "Natural geraniol."
+    },
+    "Labdanum Abs 50 DIPG": {
+      "library": "Labdanum Absolute 50% TEC",
+      "match": "variant",
+      "why": "Labdanum absolute at 50% in DPG."
+    },
+    "Lemon Italy EO Sfuma Decol": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Italian lemon oil."
+    },
+    "Lemon Oil Sfuma Decol": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Lemon oil."
+    },
+    "Linalol BJ": {
+      "library": "Linalool",
+      "match": "variant",
+      "why": "Linalool, Firmenich grade."
+    },
+    "Methyl Anthranilate Dist": {
+      "library": "Methyl Anthranilate",
+      "match": "variant",
+      "why": "Distilled methyl anthranilate."
+    },
+    "Methylnaphthylkeyone Crist": {
+      "library": "Oranger Crystals",
+      "match": "variant",
+      "why": "Methyl naphthyl ketone crystals, the same material as Oranger Crystals."
+    },
+    "Nerol BJ": {
+      "library": "Nerol",
+      "match": "variant",
+      "why": "Nerol, Firmenich grade."
+    },
+    "Phenethylol": {
+      "library": "Phenyl Ethyl Alcohol",
+      "match": "variant",
+      "why": "Phenethylol is phenylethyl alcohol."
+    },
+    "Phenylethyl Acetate": {
+      "library": "Phenyl Ethyl Acetate",
+      "match": "variant",
+      "why": "2-Phenylethyl acetate (103-45-7). Not ethyl phenylacetate."
+    },
+    "Terpineol Alpha Nat": {
+      "library": "Alpha Terpineol",
+      "match": "variant",
+      "why": "Natural alpha terpineol."
+    },
+    "Terpineol Normal": {
+      "library": "Terpineol",
+      "match": "variant",
+      "why": "Mixed-isomer terpineol."
+    },
+    "Tonka Bean Brazil Abs": {
+      "library": "Tonka Bean Absolute",
+      "match": "variant",
+      "why": "Brazilian tonka bean absolute."
+    },
+    "Pink Pepper Madagascar EO": {
+      "library": null,
+      "why": "Madagascan pink pepper (Schinus terebinthifolius), a different species from Jin's molle."
+    },
+    "Cetalox": {
+      "library": null,
+      "why": "Firmenich's racemic ambroxide (like Ambrox DL), not the same as Ambrofix."
+    },
+    "Astrotone": {
+      "library": "Ethylene Brassylate",
+      "match": "variant",
+      "why": "A trade name for ethylene brassylate (105-95-3); Jin's row lists the spelling Astratone."
+    },
+    "Mousse Cristal": {
+      "library": "Veramoss",
+      "match": "variant",
+      "why": "Mousse cristal is methyl atrarate (4707-47-5), the same material as Veramoss."
+    },
+    "Crystal Moss": {
+      "library": "Veramoss",
+      "match": "variant",
+      "why": "English name for mousse cristal: methyl atrarate (4707-47-5)."
+    },
+    "Trivertal": {
+      "library": "Triplal",
+      "match": "variant",
+      "why": "Trivertal, Triplal and Ligustral are all 2,4-dimethyl-3-cyclohexene carboxaldehyde (68039-49-6)."
+    },
+    "Aldehyde MNA": {
+      "library": "Aldehyde C-12 MNA",
+      "match": "exact",
+      "why": "The same aldehyde (2-methylundecanal), named without the C-12."
+    },
+    "Ethylvanilline": {
+      "library": "Ethyl Vanillin",
+      "match": "exact",
+      "why": "French spelling of ethyl vanillin."
+    },
+    "Lemon Italy Decol": {
+      "library": "Lemon \"Superior\" Oil FCF",
+      "match": "variant",
+      "why": "Decolourised Italian lemon oil."
+    },
+    "Cedarwood Virginia EO Rect": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Rectified Virginia cedarwood oil."
+    },
+    "Cedarwood Virginia EO Super": {
+      "library": "Cedarwood \"Superior\" Oil, VA",
+      "match": "variant",
+      "why": "Virginia cedarwood oil, superior grade."
+    },
+    "Geraniol Pure RC": {
+      "library": "Geraniol Extra",
+      "match": "variant",
+      "why": "Pure geraniol, another grade."
+    },
+    "Bergamot Incol": {
+      "library": "Bergamot \"Superior\" Oil, FCF",
+      "match": "variant",
+      "why": "Firmenich's colourless bergamot oil."
+    },
+    "Lavender Diva Pays EO": {
+      "library": "Lavender Oil \"Avice Hill\"",
+      "match": "variant",
+      "why": "Lavender oil, another grade."
+    },
+    "Orange Oil": {
+      "library": "Sweet Orange \"Signature\" oil",
+      "match": "variant",
+      "why": "Orange oil (the brochure doesn't name the grade)."
+    },
+    "Ylang EO III": {
+      "library": null,
+      "why": "Ylang ylang III is a different (heavier) fraction from Jin's Ylang Superior."
+    },
+    "Ylang EO": {
+      "library": null,
+      "why": "The brochure doesn't name the fraction, and ylang fractions smell quite different."
+    },
+    "Star Anise EO": {
+      "library": null,
+      "why": "Jin's spreadsheet doesn't say whether the China anise oil is star anise; not linked."
+    },
+    "Pink Pepper SFE": {
+      "library": null,
+      "why": "A CO2 (SFE) extract, not the distilled oil."
+    },
+    "Mandarin Oil": {
+      "library": null,
+      "why": "Jin's Magnificent Mandarin is a base, not the oil."
+    }
+  }
+}

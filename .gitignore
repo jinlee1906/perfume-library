@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+# Excel's lock file while the spreadsheet is open
+data/~$*
+# temp file used while saving formulas
+data/formulas.json.tmp
+# raw frames from the film renderer (scripts/film)
+scripts/film/out
+# Jin's own formulas, saved by the dev server: kept on this Mac, not published
+data/formulas.json
+data/formulas.backup.json
+# TypeScript's build cache
+*.tsbuildinfo

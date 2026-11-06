@@ -1,0 +1,4512 @@
+{
+ "about": [
+  "Facts from the suppliers' product pages, collected 2026-10-16: Fraterworks (note classification, average use, odour family, longevity) and PerfumersWorld (odour profile, typical use from/average/maximum in a perfume compound, odour life, relative impact, usage keywords, 'blends well with').",
+  "Only facts and keyword lists are kept; each profile links to the product page for the supplier's own description.",
+  "Supplier usage figures are guidance for a perfume compound (concentrate), not IFRA limits. IFRA limits still apply.",
+  "Left out because the product couldn't be identified with certainty: Labdanum Absolute 50% TEC and Ylang Ylang \"Superior\" Oil (Fraterworks), Pink Peppercorn \"Molle\" Oil (no longer listed), Safranal (only a 1% dilution is listed; Jin's is neat)."
+ ],
+ "profiles": {
+  "Birch Tar Oil, Rectified": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/birch-tar-extra-oil-rectified",
+   "classification": "Heart Note",
+   "averageUsePercent": null,
+   "odourFamily": "Leathery",
+   "longevityHours": 24.0,
+   "longevity": "Lasts > 24 hours on a smelling strip."
+  },
+  "Benzoin Siam Resinoid 50% TEC": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/benzoin-siam-resinoid-50-tec",
+   "classification": "Base Note",
+   "averageUsePercent": 2.5,
+   "odourFamily": "Balsamic",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Isobutyl Benzoate": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/isobutyl-benzoate",
+   "classification": "Heart Note",
+   "averageUsePercent": null,
+   "odourFamily": null,
+   "longevityHours": 16.0,
+   "longevity": "Lasts > 16 hours on a smelling strip."
+  },
+  "Dihydroeugenol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/dihydroeugenol",
+   "classification": "Base Note",
+   "averageUsePercent": 0.71,
+   "odourFamily": "Spicy",
+   "longevityHours": 360.0,
+   "longevity": "Lasts > 360 hours on a smelling strip."
+  },
+  "Isoeugenol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/isoeugenol",
+   "classification": "Base Note",
+   "averageUsePercent": 0.75,
+   "odourFamily": "Spicy",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Sublimolide": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/sublimolide",
+   "classification": "Base Note",
+   "averageUsePercent": 0.5,
+   "odourFamily": "Musky",
+   "longevityHours": 720.0,
+   "longevity": "Lasts > 1 month on a smelling strip."
+  },
+  "Habanolide": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/habanolide",
+   "classification": "Base Note",
+   "averageUsePercent": 3.0,
+   "odourFamily": "Musky",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Magnificent Mandarin": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/magnificent-mandarin-627118",
+   "classification": null,
+   "averageUsePercent": null,
+   "odourFamily": null,
+   "longevityHours": 48.0,
+   "longevity": "Lasts 48 hours on a smelling strip."
+  },
+  "Patchouli Dark PA30": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/patchouli-dark",
+   "classification": "Base Note",
+   "averageUsePercent": 0.97,
+   "odourFamily": "Woody",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Pineapple Supreme": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/pineapple-supreme-151932",
+   "classification": null,
+   "averageUsePercent": null,
+   "odourFamily": null,
+   "longevityHours": 24.0,
+   "longevity": "Lasts 24 hours on a smelling strip."
+  },
+  "Orcanox": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/orcanox",
+   "classification": "Base Note",
+   "averageUsePercent": 0.1,
+   "odourFamily": null,
+   "longevityHours": 720.0,
+   "longevity": "Lasts > 1 month on a smelling strip."
+  },
+  "Dihydromyrcenol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/dihydromyrcenol",
+   "classification": "Heart Note",
+   "averageUsePercent": 2.8,
+   "odourFamily": "Citrus",
+   "longevityHours": 16.0,
+   "longevity": "Lasts > 16 hours on a smelling strip."
+  },
+  "Helvetolide": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/helvetolide",
+   "classification": "Base Note",
+   "averageUsePercent": 1.4,
+   "odourFamily": "Musky",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Veramoss": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/veramoss",
+   "classification": "Base Note",
+   "averageUsePercent": 0.2,
+   "odourFamily": "Mossy",
+   "longevityHours": 360.0,
+   "longevity": "Lasts > 360 hours on a smelling strip."
+  },
+  "Ethyl Maltol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/ethyl-maltol",
+   "classification": "Base Note",
+   "averageUsePercent": 0.45,
+   "odourFamily": "Gourmand",
+   "longevityHours": 720.0,
+   "longevity": "Lasts > 1 month on a smelling strip."
+  },
+  "Guaiacol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/guaiacol",
+   "classification": "Base Note",
+   "averageUsePercent": null,
+   "odourFamily": "Balsamic",
+   "longevityHours": 280.0,
+   "longevity": "Lasts > 280 hours on a smelling strip."
+  },
+  "Geraniol Extra": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/geraniol-extra",
+   "classification": "Base Note",
+   "averageUsePercent": null,
+   "odourFamily": "Floral",
+   "longevityHours": 60.0,
+   "longevity": "Lasts > 60 hours on a smelling strip."
+  },
+  "Sweet Orange \"Signature\" oil": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/sweet-orange-signature-oil",
+   "classification": "Top Note",
+   "averageUsePercent": 2.7,
+   "odourFamily": "Citrus",
+   "longevityHours": 4.0,
+   "longevity": "Lasts 4 hours on a smelling strip."
+  },
+  "Lemon \"Superior\" Oil FCF": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/lemon-oil-fcf",
+   "classification": "Top Note",
+   "averageUsePercent": 6.5,
+   "odourFamily": "Citrus",
+   "longevityHours": 4.0,
+   "longevity": "Lasts 4 hours on a smelling strip."
+  },
+  "Sandalore": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/sandalore",
+   "classification": "Base Note",
+   "averageUsePercent": 1.0,
+   "odourFamily": "Woody",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Cis-3-Hexenol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/cis-3-hexenol",
+   "classification": "Top Note",
+   "averageUsePercent": 0.15,
+   "odourFamily": "Green",
+   "longevityHours": 4.0,
+   "longevity": "Lasts > 4 hours on a smelling strip."
+  },
+  "Citronellol 98": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/citronellol-98",
+   "classification": "Base Note",
+   "averageUsePercent": null,
+   "odourFamily": "Floral",
+   "longevityHours": 60.0,
+   "longevity": "Lasts > 60 hours on a smelling strip."
+  },
+  "Suederal LT 0710": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/suederal",
+   "classification": "Heart Note",
+   "averageUsePercent": null,
+   "odourFamily": "Leathery",
+   "longevityHours": 24.0,
+   "longevity": "Lasts > 24 hours on a smelling strip."
+  },
+  "Vertofix Coeur": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/vertofix-coeur",
+   "classification": "Base Note",
+   "averageUsePercent": 2.8,
+   "odourFamily": "Woody",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Coranol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/coranol",
+   "classification": "Heart Note",
+   "averageUsePercent": 2.3,
+   "odourFamily": "Floral",
+   "longevityHours": 20.0,
+   "longevity": "Lasts 20 hours on a smelling strip."
+  },
+  "Gamma Undecalactone": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/gamma-undecalactone",
+   "classification": "Base Note",
+   "averageUsePercent": 0.5,
+   "odourFamily": "Balsamic",
+   "longevityHours": 340.0,
+   "longevity": "Lasts > 340 hours on a smelling strip."
+  },
+  "Gamma Nonalactone": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/nonalactone-gamma",
+   "classification": "Base Note",
+   "averageUsePercent": 0.25,
+   "odourFamily": "Gourmand",
+   "longevityHours": 240.0,
+   "longevity": "Lasts > 240 hours on a smelling strip."
+  },
+  "Cassis Base 345B": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/cassis-base-345b",
+   "classification": "Base Note",
+   "averageUsePercent": null,
+   "odourFamily": "Fruity",
+   "longevityHours": 350.0,
+   "longevity": "Lasts > 350 hours on a smelling strip."
+  },
+  "Tobacarol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/tobacarol",
+   "classification": "Base Note",
+   "averageUsePercent": null,
+   "odourFamily": "Woody",
+   "longevityHours": 72.0,
+   "longevity": "Lasts > 72 hours on a smelling strip."
+  },
+  "Phenyl Ethyl Alcohol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/phenyl-ethyl-alcohol",
+   "classification": "Heart Note",
+   "averageUsePercent": 4.2,
+   "odourFamily": "Floral",
+   "longevityHours": 30.0,
+   "longevity": "Lasts > 30 hours on a smelling strip."
+  },
+  "Nerol": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/nerol",
+   "classification": "Heart Note",
+   "averageUsePercent": 1.7,
+   "odourFamily": "Floral",
+   "longevityHours": 40.0,
+   "longevity": "Lasts > 40 hours on a smelling strip."
+  },
+  "Ethylene Brassylate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3XU00180",
+   "usage": {
+    "from": 0.2,
+    "average": 2.0,
+    "max": 12.0
+   },
+   "averageUsePercent": 2.0,
+   "impression": [
+    {
+     "label": "musk",
+     "percent": 97.0
+    },
+    {
+     "label": "animalic",
+     "percent": 3.0
+    }
+   ],
+   "longevityHours": 280.0,
+   "longevity": "280 hrs on a smelling strip",
+   "relativeImpact": 40.0,
+   "uses": [
+    "Floral types",
+    "Soap perfumes"
+   ],
+   "blendsWith": []
+  },
+  "Lavender Oil \"Avice Hill\"": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/lavender-avice-hill",
+   "classification": "Heart Note",
+   "averageUsePercent": 3.0,
+   "odourFamily": null,
+   "longevityHours": 12.0,
+   "longevity": "Lasts > 12 hours on a smelling strip."
+  },
+  "Bergamot \"Superior\" Oil, FCF": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/bergamot-oil-fcf",
+   "classification": "Top Note",
+   "averageUsePercent": 5.0,
+   "odourFamily": "Citrus",
+   "longevityHours": 4.0,
+   "longevity": "Lasts 4 hours on a smelling strip."
+  },
+  "Linalool": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/linalool",
+   "classification": "Heart Note",
+   "averageUsePercent": 2.8,
+   "odourFamily": "Floral",
+   "longevityHours": 12.0,
+   "longevity": "Lasts > 12 hours on a smelling strip."
+  },
+  "Hedione": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/hedione",
+   "classification": "Base Note",
+   "averageUsePercent": 4.0,
+   "odourFamily": "Floral",
+   "longevityHours": 70.0,
+   "longevity": "Lasts > 70 hours on a smelling strip."
+  },
+  "ISO E SUPER": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/iso-e-super",
+   "classification": "Base Note",
+   "averageUsePercent": 3.1,
+   "odourFamily": "Woody",
+   "longevityHours": 172.0,
+   "longevity": "Lasts > 172 hours on a smelling strip."
+  },
+  "Coumarin": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/coumarin-synthetic",
+   "classification": "Base Note",
+   "averageUsePercent": 1.0,
+   "odourFamily": "Balsamic",
+   "longevityHours": 720.0,
+   "longevity": "Lasts > 1 month on a smelling strip."
+  },
+  "Vanillin \"Signature\"": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/vanillin",
+   "classification": "Base Note",
+   "averageUsePercent": 1.6,
+   "odourFamily": "Gourmand",
+   "longevityHours": 720.0,
+   "longevity": "Lasts > 1 month on a smelling strip."
+  },
+  "Ethyl Vanillin": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/ethyl-vanillin",
+   "classification": "Base Note",
+   "averageUsePercent": 0.28,
+   "odourFamily": null,
+   "longevityHours": 720.0,
+   "longevity": "Lasts > 1 month on a smelling strip."
+  },
+  "Cashmeran": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/cashmeran",
+   "classification": "Base Note",
+   "averageUsePercent": 0.33,
+   "odourFamily": "Woody",
+   "longevityHours": 50.0,
+   "longevity": "Lasts 50 hours on a smelling strip."
+  },
+  "Exaltolide": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/exaltolide",
+   "classification": "Base Note",
+   "averageUsePercent": 1.5,
+   "odourFamily": "Musky",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Ambrettolide": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/ambrettolide",
+   "classification": "Base Note",
+   "averageUsePercent": 0.5,
+   "odourFamily": "Musky",
+   "longevityHours": 172.0,
+   "longevity": "Lasts > 172 hours on a smelling strip."
+  },
+  "Exaltone Crystals 10% BB": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/exaltone-crystals",
+   "classification": "Base Note",
+   "averageUsePercent": 0.3,
+   "odourFamily": "Musk",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Ethyl Acetate PURE": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/ethyl-acetate",
+   "classification": "Top Note",
+   "averageUsePercent": 0.6,
+   "odourFamily": "Fruity",
+   "longevityHours": null,
+   "longevity": "Lasts"
+  },
+  "Cedarwood \"Superior\" Oil, VA": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/cedarwood-extra-oil-virginia",
+   "classification": "Base Note",
+   "averageUsePercent": 2.0,
+   "odourFamily": "Woody",
+   "longevityHours": 380.0,
+   "longevity": "Lasts > 380 hours on a smelling strip."
+  },
+  "Galaxolide 50% IPM": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/galaxolide",
+   "classification": "Base Note",
+   "averageUsePercent": 5.9,
+   "odourFamily": "Musky",
+   "longevityHours": 400.0,
+   "longevity": "Lasts > 400 hours on a smelling strip."
+  },
+  "Damascone Delta 10% DPG": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/damascone-delta",
+   "classification": "Base Note",
+   "averageUsePercent": 0.2,
+   "odourFamily": "Fruity",
+   "longevityHours": 200.0,
+   "longevity": "Lasts > 200 hours on a smelling strip."
+  },
+  "Damascone Alpha 10% DPG": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/damascone-alpha",
+   "classification": "Base Note",
+   "averageUsePercent": 0.075,
+   "odourFamily": "Floral",
+   "longevityHours": 60.0,
+   "longevity": "Lasts > 60 hours on a smelling strip."
+  },
+  "Damascone Beta 10%DPG": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/damascone-beta",
+   "classification": "Base Note",
+   "averageUsePercent": 0.2,
+   "odourFamily": "Fruity",
+   "longevityHours": 190.0,
+   "longevity": "Lasts > 190 hours on a smelling strip."
+  },
+  "Rose Imperial": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/rose-imperiale",
+   "classification": null,
+   "averageUsePercent": null,
+   "odourFamily": "Floral",
+   "longevityHours": 144.0,
+   "longevity": "Lasts 144 hours on a smelling strip."
+  },
+  "Ambrofix": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/ambrofix",
+   "classification": "Base Note",
+   "averageUsePercent": 0.1,
+   "odourFamily": "Amber",
+   "longevityHours": 720.0,
+   "longevity": "Lasts > 1 month on a smelling strip."
+  },
+  "Alpha Ionone": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/ionone-alpha",
+   "classification": "Base Note",
+   "averageUsePercent": 1.4,
+   "odourFamily": "Floral",
+   "longevityHours": 124.0,
+   "longevity": "Lasts > 124 hours on a smelling strip."
+  },
+  "Clary Sage Oil, France": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/clary-sage",
+   "classification": "Heart Note",
+   "averageUsePercent": 1.3,
+   "odourFamily": "Aromatic",
+   "longevityHours": 48.0,
+   "longevity": "Lasts 48 hours on a smelling strip."
+  },
+  "Beta Ionone": {
+   "source": "Fraterworks",
+   "url": "https://fraterworks.com/products/ionone-beta",
+   "classification": "Base Note",
+   "averageUsePercent": 0.97,
+   "odourFamily": "Floral",
+   "longevityHours": 124.0,
+   "longevity": "Lasts > 124 hours on a smelling strip."
+  },
+  "Alcohol C-8 Octanol": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3AD13388",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "citrus",
+     "percent": 42.4
+    },
+    {
+     "label": "green",
+     "percent": 19.2
+    },
+    {
+     "label": "rose",
+     "percent": 16.2
+    },
+    {
+     "label": "aliphatic",
+     "percent": 14.1
+    },
+    {
+     "label": "dairy",
+     "percent": 2.0
+    },
+    {
+     "label": "wood",
+     "percent": 2.0
+    },
+    {
+     "label": "fruity",
+     "percent": 1.0
+    },
+    {
+     "label": "konifer",
+     "percent": 1.0
+    },
+    {
+     "label": "linalool",
+     "percent": 1.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 92.0,
+   "longevity": "92 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Aldehyde C-10 Decanal": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4AC00018",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 3.6
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "aliphatic",
+     "percent": 70.0
+    },
+    {
+     "label": "citrus",
+     "percent": 30.0
+    }
+   ],
+   "longevityHours": 10.0,
+   "longevity": "10 hrs on a smelling strip",
+   "relativeImpact": 500.0,
+   "uses": [
+    "Eau de colognes",
+    "fresh topnotes",
+    "orange",
+    "citrus",
+    "neroli",
+    "aldehydic floral",
+    "freesia",
+    "peony",
+    "ionone complex",
+    "iris",
+    "lime",
+    "Soap",
+    "Gardenia",
+    "Grapefruit"
+   ],
+   "blendsWith": [
+    "Olibanum",
+    "Petitgrain",
+    "Anthocephalus Cadamba",
+    "Phenethyl Alcohol",
+    "Methyl Cinnamate"
+   ]
+  },
+  "Aldehyde C-11 Undecanal": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4AR00020",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 1.3
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "aliphatic",
+     "percent": 85.0
+    },
+    {
+     "label": "rose",
+     "percent": 15.0
+    }
+   ],
+   "longevityHours": 20.0,
+   "longevity": "20 hrs on a smelling strip",
+   "relativeImpact": 600.0,
+   "uses": [
+    "Citrusy",
+    "Rose",
+    "Tuberose",
+    "Cassie",
+    "Jasmin",
+    "incense aromatic complex",
+    "+Olibanum",
+    "Orris",
+    "ozone",
+    "citrus lemon",
+    "fruity",
+    "Verbena",
+    "Eau de colognes",
+    "fresh topnotes"
+   ],
+   "blendsWith": []
+  },
+  "Aldehyde C-12 MNA": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4AG00022",
+   "usage": {
+    "from": 0.01,
+    "average": 0.1,
+    "max": 2.5
+   },
+   "averageUsePercent": 0.1,
+   "impression": [
+    {
+     "label": "aliphatic",
+     "percent": 90.0
+    },
+    {
+     "label": "green",
+     "percent": 5.0
+    },
+    {
+     "label": "citrus",
+     "percent": 3.0
+    },
+    {
+     "label": "herb",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 56.0,
+   "longevity": "56 hrs on a smelling strip",
+   "relativeImpact": 700.0,
+   "uses": [
+    "fresh aldehydic complex",
+    "citrus",
+    "green complex",
+    "Badedas",
+    "pine needle",
+    "conifer",
+    "aldehydic fougere",
+    "fern",
+    "fir",
+    "orchid",
+    "honeysuckle",
+    "sweet pea",
+    "tuberose",
+    "chypre"
+   ],
+   "blendsWith": [
+    "Clary Sage",
+    "Olibanum",
+    "Labdanum",
+    "Oakmoss",
+    "Musks"
+   ]
+  },
+  "Aldehyde C-12 Lauric Dodecanal": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4AA00021",
+   "usage": {
+    "from": 0.01,
+    "average": 0.1,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.1,
+   "impression": [
+    {
+     "label": "aliphatic",
+     "percent": 100.0
+    }
+   ],
+   "longevityHours": 80.0,
+   "longevity": "80 hrs on a smelling strip",
+   "relativeImpact": 600.0,
+   "uses": [
+    "Lily",
+    "Violet",
+    "Pine",
+    "Pine needle",
+    "Neroli",
+    "Citrus",
+    "Lilac",
+    "Muguet",
+    "Chypres",
+    "Reseda",
+    "Cassie",
+    "Rose",
+    "Fougere",
+    "Petitgrain"
+   ],
+   "blendsWith": [
+    "Isobornyl Acetate",
+    "Anisyl Alcohol",
+    "Benzyl Isoeugenol",
+    "Anthocephalus Cadamba",
+    "Benzoin"
+   ]
+  },
+  "Allyl Amyl Glycolate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4FG00029",
+   "usage": {
+    "from": 0.06,
+    "average": 0.6,
+    "max": 4.0
+   },
+   "averageUsePercent": 0.6,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 60.0
+    },
+    {
+     "label": "green",
+     "percent": 40.0
+    }
+   ],
+   "longevityHours": 10.0,
+   "longevity": "10 hrs on a smelling strip",
+   "relativeImpact": 170.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Ambrocenide": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=1WU21632",
+   "usage": {
+    "from": 0.1,
+    "average": 0.5,
+    "max": 5.0
+   },
+   "averageUsePercent": 0.5,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 56.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 13.0
+    },
+    {
+     "label": "iris",
+     "percent": 7.0
+    },
+    {
+     "label": "musk",
+     "percent": 7.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 6.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 4.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 4.0
+    },
+    {
+     "label": "animalic",
+     "percent": 2.0
+    },
+    {
+     "label": "rose",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": null,
+   "longevity": null,
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Amyl Salicylate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3OH00037",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 8.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "orchid",
+     "percent": 80.0
+    },
+    {
+     "label": "herb",
+     "percent": 20.0
+    }
+   ],
+   "longevityHours": 36.0,
+   "longevity": "36 hrs on a smelling strip",
+   "relativeImpact": 110.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Anisaldehyde": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3NV00040",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 8.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "narcotic",
+     "percent": 57.0
+    },
+    {
+     "label": "linalool",
+     "percent": 43.0
+    }
+   ],
+   "longevityHours": 28.0,
+   "longevity": "28 hrs on a smelling strip",
+   "relativeImpact": 130.0,
+   "uses": [
+    "Floral types",
+    "Hay like notes",
+    "Hawthorne",
+    "Herbal types",
+    "As Modifier",
+    "Butter",
+    "Caramel",
+    "Cherry",
+    "Chocolate",
+    "Black walnut",
+    "Nut",
+    "Peach",
+    "Strawberry",
+    "Spice"
+   ],
+   "blendsWith": [
+    "Naphthyl Methyl Ether",
+    "Naphthyl Ethyl Ether",
+    "Acetanisole",
+    "Hydroxycitronellal",
+    "Acetophenone Anisaldehyde",
+    "Gums",
+    "Methyl Chavicol"
+   ]
+  },
+  "Apritone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3FD06779",
+   "usage": {
+    "from": 0.05,
+    "average": 0.5,
+    "max": 5.0
+   },
+   "averageUsePercent": 0.5,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 42.6
+    },
+    {
+     "label": "dairy",
+     "percent": 27.7
+    },
+    {
+     "label": "green",
+     "percent": 10.9
+    },
+    {
+     "label": "citrus",
+     "percent": 7.9
+    },
+    {
+     "label": "jasmine",
+     "percent": 3.0
+    },
+    {
+     "label": "linalool",
+     "percent": 3.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 2.0
+    },
+    {
+     "label": "konifer",
+     "percent": 1.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 1.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 216.0,
+   "longevity": "216 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Aurantiol": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=2NC00409",
+   "usage": {
+    "from": 0.12,
+    "average": 1.2,
+    "max": 9.4
+   },
+   "averageUsePercent": 1.2,
+   "impression": [
+    {
+     "label": "narcotic",
+     "percent": 60.0
+    },
+    {
+     "label": "citrus",
+     "percent": 20.0
+    },
+    {
+     "label": "muguet",
+     "percent": 20.0
+    }
+   ],
+   "longevityHours": 120.0,
+   "longevity": "120 hrs on a smelling strip",
+   "relativeImpact": 85.0,
+   "uses": [
+    "Narcotic Florals",
+    "Orangeflower",
+    "Honeysuckle",
+    "Muguet"
+   ],
+   "blendsWith": []
+  },
+  "B-ICEBERG F-TEC": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6BB18004",
+   "usage": {
+    "from": 1.69,
+    "average": 15.0,
+    "max": 50.0
+   },
+   "averageUsePercent": 15.0,
+   "impression": [
+    {
+     "label": "iceberg",
+     "percent": 86.0
+    },
+    {
+     "label": "herb",
+     "percent": 4.0
+    },
+    {
+     "label": "zolvent",
+     "percent": 3.0
+    },
+    {
+     "label": "fruity",
+     "percent": 2.0
+    },
+    {
+     "label": "wood",
+     "percent": 2.0
+    },
+    {
+     "label": "musk",
+     "percent": 2.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 131.0,
+   "longevity": "131 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [
+    "Musk",
+    "aliphatic",
+    "iceberg",
+    "Fruit Bottom",
+    "Zolvent"
+   ],
+   "blendsWith": []
+  },
+  "Benzaldehyde": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4FN00049",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 1.6
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 50.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 50.0
+    }
+   ],
+   "longevityHours": 1.5,
+   "longevity": "1.5 hrs on a smelling strip",
+   "relativeImpact": 500.0,
+   "uses": [
+    "Floral types",
+    "Lilac",
+    "Sweet Pea",
+    "Berry",
+    "Butter",
+    "Apricot",
+    "Brandy",
+    "Cherry",
+    "Coconut",
+    "Peach",
+    "Plum",
+    "Pecan",
+    "Rum",
+    "Spice"
+   ],
+   "blendsWith": [
+    "Vanillin",
+    "Coumarin",
+    "Benzophenone",
+    "Heliotropin",
+    "Bois De Rose Oil Gums"
+   ]
+  },
+  "Benzyl Acetate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3JF00052",
+   "usage": {
+    "from": 0.1,
+    "average": 3.0,
+    "max": 25.0
+   },
+   "averageUsePercent": 3.0,
+   "impression": [
+    {
+     "label": "jasmine",
+     "percent": 56.0
+    },
+    {
+     "label": "fruity",
+     "percent": 27.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 17.0
+    }
+   ],
+   "longevityHours": 15.0,
+   "longevity": "15 hrs on a smelling strip",
+   "relativeImpact": 120.0,
+   "uses": [
+    "Jasmin",
+    "Gardenia",
+    "Muguet",
+    "Lily",
+    "Industrial perfumes",
+    "Fixative effect",
+    "Violet",
+    "Apple",
+    "Apricot",
+    "Banana",
+    "Butter",
+    "Cherry",
+    "Peach",
+    "Plum"
+   ],
+   "blendsWith": [
+    "Acetophenone",
+    "Benzyl Isobutyrate",
+    "Atractylis",
+    "Benzyl Isovalerate",
+    "Benzyl Propionate Gums"
+   ]
+  },
+  "Benzyl Salicylate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3ON00060",
+   "usage": {
+    "from": 0.4,
+    "average": 4.0,
+    "max": 32.0
+   },
+   "averageUsePercent": 4.0,
+   "impression": [
+    {
+     "label": "orchid",
+     "percent": 29.0
+    },
+    {
+     "label": "zolvent",
+     "percent": 29.0
+    },
+    {
+     "label": "linalool",
+     "percent": 21.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 21.0
+    }
+   ],
+   "longevityHours": 210.0,
+   "longevity": "210 hrs on a smelling strip",
+   "relativeImpact": 30.0,
+   "uses": [
+    "For Ylang",
+    "Carnation",
+    "Wallflower",
+    "Frangipanni",
+    "White flower",
+    "Anais Anais",
+    "Estee Plum",
+    "Lily Floral types",
+    "As Blender",
+    "Ylang ylang",
+    "Topnotes",
+    "Apricot",
+    "Banana",
+    "Peach"
+   ],
+   "blendsWith": []
+  },
+  "Beta Pinene": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3KC00386",
+   "usage": {
+    "from": 0.12,
+    "average": 1.2,
+    "max": 12.0
+   },
+   "averageUsePercent": 1.2,
+   "impression": [
+    {
+     "label": "konifer",
+     "percent": 37.4
+    },
+    {
+     "label": "herb",
+     "percent": 17.2
+    },
+    {
+     "label": "citrus",
+     "percent": 16.2
+    },
+    {
+     "label": "wood",
+     "percent": 9.1
+    },
+    {
+     "label": "green",
+     "percent": 7.1
+    },
+    {
+     "label": "iris",
+     "percent": 4.0
+    },
+    {
+     "label": "fruity",
+     "percent": 3.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 2.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 2.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 1.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 4.0,
+   "longevity": "4 hrs on a smelling strip",
+   "relativeImpact": 250.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Birch Tar Oil Rectified 10%": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=5TP11094",
+   "usage": {
+    "from": 3.0,
+    "average": 15.0,
+    "max": 90.0
+   },
+   "averageUsePercent": 15.0,
+   "impression": [
+    {
+     "label": "tar and smoke",
+     "percent": 44.0
+    },
+    {
+     "label": "phenolic",
+     "percent": 31.0
+    },
+    {
+     "label": "animalic",
+     "percent": 23.0
+    },
+    {
+     "label": "zolvent",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 6.3,
+   "longevity": "6.3 hrs on a smelling strip",
+   "relativeImpact": 122.7,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Black Tea Base": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6HE09224",
+   "usage": {
+    "from": 1.0,
+    "average": 5.0,
+    "max": 0.0
+   },
+   "averageUsePercent": 5.0,
+   "impression": [],
+   "longevityHours": 8.0,
+   "longevity": "8 hrs on a smelling strip",
+   "relativeImpact": 200.0,
+   "uses": [
+    "smooth herb"
+   ],
+   "blendsWith": []
+  },
+  "Blackcurrant Fleuressence": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6FB09427",
+   "usage": {
+    "from": 0.3,
+    "average": 3.0,
+    "max": 10.0
+   },
+   "averageUsePercent": 3.0,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 46.0
+    },
+    {
+     "label": "iceberg",
+     "percent": 20.0
+    },
+    {
+     "label": "green",
+     "percent": 15.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 8.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 5.0
+    },
+    {
+     "label": "edible",
+     "percent": 3.0
+    },
+    {
+     "label": "animalic",
+     "percent": 3.0
+    }
+   ],
+   "longevityHours": 18.2,
+   "longevity": "18.2 hrs on a smelling strip",
+   "relativeImpact": 150.0,
+   "uses": [
+    "perfume",
+    "modifier"
+   ],
+   "blendsWith": []
+  },
+  "Cade Oil Rectified": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7TW00076",
+   "usage": {
+    "from": 0.002,
+    "average": 0.02,
+    "max": 0.2
+   },
+   "averageUsePercent": 0.02,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 52.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 24.0
+    },
+    {
+     "label": "animalic",
+     "percent": 22.0
+    },
+    {
+     "label": "spice",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 60.0,
+   "longevity": "60 hrs on a smelling strip",
+   "relativeImpact": 3000.0,
+   "uses": [
+    "Men’s Leather",
+    "Chypre",
+    "Burnt",
+    "incense",
+    "Smoke",
+    "Russian Leather",
+    "origanum",
+    "clove",
+    "cassia",
+    "tea tree"
+   ],
+   "blendsWith": []
+  },
+  "Calone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=1YG00077",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "yeast mossy",
+     "percent": 75.0
+    },
+    {
+     "label": "fruity",
+     "percent": 25.0
+    }
+   ],
+   "longevityHours": 300.0,
+   "longevity": "300 hrs on a smelling strip",
+   "relativeImpact": 800.0,
+   "uses": [
+    "Marine fraiche",
+    "Cool Water",
+    "Green Floral",
+    "Eau de Issey"
+   ],
+   "blendsWith": []
+  },
+  "Cardamom Fleuressence": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6SC09679",
+   "usage": {
+    "from": 0.03,
+    "average": 0.3,
+    "max": 2.7
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "spice",
+     "percent": 60.0
+    },
+    {
+     "label": "citrus",
+     "percent": 40.0
+    }
+   ],
+   "longevityHours": 1.5,
+   "longevity": "1.5 hrs on a smelling strip",
+   "relativeImpact": 300.0,
+   "uses": [
+    "Men's",
+    "Citrus",
+    "Fraiche",
+    "Colognes",
+    "+Green",
+    "+Limes",
+    "+Spice",
+    "+Muguet",
+    "Meat",
+    "Pickles",
+    "Bread",
+    "Indian Tea"
+   ],
+   "blendsWith": []
+  },
+  "Chinese Cedarwood Oil": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7WP00844",
+   "usage": {
+    "from": 0.44,
+    "average": 3.3,
+    "max": 22.0
+   },
+   "averageUsePercent": 3.3,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 56.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 17.0
+    },
+    {
+     "label": "aliphatic",
+     "percent": 15.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 12.0
+    }
+   ],
+   "longevityHours": 36.0,
+   "longevity": "36 hrs on a smelling strip",
+   "relativeImpact": 110.0,
+   "uses": [
+    "Woody",
+    "Balsam",
+    "Cedar",
+    "Cade"
+   ],
+   "blendsWith": []
+  },
+  "Cedramber": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3WW00097",
+   "usage": {
+    "from": 0.07,
+    "average": 0.7,
+    "max": 5.3
+   },
+   "averageUsePercent": 0.7,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 95.0
+    },
+    {
+     "label": "animalic",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 80.0,
+   "longevity": "80 hrs on a smelling strip",
+   "relativeImpact": 120.0,
+   "uses": [
+    "Mens",
+    "Leather",
+    "Ambre",
+    "Oriental",
+    "+methyl ionone",
+    "+labdanum",
+    "+castoreum",
+    "Sweet floral orientals"
+   ],
+   "blendsWith": []
+  },
+  "Castoreum Fleuressence": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6UP11559",
+   "usage": {
+    "from": 1.06,
+    "average": 10.638,
+    "max": 50.0
+   },
+   "averageUsePercent": 10.638,
+   "impression": [
+    {
+     "label": "animalic",
+     "percent": 41.4
+    },
+    {
+     "label": "wood",
+     "percent": 15.2
+    },
+    {
+     "label": "balsamic",
+     "percent": 13.1
+    },
+    {
+     "label": "herb",
+     "percent": 11.1
+    },
+    {
+     "label": "narcotic",
+     "percent": 7.1
+    },
+    {
+     "label": "zolvent",
+     "percent": 4.0
+    },
+    {
+     "label": "phenolic",
+     "percent": 3.0
+    },
+    {
+     "label": "linalool",
+     "percent": 2.0
+    },
+    {
+     "label": "spice",
+     "percent": 2.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 140.5,
+   "longevity": "140.5 hrs on a smelling strip",
+   "relativeImpact": 175.0,
+   "uses": [
+    "fixative"
+   ],
+   "blendsWith": []
+  },
+  "Cinnamyl Aldehyde": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4SV00106",
+   "usage": {
+    "from": 0.08,
+    "average": 0.8,
+    "max": 6.2
+   },
+   "averageUsePercent": 0.8,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 92.0
+    },
+    {
+     "label": "linalool",
+     "percent": 8.0
+    }
+   ],
+   "longevityHours": 75.0,
+   "longevity": "75 hrs on a smelling strip",
+   "relativeImpact": 130.0,
+   "uses": [
+    "Household perfumes",
+    "Soap perfumes",
+    "Floral types",
+    "Narcotic florals",
+    "Oriental types",
+    "Rose",
+    "Hyacinth",
+    "Woody blends",
+    "As Modifier",
+    "Rice",
+    "Candy",
+    "Spice",
+    "Cola",
+    "Mint"
+   ],
+   "blendsWith": [
+    "Acaroid",
+    "Lovage",
+    "Lavender",
+    "Bergamot",
+    "Clove Balsa"
+   ]
+  },
+  "Cis-Jasmone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4JN00257",
+   "usage": {
+    "from": 0.03,
+    "average": 0.3,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "jasmine",
+     "percent": 100.0
+    }
+   ],
+   "longevityHours": 72.0,
+   "longevity": "72 hrs on a smelling strip",
+   "relativeImpact": 400.0,
+   "uses": [
+    "Floral types",
+    "Jasmin",
+    "Bread",
+    "Mint",
+    "Pear",
+    "Fruit flavour"
+   ],
+   "blendsWith": []
+  },
+  "Citral": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4CC00111",
+   "usage": {
+    "from": 0.05,
+    "average": 0.5,
+    "max": 5.0
+   },
+   "averageUsePercent": 0.5,
+   "impression": [
+    {
+     "label": "citrus",
+     "percent": 90.0
+    },
+    {
+     "label": "aliphatic",
+     "percent": 10.0
+    }
+   ],
+   "longevityHours": 5.0,
+   "longevity": "5 hrs on a smelling strip",
+   "relativeImpact": 270.0,
+   "uses": [
+    "Fir Conifer",
+    "Lime",
+    "Orange",
+    "Grapefruit",
+    "Cherry",
+    "Ginger",
+    "Grape",
+    "Lemon",
+    "Spice",
+    "Strawberry",
+    "Vanilla",
+    "Chewing gum"
+   ],
+   "blendsWith": [
+    "Olibanum",
+    "Benzylidene Acetone",
+    "Acetophenone",
+    "Bergamot",
+    "Lemongrass Gums"
+   ]
+  },
+  "Civet Fleuressence": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6UU09106",
+   "usage": {
+    "from": 1.72,
+    "average": 15.0,
+    "max": 50.0
+   },
+   "averageUsePercent": 15.0,
+   "impression": [
+    {
+     "label": "animalic",
+     "percent": 51.5
+    },
+    {
+     "label": "musk",
+     "percent": 44.4
+    },
+    {
+     "label": "zolvent",
+     "percent": 4.0
+    }
+   ],
+   "longevityHours": 46.3,
+   "longevity": "46.3 hrs on a smelling strip",
+   "relativeImpact": 180.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Clearwood": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3WB13402",
+   "usage": {
+    "from": 0.1,
+    "average": 0.5,
+    "max": 5.0
+   },
+   "averageUsePercent": 0.5,
+   "impression": [
+    {
+     "label": "citrus",
+     "percent": 50.0
+    },
+    {
+     "label": "wood",
+     "percent": 33.0
+    },
+    {
+     "label": "herb",
+     "percent": 17.0
+    }
+   ],
+   "longevityHours": 24.0,
+   "longevity": "24 hrs on a smelling strip",
+   "relativeImpact": 80.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Cocoa Absolute": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=8VT00635",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "dairy",
+     "percent": 28.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 25.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 12.0
+    },
+    {
+     "label": "musk",
+     "percent": 8.0
+    },
+    {
+     "label": "edible",
+     "percent": 5.0
+    },
+    {
+     "label": "linalool",
+     "percent": 5.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 5.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 4.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 2.0
+    },
+    {
+     "label": "iceberg",
+     "percent": 1.0
+    },
+    {
+     "label": "fruity",
+     "percent": 1.0
+    },
+    {
+     "label": "green",
+     "percent": 1.0
+    },
+    {
+     "label": "phenolic",
+     "percent": 1.0
+    },
+    {
+     "label": "rose",
+     "percent": 1.0
+    },
+    {
+     "label": "wood",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 36.0,
+   "longevity": "36 hrs on a smelling strip",
+   "relativeImpact": 250.0,
+   "uses": [
+    "arnica",
+    "bean",
+    "locust",
+    "chocolate",
+    "cacao",
+    "cocoa",
+    "coffee",
+    "mocha",
+    "theobroma"
+   ],
+   "blendsWith": []
+  },
+  "Coffee Oil Roasted": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7ET08078",
+   "usage": {
+    "from": 1.0,
+    "average": 2.0,
+    "max": 5.0
+   },
+   "averageUsePercent": 2.0,
+   "impression": [
+    {
+     "label": "edible",
+     "percent": 79.4
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 9.3
+    },
+    {
+     "label": "balsamic",
+     "percent": 4.7
+    },
+    {
+     "label": "vanilla",
+     "percent": 4.7
+    },
+    {
+     "label": "spice",
+     "percent": 0.9
+    },
+    {
+     "label": "animalic",
+     "percent": 0.9
+    }
+   ],
+   "longevityHours": 20.0,
+   "longevity": "20 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Coriander Essential Oil": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7SL00125",
+   "usage": {
+    "from": 0.09,
+    "average": 0.9,
+    "max": 7.3
+   },
+   "averageUsePercent": 0.9,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 41.4
+    },
+    {
+     "label": "linalool",
+     "percent": 22.2
+    },
+    {
+     "label": "spice",
+     "percent": 19.2
+    },
+    {
+     "label": "musk",
+     "percent": 16.2
+    },
+    {
+     "label": "herb",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 21.0,
+   "longevity": "21 hrs on a smelling strip",
+   "relativeImpact": 145.0,
+   "uses": [
+    "Spice",
+    "Green florals",
+    "Citrus colognes",
+    "Herb",
+    "Oriental",
+    "Mango",
+    "Shalimar",
+    "Carnation",
+    "Dianthus",
+    "Oeillet",
+    "Gin",
+    "Woody",
+    "Curry",
+    "Tea"
+   ],
+   "blendsWith": [
+    "Cognac",
+    "Cardamom",
+    "Clary Sage",
+    "Opoponax",
+    "Mace clary sage",
+    "bergamot",
+    "jasmine",
+    "olibanum",
+    "neroli",
+    "petitgrain",
+    "citronella",
+    "sandalwood",
+    "cypress",
+    "pine",
+    "ginger",
+    "cinnamon and other spice oils."
+   ]
+  },
+  "Cyclamen Aldehyde": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3MG00134",
+   "usage": {
+    "from": 0.11,
+    "average": 1.1,
+    "max": 8.9
+   },
+   "averageUsePercent": 1.1,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 45.5
+    },
+    {
+     "label": "linalool",
+     "percent": 35.4
+    },
+    {
+     "label": "edible",
+     "percent": 19.2
+    }
+   ],
+   "longevityHours": 40.0,
+   "longevity": "40 hrs on a smelling strip",
+   "relativeImpact": 75.0,
+   "uses": [
+    "Pine",
+    "Violet",
+    "For diffusion",
+    "Floral types",
+    "Green florals",
+    "Topnotes",
+    "Lilac",
+    "Lily",
+    "Peony",
+    "Magnolia",
+    "Orange",
+    "Rose",
+    "Citrus",
+    "Vegetable"
+   ],
+   "blendsWith": [
+    "Galbanum",
+    "Orris",
+    "Lime",
+    "Ivy Absolute",
+    "Ho"
+   ]
+  },
+  "Dimetol": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3CK07504",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 8.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "citrus",
+     "percent": 74.0
+    },
+    {
+     "label": "linalool",
+     "percent": 26.0
+    }
+   ],
+   "longevityHours": 14.0,
+   "longevity": "14 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [
+    "Citrus",
+    "Floral types",
+    "Soap perfumes",
+    "For diffusion",
+    "Muguet",
+    "Lily",
+    "Lilac",
+    "Hyacinth",
+    "Rose",
+    "Lime"
+   ],
+   "blendsWith": [
+    "Citrus-notes"
+   ]
+  },
+  "Ethyl Butyrate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3FD00174",
+   "usage": {
+    "from": 0.03,
+    "average": 0.3,
+    "max": 2.2
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 100.0
+    }
+   ],
+   "longevityHours": 0.9,
+   "longevity": "0.9 hrs on a smelling strip",
+   "relativeImpact": 460.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Ethyl Lactate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3FD04102",
+   "usage": {
+    "from": 0.63,
+    "average": 4.7,
+    "max": 31.0
+   },
+   "averageUsePercent": 4.7,
+   "impression": [
+    {
+     "label": "dairy",
+     "percent": 100.0
+    }
+   ],
+   "longevityHours": 5.2,
+   "longevity": "5.2 hrs on a smelling strip",
+   "relativeImpact": 70.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Exaltolide Pentadecanolide": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=2XX00186",
+   "usage": {
+    "from": 0.4,
+    "average": 2.0,
+    "max": 32.0
+   },
+   "averageUsePercent": 2.0,
+   "impression": [
+    {
+     "label": "musk",
+     "percent": 99.0
+    },
+    {
+     "label": "animalic",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 500.0,
+   "longevity": "500 hrs on a smelling strip",
+   "relativeImpact": 25.0,
+   "uses": [
+    "fixative",
+    "enhances",
+    "skin",
+    "acceptance",
+    "radiance",
+    "Angelica",
+    "Lavender",
+    "Amber",
+    "Chypre",
+    "Animal",
+    "Musk",
+    "Deer"
+   ],
+   "blendsWith": []
+  },
+  "Farnesol": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3LW00187",
+   "usage": {
+    "from": 0.5,
+    "average": 5.0,
+    "max": 30.0
+   },
+   "averageUsePercent": 5.0,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 46.0
+    },
+    {
+     "label": "muguet",
+     "percent": 37.0
+    },
+    {
+     "label": "fruity",
+     "percent": 17.0
+    }
+   ],
+   "longevityHours": 60.0,
+   "longevity": "60 hrs on a smelling strip",
+   "relativeImpact": 20.0,
+   "uses": [
+    "For Muguet",
+    "Sweet Pea",
+    "Jasmin",
+    "Honeysuckle",
+    "Mimosa",
+    "Lilac",
+    "Oriental types",
+    "Woody blends",
+    "Orris/Iris",
+    "Rose",
+    "Magnolia",
+    "Acacia",
+    "Ylang ylang",
+    "Cassie"
+   ],
+   "blendsWith": []
+  },
+  "Fixative 505": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4UY07514",
+   "usage": {
+    "from": 0.09,
+    "average": 0.6,
+    "max": 4.0
+   },
+   "averageUsePercent": 0.6,
+   "impression": [
+    {
+     "label": "animalic",
+     "percent": 80.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 20.0
+    }
+   ],
+   "longevityHours": 67.2,
+   "longevity": "67.2 hrs on a smelling strip",
+   "relativeImpact": 480.0,
+   "uses": [
+    "Ambergris",
+    "Fir Conifer",
+    "Woody blends",
+    "Fixative effect",
+    "Oriental types",
+    "Topnotes",
+    "Floral types",
+    "Pear",
+    "Rice"
+   ],
+   "blendsWith": [
+    "Galbanum"
+   ]
+  },
+  "Floralozone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4YM00191",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 10.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "yeast mossy",
+     "percent": 22.0
+    },
+    {
+     "label": "muguet",
+     "percent": 20.0
+    },
+    {
+     "label": "iceberg",
+     "percent": 16.0
+    },
+    {
+     "label": "linalool",
+     "percent": 15.0
+    },
+    {
+     "label": "orchid",
+     "percent": 10.0
+    },
+    {
+     "label": "citrus",
+     "percent": 5.0
+    },
+    {
+     "label": "green",
+     "percent": 5.0
+    },
+    {
+     "label": "herb",
+     "percent": 5.0
+    },
+    {
+     "label": "aliphatic",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 80.0,
+   "longevity": "80 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [
+    "agrumen",
+    "aldehydic",
+    "alpine",
+    "bouquet",
+    "animal",
+    "apple",
+    "blossom",
+    "green",
+    "ash",
+    "mountain",
+    "bark",
+    "boronia",
+    "boxwood",
+    "boysenberry"
+   ],
+   "blendsWith": []
+  },
+  "Geosmin 1% in DPG": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=5YW13682",
+   "usage": {
+    "from": 0.05,
+    "average": 0.2,
+    "max": 1.0
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "yeast mossy",
+     "percent": 75.0
+    },
+    {
+     "label": "wood",
+     "percent": 25.0
+    }
+   ],
+   "longevityHours": 68.0,
+   "longevity": "68 hrs on a smelling strip",
+   "relativeImpact": 250.0,
+   "uses": [
+    "earth",
+    "humus",
+    "fern",
+    "fougere",
+    "oakmoss",
+    "mousse",
+    "chene",
+    "moss",
+    "ocean",
+    "sea",
+    "shore",
+    "patchouli",
+    "seaweed",
+    "thyme"
+   ],
+   "blendsWith": []
+  },
+  "Geranyl Acetate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3RL00206",
+   "usage": {
+    "from": 0.08,
+    "average": 0.8,
+    "max": 6.4
+   },
+   "averageUsePercent": 0.8,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 36.0
+    },
+    {
+     "label": "rose",
+     "percent": 33.0
+    },
+    {
+     "label": "green",
+     "percent": 31.0
+    }
+   ],
+   "longevityHours": 12.0,
+   "longevity": "12 hrs on a smelling strip",
+   "relativeImpact": 125.0,
+   "uses": [
+    "Rose types",
+    "Lavender",
+    "As Modifier",
+    "Herbal types",
+    "Citrus",
+    "Rose",
+    "Muguet",
+    "Wallflower",
+    "Ylang ylang",
+    "Neroli",
+    "Leather notes",
+    "Oriental types",
+    "Lemon",
+    "Lime"
+   ],
+   "blendsWith": []
+  },
+  "Grapefruit Pink Essential Oil": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7CN00210",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 8.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "citrus",
+     "percent": 78.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 10.0
+    },
+    {
+     "label": "aliphatic",
+     "percent": 5.0
+    },
+    {
+     "label": "green",
+     "percent": 3.0
+    },
+    {
+     "label": "linalool",
+     "percent": 3.0
+    },
+    {
+     "label": "herb",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 2.0,
+   "longevity": "2 hrs on a smelling strip",
+   "relativeImpact": 125.0,
+   "uses": [
+    "Eau de colognes",
+    "fresh topnotes",
+    "Grapefruit",
+    "Pomelo",
+    "Citrus"
+   ],
+   "blendsWith": [
+    "lemon",
+    "palmarosa",
+    "bergamot",
+    "neroli",
+    "rosemary",
+    "cypress",
+    "lavender geranium",
+    "cardomon and other spice oils."
+   ]
+  },
+  "Guaiacwood Essential Oil": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7RW00214",
+   "usage": {
+    "from": 0.11,
+    "average": 1.1,
+    "max": 8.9
+   },
+   "averageUsePercent": 1.1,
+   "impression": [
+    {
+     "label": "rose",
+     "percent": 60.0
+    },
+    {
+     "label": "wood",
+     "percent": 38.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 60.0,
+   "longevity": "60 hrs on a smelling strip",
+   "relativeImpact": 80.0,
+   "uses": [
+    "For Tea rose",
+    "Woody",
+    "Mens",
+    "Spice",
+    "Amber",
+    "Animal",
+    "Rose Otto",
+    "Snacks",
+    "Soups",
+    "Blackcurrant",
+    "Peach",
+    "Apricot",
+    "Strawberry"
+   ],
+   "blendsWith": []
+  },
+  "Helional": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3GM00219",
+   "usage": {
+    "from": 0.1,
+    "average": 1.5,
+    "max": 15.0
+   },
+   "averageUsePercent": 1.5,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 55.0
+    },
+    {
+     "label": "muguet",
+     "percent": 40.0
+    },
+    {
+     "label": "fruity",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 150.0,
+   "longevity": "150 hrs on a smelling strip",
+   "relativeImpact": 80.0,
+   "uses": [
+    "soap",
+    "and laundry detergent"
+   ],
+   "blendsWith": []
+  },
+  "Hydroxycitronellal": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3MC00233",
+   "usage": {
+    "from": 0.4,
+    "average": 5.0,
+    "max": 32.0
+   },
+   "averageUsePercent": 5.0,
+   "impression": [
+    {
+     "label": "muguet",
+     "percent": 69.0
+    },
+    {
+     "label": "linalool",
+     "percent": 29.0
+    },
+    {
+     "label": "citrus",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 40.0,
+   "longevity": "40 hrs on a smelling strip",
+   "relativeImpact": 25.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Indole": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=9UN00235",
+   "usage": {
+    "from": 0.01,
+    "average": 0.1,
+    "max": 1.3
+   },
+   "averageUsePercent": 0.1,
+   "impression": [
+    {
+     "label": "animalic",
+     "percent": 60.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 40.0
+    }
+   ],
+   "longevityHours": 60.0,
+   "longevity": "60 hrs on a smelling strip",
+   "relativeImpact": 700.0,
+   "uses": [
+    "Narcotic",
+    "Florals",
+    "Jasmin",
+    "Coffee",
+    "Narcissus",
+    "Narcisse",
+    "Lotus",
+    "Cassie",
+    "Acacia",
+    "Cheese",
+    "Raspberry",
+    "Strawberry"
+   ],
+   "blendsWith": [
+    "Phenyl Acetic Acid",
+    "Mimosa"
+   ]
+  },
+  "Isoamyl Acetate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=9FD00245",
+   "usage": {
+    "from": 0.05,
+    "average": 0.5,
+    "max": 3.0
+   },
+   "averageUsePercent": 0.5,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 95.0
+    },
+    {
+     "label": "dairy",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 0.1,
+   "longevity": "0.1 hrs on a smelling strip",
+   "relativeImpact": 800.0,
+   "uses": [
+    "Top note modifier",
+    "Melon",
+    "Mulberry",
+    "Pear",
+    "Lemon",
+    "Pineapple",
+    "Banana",
+    "Strawberry",
+    "Grape",
+    "Cream soda",
+    "Vanilla",
+    "Rum",
+    "Butter",
+    "Milk"
+   ],
+   "blendsWith": [
+    "Ethyl Butyrate",
+    "Isoamyl Butyrate"
+   ]
+  },
+  "Isobornyl Acetate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3KH00065",
+   "usage": {
+    "from": 0.08,
+    "average": 0.8,
+    "max": 6.7
+   },
+   "averageUsePercent": 0.8,
+   "impression": [
+    {
+     "label": "konifer",
+     "percent": 75.0
+    },
+    {
+     "label": "herb",
+     "percent": 20.0
+    },
+    {
+     "label": "iceberg",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 15.0,
+   "longevity": "15 hrs on a smelling strip",
+   "relativeImpact": 120.0,
+   "uses": [
+    "Household perfumes",
+    "Industrial perfumes",
+    "Soap perfumes",
+    "Pineneedle",
+    "Fougeres",
+    "Chewing gum",
+    "Thyme"
+   ],
+   "blendsWith": [
+    "Lauryl Aldehyde",
+    "Linalool",
+    "Para-methoxybenzaldehyde",
+    "Lavandin",
+    "Spike Lavender Balsams"
+   ]
+  },
+  "Juniper Berry Essential Oil": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7KH00262",
+   "usage": {
+    "from": 0.05,
+    "average": 0.5,
+    "max": 4.0
+   },
+   "averageUsePercent": 0.5,
+   "impression": [
+    {
+     "label": "konifer",
+     "percent": 75.0
+    },
+    {
+     "label": "herb",
+     "percent": 10.0
+    },
+    {
+     "label": "citrus",
+     "percent": 5.0
+    },
+    {
+     "label": "linalool",
+     "percent": 5.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 3.0,
+   "longevity": "3 hrs on a smelling strip",
+   "relativeImpact": 200.0,
+   "uses": [
+    "Spice",
+    "Forest",
+    "Fern",
+    "Balsam",
+    "gin",
+    "liquer"
+   ],
+   "blendsWith": [
+    "Laurel Leaf",
+    "Myrrh",
+    "Elemi",
+    "Pine Needle",
+    "Labdanum vetiver",
+    "sandalwood",
+    "cedarwood",
+    "mastic",
+    "oakmoss",
+    "galbanum",
+    "elemi",
+    "cypress",
+    "clary sage",
+    "pine",
+    "lavender",
+    "lavandin",
+    "labdanum",
+    "fir needle",
+    "rosemary",
+    "benzoin",
+    "balsam tolu",
+    "fresh",
+    "turpentine-like odour."
+   ]
+  },
+  "Kephalis": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4WY07089",
+   "usage": {
+    "from": 0.3,
+    "average": 3.0,
+    "max": 10.0
+   },
+   "averageUsePercent": 3.0,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 84.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 8.0
+    },
+    {
+     "label": "herb",
+     "percent": 5.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 3.0
+    }
+   ],
+   "longevityHours": 120.0,
+   "longevity": "120 hrs on a smelling strip",
+   "relativeImpact": 80.0,
+   "uses": [
+    "Woody",
+    "Men's",
+    "Leather",
+    "Honey",
+    "Vetivert",
+    "Oriental",
+    "Fougere",
+    "Lavender",
+    "Herbal",
+    "Pine",
+    "Amber",
+    "Green Florals",
+    "None"
+   ],
+   "blendsWith": [
+    "iso-E-Super"
+   ]
+  },
+  "Lilyreal IFRA": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6MG18474",
+   "usage": {
+    "from": 0.3,
+    "average": 3.0,
+    "max": 30.0
+   },
+   "averageUsePercent": 3.0,
+   "impression": [
+    {
+     "label": "muguet",
+     "percent": 97.0
+    },
+    {
+     "label": "green",
+     "percent": 3.0
+    }
+   ],
+   "longevityHours": 300.0,
+   "longevity": "300 hrs on a smelling strip",
+   "relativeImpact": 50.0,
+   "uses": [
+    "Fir Conifer",
+    "Fixative effect",
+    "Soap perfumes",
+    "Muguet Rice"
+   ],
+   "blendsWith": [
+    "Resinoids",
+    "Styrax"
+   ]
+  },
+  "Lime Distilled Essential Oil": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7CK00274",
+   "usage": {
+    "from": 0.08,
+    "average": 0.8,
+    "max": 4.7
+   },
+   "averageUsePercent": 0.8,
+   "impression": [
+    {
+     "label": "citrus",
+     "percent": 70.0
+    },
+    {
+     "label": "konifer",
+     "percent": 27.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 3.0
+    }
+   ],
+   "longevityHours": 1.2,
+   "longevity": "1.2 hrs on a smelling strip",
+   "relativeImpact": 135.0,
+   "uses": [
+    "Eau de colognes",
+    "fresh topnotes",
+    "Neroli",
+    "Bases",
+    "Herbal",
+    "Aldehydic",
+    "Citrus",
+    "Lime",
+    "Limes",
+    "Lemon",
+    "Fruit top note",
+    "fantasy"
+   ],
+   "blendsWith": [
+    "Neroli neroli",
+    "citronella",
+    "lavender",
+    "lavandin",
+    "rosemary",
+    "clary sage and other citrus oils."
+   ]
+  },
+  "Mango Fleuressence": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6FV10907",
+   "usage": {
+    "from": 1.0,
+    "average": 5.0,
+    "max": 10.0
+   },
+   "averageUsePercent": 5.0,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 60.0
+    },
+    {
+     "label": "dairy",
+     "percent": 30.0
+    },
+    {
+     "label": "edible",
+     "percent": 5.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 36.0,
+   "longevity": "36 hrs on a smelling strip",
+   "relativeImpact": 133.0,
+   "uses": [
+    "orange"
+   ],
+   "blendsWith": []
+  },
+  "Maple Lactone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=1VE00286",
+   "usage": {
+    "from": 0.01,
+    "average": 0.1,
+    "max": 0.7
+   },
+   "averageUsePercent": 0.1,
+   "impression": [
+    {
+     "label": "vanilla",
+     "percent": 60.0
+    },
+    {
+     "label": "edible",
+     "percent": 35.0
+    },
+    {
+     "label": "wood",
+     "percent": 4.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 36.0,
+   "longevity": "36 hrs on a smelling strip",
+   "relativeImpact": 1200.0,
+   "uses": [
+    "Fruit notes",
+    "Oriental",
+    "Vanilla",
+    "Fougere",
+    "Hazelnut",
+    "Fern",
+    "Licorice",
+    "Brandy",
+    "Currant",
+    "Caramel",
+    "Treacle",
+    "Maple syrup",
+    "Cream",
+    "Strawberry"
+   ],
+   "blendsWith": [
+    "Delphone",
+    "Rhodipol/c",
+    "Celery Seed Resin",
+    "Coriander",
+    "Lovage"
+   ]
+  },
+  "Melonal": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4FG00289",
+   "usage": {
+    "from": 0.01,
+    "average": 0.1,
+    "max": 1.1
+   },
+   "averageUsePercent": 0.1,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 54.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 30.0
+    },
+    {
+     "label": "edible",
+     "percent": 16.0
+    }
+   ],
+   "longevityHours": 1.5,
+   "longevity": "1.5 hrs on a smelling strip",
+   "relativeImpact": 700.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Menthol Crystals": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=1BB00290",
+   "usage": {
+    "from": 0.11,
+    "average": 1.1,
+    "max": 8.9
+   },
+   "averageUsePercent": 1.1,
+   "impression": [
+    {
+     "label": "iceberg",
+     "percent": 96.0
+    },
+    {
+     "label": "herb",
+     "percent": 3.0
+    },
+    {
+     "label": "wood",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 18.0,
+   "longevity": "18 hrs on a smelling strip",
+   "relativeImpact": 120.0,
+   "uses": [
+    "Tiger balm",
+    "Vapex",
+    "Inhalent",
+    "Geranium",
+    "Rose",
+    "Eau de Cologne",
+    "Herb",
+    "Lavender",
+    "Peppermint",
+    "Spearmint",
+    "Blackcurrant"
+   ],
+   "blendsWith": []
+  },
+  "Methyl Anthranilate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4NC00295",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 2.9
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "narcotic",
+     "percent": 70.0
+    },
+    {
+     "label": "fruity",
+     "percent": 20.0
+    },
+    {
+     "label": "citrus",
+     "percent": 10.0
+    }
+   ],
+   "longevityHours": 48.0,
+   "longevity": "48 hrs on a smelling strip",
+   "relativeImpact": 420.0,
+   "uses": [
+    "Orange",
+    "Oriental types",
+    "Narcotic florals",
+    "Woody blends",
+    "Citrus",
+    "Rose",
+    "Violet",
+    "Pear",
+    "Grain",
+    "Berry",
+    "Melon",
+    "Honey",
+    "Wine",
+    "Candy"
+   ],
+   "blendsWith": [
+    "Atractylis",
+    "Cangerana",
+    "Orangeflower",
+    "Petitgrain",
+    "Nonanal Dimethyl Acetal Anisaldehyde",
+    "Citrus-notes",
+    "Gums"
+   ]
+  },
+  "Methyl Benzoate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4NJ00296",
+   "usage": {
+    "from": 0.03,
+    "average": 0.3,
+    "max": 2.3
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "narcotic",
+     "percent": 76.0
+    },
+    {
+     "label": "fruity",
+     "percent": 19.0
+    },
+    {
+     "label": "orchid",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 10.0,
+   "longevity": "10 hrs on a smelling strip",
+   "relativeImpact": 500.0,
+   "uses": [
+    "Floral types",
+    "Tuberose",
+    "Ylang ylang",
+    "Industrial perfumes",
+    "Blackcurrant",
+    "Berry",
+    "Nut",
+    "Spice",
+    "Strawberry",
+    "Rum",
+    "Vanilla"
+   ],
+   "blendsWith": [
+    "Oakmoss",
+    "Sandalwood",
+    "Musks",
+    "para-Tolyl Methyl Ether",
+    "Vetiver Cinnamic Alcohol"
+   ]
+  },
+  "Methyl Laitone 10% DPG": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=5VD10871",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "vanilla",
+     "percent": 63.6
+    },
+    {
+     "label": "dairy",
+     "percent": 15.2
+    },
+    {
+     "label": "edible",
+     "percent": 8.1
+    },
+    {
+     "label": "fruity",
+     "percent": 4.0
+    },
+    {
+     "label": "citrus",
+     "percent": 2.0
+    },
+    {
+     "label": "muguet",
+     "percent": 2.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 2.0
+    },
+    {
+     "label": "green",
+     "percent": 1.0
+    },
+    {
+     "label": "herb",
+     "percent": 1.0
+    },
+    {
+     "label": "jasmine",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 168.0,
+   "longevity": "168 hrs on a smelling strip",
+   "relativeImpact": 250.0,
+   "uses": [
+    "amber",
+    "apricot",
+    "balsam",
+    "banana",
+    "bay",
+    "rum",
+    "bouquet",
+    "caramel",
+    "cedarwood",
+    "chocolate",
+    "cocoa",
+    "chypre",
+    "coconut",
+    "tropical"
+   ],
+   "blendsWith": []
+  },
+  "Methyl Pamplemousse": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4FC11677",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 10.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 50.0
+    },
+    {
+     "label": "citrus",
+     "percent": 30.0
+    },
+    {
+     "label": "green",
+     "percent": 20.0
+    }
+   ],
+   "longevityHours": 2.0,
+   "longevity": "2 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Musk Ketone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=1XU00308",
+   "usage": {
+    "from": 0.3,
+    "average": 3.0,
+    "max": 10.0
+   },
+   "averageUsePercent": 3.0,
+   "impression": [
+    {
+     "label": "musk",
+     "percent": 92.0
+    },
+    {
+     "label": "animalic",
+     "percent": 5.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 3.0
+    }
+   ],
+   "longevityHours": 600.0,
+   "longevity": "600 hrs on a smelling strip",
+   "relativeImpact": 35.0,
+   "uses": [
+    "Floral types",
+    "Ambre types",
+    "Fixative effect",
+    "Soap perfumes",
+    "Chewing gum",
+    "Candy"
+   ],
+   "blendsWith": [
+    "Curcuma",
+    "Labdanum",
+    "Costus Root",
+    "Copaiba",
+    "Clary Sage Animal-notes",
+    "Ionone",
+    "Cinnamic Alcohol",
+    "Gums"
+   ]
+  },
+  "Norlimbanol Dextro": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4WU22432",
+   "usage": {
+    "from": 0.2,
+    "average": 1.5,
+    "max": 10.0
+   },
+   "averageUsePercent": 1.5,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 75.0
+    },
+    {
+     "label": "iris",
+     "percent": 10.0
+    },
+    {
+     "label": "animalic",
+     "percent": 10.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 300.0,
+   "longevity": "300 hrs on a smelling strip",
+   "relativeImpact": 1000.0,
+   "uses": [
+    "excellent tenacity"
+   ],
+   "blendsWith": []
+  },
+  "Oakmoss Absolute": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=8YH00328",
+   "usage": {
+    "from": 0.15,
+    "average": 2.5,
+    "max": 4.5
+   },
+   "averageUsePercent": 2.5,
+   "impression": [
+    {
+     "label": "yeast mossy",
+     "percent": 89.0
+    },
+    {
+     "label": "herb",
+     "percent": 10.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 84.0,
+   "longevity": "84 hrs on a smelling strip",
+   "relativeImpact": 125.0,
+   "uses": [
+    "Fougere",
+    "Chypre",
+    "All types",
+    "powdery",
+    "Lavender",
+    "Hay",
+    "New",
+    "Mown",
+    "Animal",
+    "Fern",
+    "Green",
+    "Humus",
+    "Fixative"
+   ],
+   "blendsWith": [
+    "Flouve",
+    "Lavandin",
+    "Peach Notes",
+    "Methyl Benzoate"
+   ]
+  },
+  "Oranger Crystals": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=1NC00340",
+   "usage": {
+    "from": 0.08,
+    "average": 0.8,
+    "max": 4.0
+   },
+   "averageUsePercent": 0.8,
+   "impression": [
+    {
+     "label": "narcotic",
+     "percent": 68.0
+    },
+    {
+     "label": "citrus",
+     "percent": 27.0
+    },
+    {
+     "label": "animalic",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 60.0,
+   "longevity": "60 hrs on a smelling strip",
+   "relativeImpact": 250.0,
+   "uses": [
+    "Neroli",
+    "Orange flower",
+    "Cologne",
+    "4711",
+    "Citrus fixative",
+    "Citrus"
+   ],
+   "blendsWith": []
+  },
+  "Orivone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3IA00343",
+   "usage": {
+    "from": 0.03,
+    "average": 0.3,
+    "max": 2.7
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "iris",
+     "percent": 79.0
+    },
+    {
+     "label": "wood",
+     "percent": 11.0
+    },
+    {
+     "label": "herb",
+     "percent": 5.0
+    },
+    {
+     "label": "iceberg",
+     "percent": 3.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 38.0,
+   "longevity": "38 hrs on a smelling strip",
+   "relativeImpact": 300.0,
+   "uses": [
+    "chypre",
+    "style",
+    "fragrances",
+    "Blends well with",
+    "Earthy mossy notes"
+   ],
+   "blendsWith": []
+  },
+  "Phenyl Acetaldehyde Dimethyl Acetal": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4GN00382",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 1.6
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 50.0
+    },
+    {
+     "label": "linalool",
+     "percent": 25.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 20.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 25.0,
+   "longevity": "25 hrs on a smelling strip",
+   "relativeImpact": 500.0,
+   "uses": [
+    "rosy",
+    "floralizer"
+   ],
+   "blendsWith": []
+  },
+  "Phenyl Ethyl Acetate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3RP00371",
+   "usage": {
+    "from": 0.11,
+    "average": 1.1,
+    "max": 8.9
+   },
+   "averageUsePercent": 1.1,
+   "impression": [
+    {
+     "label": "rose",
+     "percent": 86.0
+    },
+    {
+     "label": "fruity",
+     "percent": 7.0
+    },
+    {
+     "label": "phenolic",
+     "percent": 7.0
+    }
+   ],
+   "longevityHours": 7.0,
+   "longevity": "7 hrs on a smelling strip",
+   "relativeImpact": 90.0,
+   "uses": [
+    "Rose",
+    "Hyacinth",
+    "Reseda",
+    "Freesia",
+    "Magnolia",
+    "Honey",
+    "Butter",
+    "Apple",
+    "Apricot",
+    "Peach",
+    "Vanilla",
+    "Tutti fuitti"
+   ],
+   "blendsWith": []
+  },
+  "Phenyl Acetaldehyde 85% PEA": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=5GP07497",
+   "usage": {
+    "from": 0.25,
+    "average": 1.0,
+    "max": 3.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 26.7
+    },
+    {
+     "label": "fruity",
+     "percent": 20.8
+    },
+    {
+     "label": "rose",
+     "percent": 13.9
+    },
+    {
+     "label": "narcotic",
+     "percent": 10.9
+    },
+    {
+     "label": "spice",
+     "percent": 9.9
+    },
+    {
+     "label": "linalool",
+     "percent": 8.9
+    },
+    {
+     "label": "phenolic",
+     "percent": 8.9
+    }
+   ],
+   "longevityHours": 10.0,
+   "longevity": "10 hrs on a smelling strip",
+   "relativeImpact": 200.0,
+   "uses": [
+    "Syringa",
+    "Lilac"
+   ],
+   "blendsWith": []
+  },
+  "Raspberry Ketone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=1FL00392",
+   "usage": {
+    "from": 0.14,
+    "average": 1.4,
+    "max": 11.4
+   },
+   "averageUsePercent": 1.4,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 80.0
+    },
+    {
+     "label": "iris",
+     "percent": 10.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 10.0
+    }
+   ],
+   "longevityHours": 80.0,
+   "longevity": "80 hrs on a smelling strip",
+   "relativeImpact": 70.0,
+   "uses": [
+    "Modern fruity complexes",
+    "powdery florals",
+    "+heliotropin",
+    "+helional/hedione",
+    "Raspberry",
+    "Strawberry",
+    "Tutti Frutti"
+   ],
+   "blendsWith": []
+  },
+  "Rose Oxide": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4RL00399",
+   "usage": {
+    "from": 0.01,
+    "average": 0.1,
+    "max": 1.1
+   },
+   "averageUsePercent": 0.1,
+   "impression": [
+    {
+     "label": "rose",
+     "percent": 74.0
+    },
+    {
+     "label": "linalool",
+     "percent": 20.0
+    },
+    {
+     "label": "iceberg",
+     "percent": 5.0
+    },
+    {
+     "label": "phenolic",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 1.0,
+   "longevity": "1 hrs on a smelling strip",
+   "relativeImpact": 700.0,
+   "uses": [
+    "Fir Conifer",
+    "For diffusion",
+    "Floral types",
+    "Topnotes",
+    "Herbal types",
+    "Soap perfumes",
+    "Add lift",
+    "Apple Pear Pear",
+    "Bread",
+    "and Rice"
+   ],
+   "blendsWith": []
+  },
+  "Safraleine": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4ES11978",
+   "usage": {
+    "from": 0.03,
+    "average": 0.3,
+    "max": 3.0
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "herb",
+     "percent": 38.4
+    },
+    {
+     "label": "narcotic",
+     "percent": 16.2
+    },
+    {
+     "label": "vanilla",
+     "percent": 16.2
+    },
+    {
+     "label": "edible",
+     "percent": 10.1
+    },
+    {
+     "label": "wood",
+     "percent": 7.1
+    },
+    {
+     "label": "spice",
+     "percent": 5.1
+    },
+    {
+     "label": "animalic",
+     "percent": 5.1
+    },
+    {
+     "label": "phenolic",
+     "percent": 1.0
+    },
+    {
+     "label": "rose",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 168.0,
+   "longevity": "168 hrs on a smelling strip",
+   "relativeImpact": 250.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Sandela 50": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3WX00407",
+   "usage": {
+    "from": 1.0,
+    "average": 3.0,
+    "max": 50.0
+   },
+   "averageUsePercent": 3.0,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 100.0
+    }
+   ],
+   "longevityHours": 400.0,
+   "longevity": "400 hrs on a smelling strip",
+   "relativeImpact": 20.0,
+   "uses": [
+    "Oriental",
+    "Fougere",
+    "Chypre",
+    "Muguet",
+    "Santal",
+    "Fixative"
+   ],
+   "blendsWith": []
+  },
+  "Styralyl Acetate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4GN00417",
+   "usage": {
+    "from": 0.03,
+    "average": 0.3,
+    "max": 3.3
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 55.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 45.0
+    }
+   ],
+   "longevityHours": 10.0,
+   "longevity": "10 hrs on a smelling strip",
+   "relativeImpact": 350.0,
+   "uses": [
+    "Gardenia",
+    "Hyacinth",
+    "Lilac",
+    "Muguet",
+    "Tuberose",
+    "Gooseberry",
+    "Apple",
+    "Plum",
+    "Peach",
+    "Pineapple"
+   ],
+   "blendsWith": []
+  },
+  "Sulfurol": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4ED00423",
+   "usage": {
+    "from": 0.0,
+    "average": 0.001,
+    "max": 0.01
+   },
+   "averageUsePercent": 0.001,
+   "impression": [
+    {
+     "label": "edible",
+     "percent": 50.0
+    },
+    {
+     "label": "dairy",
+     "percent": 35.0
+    },
+    {
+     "label": "animalic",
+     "percent": 10.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 20.0,
+   "longevity": "20 hrs on a smelling strip",
+   "relativeImpact": 2000.0,
+   "uses": [
+    "top note",
+    "modifier"
+   ],
+   "blendsWith": []
+  },
+  "Terpineol": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3KK05584",
+   "usage": {
+    "from": 0.5,
+    "average": 3.0,
+    "max": 20.0
+   },
+   "averageUsePercent": 3.0,
+   "impression": [
+    {
+     "label": "konifer",
+     "percent": 90.0
+    },
+    {
+     "label": "linalool",
+     "percent": 10.0
+    }
+   ],
+   "longevityHours": 20.0,
+   "longevity": "20 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Tonalide": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=1XA00444",
+   "usage": {
+    "from": 0.5,
+    "average": 5.0,
+    "max": 30.0
+   },
+   "averageUsePercent": 5.0,
+   "impression": [
+    {
+     "label": "musk",
+     "percent": 88.0
+    },
+    {
+     "label": "linalool",
+     "percent": 10.0
+    },
+    {
+     "label": "aliphatic",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 220.0,
+   "longevity": "220 hrs on a smelling strip",
+   "relativeImpact": 20.0,
+   "uses": [
+    "Fixative",
+    "All types",
+    "Laundry",
+    "Musk"
+   ],
+   "blendsWith": []
+  },
+  "Tonka Bean Absolute": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=8VQ00445",
+   "usage": {
+    "from": 0.04,
+    "average": 0.4,
+    "max": 3.1
+   },
+   "averageUsePercent": 0.4,
+   "impression": [
+    {
+     "label": "vanilla",
+     "percent": 64.0
+    },
+    {
+     "label": "edible",
+     "percent": 10.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 9.0
+    },
+    {
+     "label": "wood",
+     "percent": 8.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 5.0
+    },
+    {
+     "label": "dairy",
+     "percent": 2.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 36.0,
+   "longevity": "36 hrs on a smelling strip",
+   "relativeImpact": 260.0,
+   "uses": [
+    "Oriental",
+    "Fougere",
+    "Amber",
+    "Tonka",
+    "Moss",
+    "Woody",
+    "Tobacco",
+    "Coconut",
+    "Milk",
+    "Butter",
+    "Vanilla",
+    "Prune",
+    "Plum"
+   ],
+   "blendsWith": [
+    "Hay",
+    "Oakmoss lavender",
+    "lavandin",
+    "clary sage",
+    "styrax",
+    "bergamot",
+    "oakmoss",
+    "helichrysum and citronella."
+   ]
+  },
+  "Triplal": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4GH00450",
+   "usage": {
+    "from": 0.01,
+    "average": 0.3,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "green",
+     "percent": 80.0
+    },
+    {
+     "label": "herb",
+     "percent": 20.0
+    }
+   ],
+   "longevityHours": 3.0,
+   "longevity": "3 hrs on a smelling strip",
+   "relativeImpact": 800.0,
+   "uses": [
+    "Can",
+    "used",
+    "diffuser",
+    "oils",
+    "very",
+    "low",
+    "concentrations"
+   ],
+   "blendsWith": []
+  },
+  "Velvione": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4XU11429",
+   "usage": {
+    "from": 0.5,
+    "average": 1.0,
+    "max": 5.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "musk",
+     "percent": 89.1
+    },
+    {
+     "label": "animalic",
+     "percent": 9.9
+    },
+    {
+     "label": "iris",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 200.0,
+   "longevity": "200 hrs on a smelling strip",
+   "relativeImpact": 25.0,
+   "uses": [
+    "musk",
+    "nitro musk",
+    "powdery",
+    "laundry",
+    "care"
+   ],
+   "blendsWith": []
+  },
+  "Vertenex": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3LW00464",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 8.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "linalool",
+     "percent": 80.0
+    },
+    {
+     "label": "wood",
+     "percent": 15.0
+    },
+    {
+     "label": "iceberg",
+     "percent": 3.0
+    },
+    {
+     "label": "fruity",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 22.0,
+   "longevity": "22 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [
+    "Fresh florals",
+    "Soaps",
+    "Shower",
+    "Gels"
+   ],
+   "blendsWith": [
+    "Lilial"
+   ]
+  },
+  "Vetiveryl Acetate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3WY00468",
+   "usage": {
+    "from": 0.13,
+    "average": 2.3,
+    "max": 20.0
+   },
+   "averageUsePercent": 2.3,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 85.0
+    },
+    {
+     "label": "fruity",
+     "percent": 9.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 5.0
+    },
+    {
+     "label": "animalic",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 320.0,
+   "longevity": "320 hrs on a smelling strip",
+   "relativeImpact": 80.0,
+   "uses": [
+    "Add lift",
+    "Chypre",
+    "Orris/Iris",
+    "Fir Conifer",
+    "Pear"
+   ],
+   "blendsWith": [
+    "Vetiver",
+    "Earthy-mossy-notes"
+   ]
+  },
+  "Violet Fleuressence": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=6IG08436",
+   "usage": {
+    "from": 1.0,
+    "average": 10.0,
+    "max": 30.0
+   },
+   "averageUsePercent": 10.0,
+   "impression": [
+    {
+     "label": "iris",
+     "percent": 50.0
+    },
+    {
+     "label": "wood",
+     "percent": 12.0
+    },
+    {
+     "label": "linalool",
+     "percent": 10.0
+    },
+    {
+     "label": "green",
+     "percent": 6.0
+    },
+    {
+     "label": "fruity",
+     "percent": 5.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 5.0
+    },
+    {
+     "label": "musk",
+     "percent": 5.0
+    },
+    {
+     "label": "spice",
+     "percent": 3.0
+    },
+    {
+     "label": "balsamic",
+     "percent": 2.0
+    },
+    {
+     "label": "rose",
+     "percent": 2.0
+    }
+   ],
+   "longevityHours": 75.0,
+   "longevity": "75 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [
+    "unique",
+    "floral",
+    "heart"
+   ],
+   "blendsWith": []
+  },
+  "Alpha Irone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=8II00243",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 7.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "iris",
+     "percent": 88.0
+    },
+    {
+     "label": "wood",
+     "percent": 5.0
+    },
+    {
+     "label": "fruity",
+     "percent": 3.0
+    },
+    {
+     "label": "aliphatic",
+     "percent": 1.0
+    },
+    {
+     "label": "dairy",
+     "percent": 1.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 1.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 170.0,
+   "longevity": "170 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [
+    "For diffusion",
+    "to Add lift",
+    "For radiance",
+    "Floral types",
+    "Raspberry",
+    "Violet Berry",
+    "Powdery",
+    "Wallflower",
+    "Giroflee",
+    "Orris",
+    "Add lift",
+    "Iris/orris notes",
+    "Ionone"
+   ],
+   "blendsWith": []
+  },
+  "Alpha Terpineol": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=3KL00430",
+   "usage": {
+    "from": 0.1,
+    "average": 3.0,
+    "max": 30.0
+   },
+   "averageUsePercent": 3.0,
+   "impression": [
+    {
+     "label": "konifer",
+     "percent": 70.0
+    },
+    {
+     "label": "linalool",
+     "percent": 30.0
+    }
+   ],
+   "longevityHours": 25.0,
+   "longevity": "25 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Anise Essential Oil China": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7SB00041",
+   "usage": {
+    "from": 0.1,
+    "average": 1.0,
+    "max": 8.0
+   },
+   "averageUsePercent": 1.0,
+   "impression": [
+    {
+     "label": "spice",
+     "percent": 70.0
+    },
+    {
+     "label": "herb",
+     "percent": 20.0
+    },
+    {
+     "label": "iceberg",
+     "percent": 10.0
+    }
+   ],
+   "longevityHours": 18.0,
+   "longevity": "18 hrs on a smelling strip",
+   "relativeImpact": 160.0,
+   "uses": [
+    "For Spice",
+    "Pine needle",
+    "Orange +Herb"
+   ],
+   "blendsWith": []
+  },
+  "Galanga Lesser oil": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7SY07764",
+   "usage": {
+    "from": 0.02,
+    "average": 0.3,
+    "max": 2.3
+   },
+   "averageUsePercent": 0.3,
+   "impression": [
+    {
+     "label": "herb",
+     "percent": 30.0
+    },
+    {
+     "label": "linalool",
+     "percent": 30.0
+    },
+    {
+     "label": "spice",
+     "percent": 30.0
+    },
+    {
+     "label": "wood",
+     "percent": 5.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 5.0
+    }
+   ],
+   "longevityHours": 20.0,
+   "longevity": "20 hrs on a smelling strip",
+   "relativeImpact": 150.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Pomelo Essential Oil": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=7CN23708",
+   "usage": {
+    "from": 0.08,
+    "average": 0.8,
+    "max": 8.0
+   },
+   "averageUsePercent": 0.8,
+   "impression": [
+    {
+     "label": "citrus",
+     "percent": 82.4
+    },
+    {
+     "label": "narcotic",
+     "percent": 7.8
+    },
+    {
+     "label": "linalool",
+     "percent": 3.9
+    },
+    {
+     "label": "vanilla",
+     "percent": 2.9
+    },
+    {
+     "label": "iris",
+     "percent": 2.0
+    },
+    {
+     "label": "green",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": null,
+   "longevity": null,
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Hay Absolute 10% DPG": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=5NY12745",
+   "usage": {
+    "from": 3.0,
+    "average": 15.0,
+    "max": 90.0
+   },
+   "averageUsePercent": 15.0,
+   "impression": [
+    {
+     "label": "zolvent",
+     "percent": 23.0
+    },
+    {
+     "label": "wood",
+     "percent": 23.0
+    },
+    {
+     "label": "narcotic",
+     "percent": 15.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 15.0
+    },
+    {
+     "label": "citrus",
+     "percent": 8.0
+    },
+    {
+     "label": "herb",
+     "percent": 8.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 8.0
+    }
+   ],
+   "longevityHours": 6.3,
+   "longevity": "6.3 hrs on a smelling strip",
+   "relativeImpact": 12.7,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Gamma Decalactone": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4DD01639",
+   "usage": {
+    "from": 0.24,
+    "average": 1.8,
+    "max": 12.0
+   },
+   "averageUsePercent": 1.8,
+   "impression": [
+    {
+     "label": "dairy",
+     "percent": 56.0
+    },
+    {
+     "label": "edible",
+     "percent": 19.0
+    },
+    {
+     "label": "vanilla",
+     "percent": 17.0
+    },
+    {
+     "label": "fruity",
+     "percent": 8.0
+    }
+   ],
+   "longevityHours": 50.0,
+   "longevity": "50 hrs on a smelling strip",
+   "relativeImpact": 180.0,
+   "uses": [
+    "Apricot",
+    "Coconut",
+    "Strawberry",
+    "Peach",
+    "Beer"
+   ],
+   "blendsWith": []
+  },
+  "Manzanate": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4FG15438",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "fruity",
+     "percent": 38.2
+    },
+    {
+     "label": "green",
+     "percent": 34.3
+    },
+    {
+     "label": "muguet",
+     "percent": 9.8
+    },
+    {
+     "label": "citrus",
+     "percent": 7.8
+    },
+    {
+     "label": "linalool",
+     "percent": 3.9
+    },
+    {
+     "label": "musk",
+     "percent": 2.9
+    },
+    {
+     "label": "vanilla",
+     "percent": 2.0
+    },
+    {
+     "label": "rose",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 4.0,
+   "longevity": "4 hrs on a smelling strip",
+   "relativeImpact": 100.0,
+   "uses": [],
+   "blendsWith": []
+  },
+  "Javanol": {
+   "source": "PerfumersWorld",
+   "url": "https://www.perfumersworld.com/view.php?pro_id=4WX10027",
+   "usage": {
+    "from": 0.02,
+    "average": 0.2,
+    "max": 2.0
+   },
+   "averageUsePercent": 0.2,
+   "impression": [
+    {
+     "label": "wood",
+     "percent": 57.0
+    },
+    {
+     "label": "dairy",
+     "percent": 10.0
+    },
+    {
+     "label": "citrus",
+     "percent": 9.0
+    },
+    {
+     "label": "herb",
+     "percent": 8.0
+    },
+    {
+     "label": "fruity",
+     "percent": 4.0
+    },
+    {
+     "label": "rose",
+     "percent": 4.0
+    },
+    {
+     "label": "iris",
+     "percent": 3.0
+    },
+    {
+     "label": "tar and smoke",
+     "percent": 2.0
+    },
+    {
+     "label": "yeast mossy",
+     "percent": 2.0
+    },
+    {
+     "label": "konifer",
+     "percent": 1.0
+    }
+   ],
+   "longevityHours": 400.0,
+   "longevity": "400 hrs on a smelling strip",
+   "relativeImpact": 250.0,
+   "uses": [],
+   "blendsWith": []
+  }
+ }
+}
